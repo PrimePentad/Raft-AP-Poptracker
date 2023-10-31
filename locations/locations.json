@@ -1,6 +1,8 @@
 [
     {
         "name": "Research Table",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
         "children": [
             {
                 "name": "Clay Bowl",
@@ -13,8 +15,8 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 100,
-                        "y": 100
+                        "x": 10,
+                        "y": 10
                     }
                 ]
             }
