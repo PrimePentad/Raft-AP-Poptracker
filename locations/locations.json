@@ -1,57 +1,25 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Research Table",
+        "chest_unopened_img": "images/research_unresearched.png",
+                "chest_opened_img": "images/research_researched.png",
         "children": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
-                ],
-                "sections": [
+                "name": "Clay Bowl",
+                "sections":[
                     {
-                        "name": "Example Section 1",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Example Section 2",
-                        "item_count": 3
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
-                    }
-                ]
-            },
-            {
-                "name": "Example Location 2",
-                "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
-                ],
-                "sections": [
-                    {
-                        "name": "Example Section 1",
+                        "name": "Clay",
                         "item_count": 1
                     }
                 ],
-                "map_locations": [
+                "map_locations":[
                     {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
+                        "map": "Research Table",
+                        "x": 10
+                        "y": 10
                     }
                 ]
-            }            
+            }
         ]
     }
 ]
