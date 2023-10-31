@@ -3,55 +3,55 @@
     {
         "name": "Research Table",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/ResearchTable.png"
     },
     {
         "name": "Radio Station",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/RadioStation.png"
     },
     {
         "name": "Vasagatan",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/Vasagatan.png"
     },
     {
         "name": "Balboa",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/Balboa.png"
     },
     {
         "name": "Caravan Town",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/CaravanTown.png"
     },
     {
         "name": "Tangaroa",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/Tangaroa.png"
     },
     {
         "name": "Varuna Point",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/VarunaPoint.png"
     },
     {
         "name": "Temperance",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/Temperance.png"
     },
     {
         "name": "Utopia",
         "location_size": 8,
-        "location_border_thickness": 4,
+        "location_border_thickness": 1,
         "img": "images/maps/Utopia.png"
     }
 ]
