@@ -13,7 +13,7 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 100
+                        "x": 100,
                         "y": 100
                     }
                 ]
