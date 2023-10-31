@@ -3,19 +3,19 @@
     "game_name": "<put your game title here>",
     "package_version": "0.1.0",
     "package_uid": "raft randomizer",
-    "platform": "snes", //enables SNES memory autotracking interface - remove/change if not needed
+    "platform": "PC",
     "author": "Prime Pentad",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
             "flags": [
-                "ap" //enables AP autotracking interface - remove if not needed
+                "ap"
             ]
         },
         "var_itemsonly": {
             "display_name": "Items Only",
             "flags": [
-                "ap" //enables AP autotracking interface - remove if not needed
+                "ap"
             ]
         }
     }
