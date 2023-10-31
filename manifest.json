@@ -1,13 +1,10 @@
-﻿// this the manifest for you pack
-// it contains basic information about your pack
-// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
 {
     "name": "Raft AP Tracker",
     "game_name": "<put your game title here>",
-    "package_version": "1.0.0.0",
-    "package_uid": "template_pack",
+    "package_version": "0.1.0",
+    "package_uid": "raft randomizer",
     "platform": "snes", //enables SNES memory autotracking interface - remove/change if not needed
-    "author": "Cyb3R",
+    "author": "Prime Pentad",
     "variants": {
         "standard": {
             "display_name": "Map Tracker",
