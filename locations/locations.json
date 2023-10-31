@@ -1,6 +1,6 @@
 [
     {
-        "name": "Research Table",
+        "name": "locations",
         "chest_unopened_img": "images/research_unresearched.png",
                 "chest_opened_img": "images/research_researched.png",
         "children": [
