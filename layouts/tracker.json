@@ -1,5 +1,3 @@
-﻿//sets the trackers layout
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts 
 {
     "tracker_default": {
         "type": "container",
@@ -28,20 +26,83 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Research Table",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "Research Table"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Radio Station",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "Radio Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Vasagatan",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vasagatan"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Balboa",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Balboa"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Caravan Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Caravan Town"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tangaroa",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tangaroa"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Varuna Point",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Varuna Point"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temperance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temperance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Utopia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Utopia"
                                 ]
                             }
                         }
@@ -79,20 +140,83 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Map 1",
+                            "title": "Research Table",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map1"
+                                    "Research Table"
                                 ]
                             }
                         },
                         {
-                            "title": "Map 2",
+                            "title": "Radio Station",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "map2"
+                                    "Radio Station"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Vasagatan",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vasagatan"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Balboa",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Balboa"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Caravan Town",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Caravan Town"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Tangaroa",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Tangaroa"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Varuna Point",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Varuna Point"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Temperance",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Temperance"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Utopia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Utopia"
                                 ]
                             }
                         }
