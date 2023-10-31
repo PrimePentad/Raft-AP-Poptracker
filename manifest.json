@@ -2,7 +2,7 @@
     "name": "Raft AP Tracker",
     "game_name": "Raft",
     "package_version": "0.1.0",
-    "package_uid": "template_pack",
+    "package_uid": "raft_randomizer",
     "platform": "PC"
     "author": "Prime Pentad",
     "variants": {
