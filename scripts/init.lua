@@ -13,7 +13,7 @@ if ENABLE_DEBUG_LOG then
 end
 
 -- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/frequencies.json")
