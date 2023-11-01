@@ -12,10 +12,10 @@
         "codes": "balboa_frequency"
     },
     {
-        "name": "Caravan Island Frequency",
+        "name": "Caravan Town Frequency",
         "type": "toggle",
-        "img": "images/frequencies/caravan_island_frequency.png",
-        "codes": "caravan_island_frequency"
+        "img": "images/frequencies/caravan_town_frequency.png",
+        "codes": "caravan_town_frequency"
     },
     {
         "name": "Tangaroa Frequency",
