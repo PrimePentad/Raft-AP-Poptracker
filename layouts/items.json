@@ -18,11 +18,11 @@
                         "rows": [
                             [
                                 "smelter",
-                                "progressive"           
+                                "empty_bottle"           
                             ],
                             [
-                                "consumable",
-                                "progressive_toggle"
+                                "empty_bottle",
+                                "smelter"
                             ]
                         ]
                     }
