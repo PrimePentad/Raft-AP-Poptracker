@@ -5,6 +5,22 @@
         "chest_opened_img": "images/research_researched.png",
         "children": [
             {
+                "name": "Bucket",
+                "sections":[
+                    {
+                        "name": "Plank, Scrap, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 60
+                    }
+                ]
+            },
+            {
                 "name": "Clay Bowl",
                 "sections":[
                     {
@@ -15,8 +31,824 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 10,
-                        "y": 10
+                        "x": 90,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Medium Crop Plot",
+                "sections":[
+                    {
+                        "name": "Leather, Wool",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Scarecrow",
+                "sections":[
+                    {
+                        "name": "Plank, Palm Leaf, Nail, Plastic",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Lantern",
+                "sections":[
+                    {
+                        "name": "Plank, Scrap",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Paint Mill",
+                "sections":[
+                    {
+                        "name": "Plank, Scrap, Rope, Stone",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Small Trophy Board",
+                "sections":[
+                    {
+                        "name": "Plank, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 282
+                    }
+                ]
+            },
+            {
+                "name": "Medium Trophy Board",
+                "sections":[
+                    {
+                        "name": "Plank, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 319
+                    }
+                ]
+            },
+            {
+                "name": "Large Trophy Board",
+                "sections":[
+                    {
+                        "name": "Plank, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Birds Nest",
+                "sections":[
+                    {
+                        "name": "Palm Leaf, Plank, Giant Clam",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Collection Net",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Stone Arrow",
+                "sections":[
+                    {
+                        "name": "Plank, Stone, Plastic",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "Flippers",
+                "sections":[
+                    {
+                        "name": "Plastic, Seaweed, Vine Goo, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 504
+                    }
+                ]
+            },
+            {
+                "name": "Empty Bottle",
+                "sections":[
+                    {
+                        "name": "Plastic, Vine Goo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 90,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Oxygen Bottle",
+                "sections":[
+                    {
+                        "name": "Plastic, Rope, Empty Bottle, Vine Goo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Drinking Glass",
+                "sections":[
+                    {
+                        "name": "Glass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Advanced Grill",
+                "sections":[
+                    {
+                        "name": "Plank, Metal Ingot, Rope, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Advanced Purifier",
+                "sections":[
+                    {
+                        "name": "Plank, Plastic, Glass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Battery",
+                "sections":[
+                    {
+                        "name": "Copper Ingot, Scrap, Plastic",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Bolt",
+                "sections":[
+                    {
+                        "name": "Metal Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Hinge",
+                "sections":[
+                    {
+                        "name": "Metal Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 282
+                    }
+                ]
+            },
+            {
+                "name": "Circuit Board",
+                "sections":[
+                    {
+                        "name": "Plastic, Copper Ingot, Vine Goo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 319
+                    }
+                ]
+            },
+            {
+                "name": "Smelter",
+                "sections":[
+                    {
+                        "name": "Plank, Dry Brick, Scrap, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Metal Arrow",
+                "sections":[
+                    {
+                        "name": "Plank, Metal Ingot, Feather",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Shear",
+                "sections":[
+                    {
+                        "name": "Metal Ingot, Hinge, Scrap",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Net Launcher",
+                "sections":[
+                    {
+                        "name": "Scrap, Plastic, Metal Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "Metal Fishing Rod",
+                "sections":[
+                    {
+                        "name": "Scrap, Bolt, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 504
+                    }
+                ]
+            },
+            {
+                "name": "Cooking Pot",
+                "sections":[
+                    {
+                        "name": "Plank, Plastic, Metal Ingot, Bolt, Vine Goo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 240,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Large Crop Plot",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Nail, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Metal Axe",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Scrap, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Binoculars",
+                "sections":[
+                    {
+                        "name": "Empty Bottle, Bolt, Glass, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Scrap Hook",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Scrap, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Shovel",
+                "sections":[
+                    {
+                        "name": "Plank, Bolt, Metal Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Sweep Net",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Vine Goo, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Basic Bow",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Vine Goo, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 282
+                    }
+                ]
+            },
+            {
+                "name": "Metal Spear",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Metal, Bolt",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 319
+                    }
+                ]
+            },
+            {
+                "name": "Stationary Anchor",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Metal Ingot, Hinge",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Storage",
+                "sections":[
+                    {
+                        "name": "Plank, Scrap, Rope, Hinge",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Juicer",
+                "sections":[
+                    {
+                        "name": "Plank, Plastic, Bolt, Vine Goo, Circuit Board",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Sprinkler",
+                "sections":[
+                    {
+                        "name": "Plastic, Scrap, Bolt, Circuit Board",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "Paint Brush",
+                "sections":[
+                    {
+                        "name": "Feather, Plank, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 504
+                    }
+                ]
+            },
+            {
+                "name": "Hammock",
+                "sections":[
+                    {
+                        "name": "Plank, Palm Leaf, Feather, Nail",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 541
+                    }
+                ]
+            },
+            {
+                "name": "Net Canister",
+                "sections":[
+                    {
+                        "name": "Explosive Powder, Stone, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Grass Plot",
+                "sections":[
+                    {
+                        "name": "Dirt, Plank, Plastic",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Honey",
+                "sections":[
+                    {
+                        "name": "Honeycomb, Glass",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 134
+                    }
+                ]
+            },
+            {
+                "name": "Beehive",
+                "sections":[
+                    {
+                        "name": "Plank, Plastic, Clay, Hinge, Bee Jar",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Advanced Collection Net",
+                "sections":[
+                    {
+                        "name": "Plank, Rope, Titanium Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 208
+                    }
+                ]
+            },
+            {
+                "name": "Healing Salve",
+                "sections":[
+                    {
+                        "name": "Egg, Clay",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 245
+                    }
+                ]
+            },
+            {
+                "name": "Good Healing Salve",
+                "sections":[
+                    {
+                        "name": "Egg, Clay, Honeycomb",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 282
+                    }
+                ]
+            },
+            {
+                "name": "Backpack",
+                "sections":[
+                    {
+                        "name": "Rope, Leather Wool",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 319
+                    }
+                ]
+            },
+            {
+                "name": "Leather Helmet",
+                "sections":[
+                    {
+                        "name": "Leather, Wool",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "Leather Body Armor",
+                "sections":[
+                    {
+                        "name": "Leather, Wool",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Leather Greaves",
+                "sections":[
+                    {
+                        "name": "Leather, Wool",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 430
                     }
                 ]
             }
