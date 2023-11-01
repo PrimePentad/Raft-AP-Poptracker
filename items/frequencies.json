@@ -1,1 +1,8 @@
-
+[
+    {
+        "name": "Vasagatan Frequency",
+        "type": "toggle",
+        "img": "images/items/vasagatan_frequency.png",
+        "codes": "vasagatan_frequency"
+    }
+]
