@@ -19,7 +19,7 @@
                             [
                                 "empty_bottle",
                                 "net_launcher",
-                                "grass_plot"
+                                "grass_plot",
                                 "metal_detector",
                                 "machete"                                
                             ],
@@ -27,7 +27,7 @@
                                 "birds_nest",
                                 "net_canister",                                
                                 "shears",                 
-                                "shovel",
+                                "shovel"
                             ]
                         ]
                     }
