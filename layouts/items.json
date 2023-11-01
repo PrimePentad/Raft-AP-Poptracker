@@ -17,12 +17,23 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "smelter",
-                                "empty_bottle"           
+                                "empty_bottle",
+                                "birds_nest"           
                             ],
                             [
-                                "empty_bottle",
-                                "smelter"
+                                "net_launcher",
+                                "net_canister"
+                            ],
+                            [
+                                "grass_plot",
+                                "shears"
+                            ],
+                            [
+                                "metal_detector",
+                                "shovel"
+                            ],
+                            [
+                                "machete"
                             ]
                         ]
                     }
