@@ -753,24 +753,6 @@
                 ]
             },
             {
-                "name": "Grass Plot",
-                "access_rules":
-                    ["$has_dirt"],
-                "sections":[
-                    {
-                        "name": "Dirt, Plank, Plastic",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations":[
-                    {
-                        "map": "Research Table",
-                        "x": 590,
-                        "y": 208
-                    }
-                ]
-            },
-            {
                 "name": "Honey",
                 "access_rules":
                     ["$can_access_balboa"],
@@ -784,7 +766,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 245
+                        "y": 208
                     }
                 ]
             },
@@ -802,7 +784,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 282
+                        "y": 245
                     }
                 ]
             },
@@ -813,6 +795,24 @@
                 "sections":[
                     {
                         "name": "Plank, Rope, Titanium Ingot",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 282
+                    }
+                ]
+            },
+            {
+                "name": "Grass Plot",
+                "access_rules":
+                    ["$has_dirt"],
+                "sections":[
+                    {
+                        "name": "Dirt, Plank, Plastic",
                         "item_count": 1
                     }
                 ],
