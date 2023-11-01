@@ -1,1 +1,36 @@
-
+{
+    "navigation_items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "smelter",
+                                "bolt",
+                                "hinge",
+                                "battery",
+                                "circuit board"                                
+                            ],
+                            [
+                                "receiver",
+                                "antenna",                                
+                                "engine",                 
+                                "steering_wheel"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
