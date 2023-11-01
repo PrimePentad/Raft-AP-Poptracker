@@ -13,11 +13,11 @@
                     "content": [
                         {
                             "type": "group",
-                            "header": "Items",
+                            "header": "Other Progression Items",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "shared_item_grid"
+                                "key": "misc_items"
                             }
                         }
                     ]
