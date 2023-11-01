@@ -17,15 +17,12 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "toggle",
+                                "smelter",
                                 "progressive"           
                             ],
                             [
                                 "consumable",
                                 "progressive_toggle"
-                            ],
-                            [
-                                "smelter"
                             ]
                         ]
                     }
