@@ -1,5 +1,53 @@
 [
     {
+        "name": "Bolt",
+        "type": "toggle",
+        "img": "images/items/bolt.png",
+        "codes": "bolt"
+    },
+    {
+        "name": "Hinge",
+        "type": "toggle",
+        "img": "images/items/hinge.png",
+        "codes": "hinge"
+    },
+    {
+        "name": "Circuit Board",
+        "type": "toggle",
+        "img": "images/items/circuit_board.png",
+        "codes": "circuit_board"
+    },
+    {
+        "name": "Battery",
+        "type": "toggle",
+        "img": "images/items/battery.png",
+        "codes": "battery"
+    },
+    {
+        "name": "Receiver",
+        "type": "toggle",
+        "img": "images/items/receiver.png",
+        "codes": "receiver"
+    },
+    {
+        "name": "Antenna",
+        "type": "toggle",
+        "img": "images/items/antenna.png",
+        "codes": "antenna"
+    },
+    {
+        "name": "Engine",
+        "type": "toggle",
+        "img": "images/items/engine.png",
+        "codes": "engine"
+    },
+    {
+        "name": "Steering Wheel",
+        "type": "toggle",
+        "img": "images/items/steering_wheel.png",
+        "codes": "steering_wheel"
+    },
+    {
         "name": "Smelter",
         "type": "toggle",
         "img": "images/items/smelter.png",
