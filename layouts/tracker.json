@@ -134,7 +134,8 @@
                         {
                             "type": "group",
                             "header": "Navigation Items",
-                            "dock": "top",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
                                 "key": "navigation_items"
@@ -143,7 +144,7 @@
                         {
                             "type": "group",
                             "header": "Other Progression Items",
-                            "dock": "left",
+                            "dock": "middle",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
