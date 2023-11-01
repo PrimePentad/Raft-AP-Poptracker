@@ -30,6 +30,7 @@ end
 -- Layout
 Tracker:AddLayouts("layouts/misc_items.json")
 Tracker:AddLayouts("layouts/navigation_items.json")
+Tracker:AddLayouts("layouts/frequencies.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 
