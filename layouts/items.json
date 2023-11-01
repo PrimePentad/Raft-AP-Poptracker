@@ -18,16 +18,16 @@
                         "rows": [
                             [
                                 "empty_bottle",
-                                "birds_nest",
                                 "net_launcher",
-                                "net_canister",
                                 "grass_plot"
+                                "metal_detector",
+                                "machete"                                
                             ],
                             [
-                                "shears"
-                                "metal_detector",
-                                "shovel"
-                                "machete"
+                                "birds_nest",
+                                "net_canister",                                
+                                "shears",                 
+                                "shovel",
                             ]
                         ]
                     }
