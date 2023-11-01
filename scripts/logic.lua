@@ -35,7 +35,7 @@ end
 function can_navigate()
     return (has("battery") and has("receiver") and has("antenna") and 
         has("smelter") and has("bolt") and has("hinge") and
-        has("circuit_board")
+        has("circuit_board"))
 end
 
 function can_drive()
@@ -63,14 +63,14 @@ function has_dirt()
 end
 
 function can_treasure_hunt()
-    return (can_shovel() and has("battery") and has("metal_detector")
+    return (can_shovel() and has("battery") and has("metal_detector"))
 end
         
 function can_access_balboa()
-    return (can_drive() and has("balboa_frequency")
+    return (can_drive() and has("balboa_frequency"))
 end
             
 function can_capture_animals()
     return (can_access_big_islands() and has("grass") and 
-        has("net_launcher") and has("net_canister") and has_smelter()
+        has("net_launcher") and has("net_canister") and has_smelter())
 end
