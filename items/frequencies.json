@@ -27,7 +27,7 @@
         "name": "Varuna Point Frequency",
         "type": "toggle",
         "img": "images/frequencies/varuna_point_frequency.png",
-        "codes": "varuna_point_frequency_frequency"
+        "codes": "varuna_point_frequency"
     },
     {
         "name": "Temperance Frequency",
