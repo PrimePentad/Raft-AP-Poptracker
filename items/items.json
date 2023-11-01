@@ -6,6 +6,12 @@
         "codes": "toggle"
     },
     {
+        "name": "Smelter",
+        "type": "toggle",
+        "img": "images/items/smelter.png",
+        "codes": "toggle"
+    },
+    {
         "name": "Progressive",
         "type": "progressive",
         "allow_disabled": true,
