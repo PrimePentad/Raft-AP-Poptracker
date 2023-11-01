@@ -53,4 +53,10 @@
         "img": "images/items/machete.png",
         "codes": "machete"
     },
+    {
+        "name": "Sweep Net",
+        "type": "toggle",
+        "img": "images/items/sweep_net.png",
+        "codes": "sweep_net"
+    }
 ]
