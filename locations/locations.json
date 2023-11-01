@@ -198,6 +198,8 @@
             },
             {
                 "name": "Flippers",
+                "access_rules":
+                    ["$has_smelter"],
                 "sections":[
                     {
                         "name": "Plastic, Seaweed, Vine Goo, Rope",
