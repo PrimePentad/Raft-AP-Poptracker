@@ -16,7 +16,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 60
+                        "y": 97
                     }
                 ]
             },
@@ -32,7 +32,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 97
+                        "y": 134
                     }
                 ]
             },
@@ -48,7 +48,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 134
+                        "y": 171
                     }
                 ]
             },
@@ -64,7 +64,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 171
+                        "y": 208
                     }
                 ]
             },
@@ -80,7 +80,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 208
+                        "y": 245
                     }
                 ]
             },
@@ -96,7 +96,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 245
+                        "y": 282
                     }
                 ]
             },
@@ -112,7 +112,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 282
+                        "y": 319
                     }
                 ]
             },
@@ -128,7 +128,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 319
+                        "y": 356
                     }
                 ]
             },
@@ -144,7 +144,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 356
+                        "y": 393
                     }
                 ]
             },
@@ -160,7 +160,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 393
+                        "y": 430
                     }
                 ]
             },
@@ -176,7 +176,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 430
+                        "y": 467
                     }
                 ]
             },
@@ -192,7 +192,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 467
+                        "y": 504
                     }
                 ]
             },
@@ -208,7 +208,7 @@
                     {
                         "map": "Research Table",
                         "x": 90,
-                        "y": 504
+                        "y": 541
                     }
                 ]
             },
@@ -225,26 +225,8 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 90,
-                        "y": 541
-                    }
-                ]
-            },
-            {
-                "name": "Oxygen Bottle",
-                "access_rules":
-                    ["$has_smelter"],
-                "sections":[
-                    {
-                        "name": "Plastic, Rope, Empty Bottle, Vine Goo",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations":[
-                    {
-                        "map": "Research Table",
                         "x": 240,
-                        "y": 60
+                        "y": 97
                     }
                 ]
             },
@@ -262,7 +244,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 97
+                        "y": 134
                     }
                 ]
             },
@@ -280,7 +262,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 134
+                        "y": 171
                     }
                 ]
             },
@@ -298,7 +280,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 171
+                        "y": 208
                     }
                 ]
             },
@@ -316,7 +298,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 208
+                        "y": 245
                     }
                 ]
             },
@@ -334,7 +316,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 245
+                        "y": 282
                     }
                 ]
             },
@@ -352,7 +334,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 282
+                        "y": 319
                     }
                 ]
             },
@@ -370,7 +352,7 @@
                     {
                         "map": "Research Table",
                         "x": 240,
-                        "y": 319
+                        "y": 356
                     }
                 ]
             },
@@ -381,24 +363,6 @@
                 "sections":[
                     {
                         "name": "Plastic, Seaweed, Vine Goo, Rope",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations":[
-                    {
-                        "map": "Research Table",
-                        "x": 240,
-                        "y": 356
-                    }
-                ]
-            },
-            {
-                "name": "Metal Arrow",
-                "access_rules":
-                    ["$has_smelter"],
-                "sections":[
-                    {
-                        "name": "Plank, Metal Ingot, Feather",
                         "item_count": 1
                     }
                 ],
@@ -496,7 +460,7 @@
                     {
                         "map": "Research Table",
                         "x": 440,
-                        "y": 60
+                        "y": 97
                     }
                 ]
             },
@@ -507,24 +471,6 @@
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations":[
-                    {
-                        "map": "Research Table",
-                        "x": 440,
-                        "y": 97
-                    }
-                ]
-            },
-            {
-                "name": "Binoculars",
-                "access_rules":
-                    ["$has_smelter,$has_bolt"],
-                "sections":[
-                    {
-                        "name": "Empty Bottle, Bolt, Glass, Rope",
                         "item_count": 1
                     }
                 ],
@@ -663,6 +609,42 @@
                 ]
             },
             {
+                "name": "Oxygen Bottle",
+                "access_rules":
+                    ["$has_smelter,$has_empty_bottle"],
+                "sections":[
+                    {
+                        "name": "Plastic, Rope, Empty Bottle, Vine Goo",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Binoculars",
+                "access_rules":
+                    ["$has_smelter,$has_empty_bottle,$has_bolt"],
+                "sections":[
+                    {
+                        "name": "Empty Bottle, Bolt, Glass, Rope",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 440,
+                        "y": 467
+                    }
+                ]
+            },
+            {
                 "name": "Juicer",
                 "access_rules":
                     ["$has_smelter,$has_bolt,$has_circuit_board"],
@@ -676,7 +658,7 @@
                     {
                         "map": "Research Table",
                         "x": 440,
-                        "y": 430
+                        "y": 504
                     }
                 ]
             },
@@ -694,7 +676,7 @@
                     {
                         "map": "Research Table",
                         "x": 440,
-                        "y": 467
+                        "y": 541
                     }
                 ]
             },
@@ -711,8 +693,8 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 440,
-                        "y": 504
+                        "x": 590,
+                        "y": 60
                     }
                 ]
             },
@@ -729,8 +711,26 @@
                 "map_locations":[
                     {
                         "map": "Research Table",
-                        "x": 440,
-                        "y": 541
+                        "x": 590,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Metal Arrow",
+                "access_rules":
+                    ["$has_smelter"],
+                "sections":[
+                    {
+                        "name": "Plank, Metal Ingot, Feather",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Research Table",
+                        "x": 590,
+                        "y": 134
                     }
                 ]
             },
@@ -748,7 +748,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 60
+                        "y": 171
                     }
                 ]
             },
@@ -766,7 +766,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 97
+                        "y": 208
                     }
                 ]
             },
@@ -784,7 +784,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 134
+                        "y": 245
                     }
                 ]
             },
@@ -802,7 +802,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 171
+                        "y": 282
                     }
                 ]
             },
@@ -820,7 +820,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 208
+                        "y": 319
                     }
                 ]
             },
@@ -838,7 +838,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 245
+                        "y": 356
                     }
                 ]
             },
@@ -856,7 +856,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 282
+                        "y": 393
                     }
                 ]
             },
@@ -874,7 +874,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 319
+                        "y": 430
                     }
                 ]
             },
@@ -892,7 +892,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 356
+                        "y": 467
                     }
                 ]
             },
@@ -910,7 +910,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 393
+                        "y": 504
                     }
                 ]
             },
@@ -928,7 +928,7 @@
                     {
                         "map": "Research Table",
                         "x": 590,
-                        "y": 430
+                        "y": 541
                     }
                 ]
             }
