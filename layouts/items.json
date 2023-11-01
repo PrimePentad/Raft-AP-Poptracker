@@ -17,7 +17,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "smelter",
+                                "toggle",
                                 "progressive"           
                             ],
                             [
