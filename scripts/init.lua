@@ -12,19 +12,13 @@ if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
 end
 
--- Utility Script for helper functions etc.
-ScriptHost:LoadScript("scripts/utils.lua")
-
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
--- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
-
 -- Items
-Tracker:AddItems("items/items.json")
+Tracker:AddItems("items/frequencies.json")
+Tracker:AddItems("items/misc.json")
+Tracker:AddItems("items/navigation.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
