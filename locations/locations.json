@@ -863,7 +863,7 @@
             {
                 "name": "Backpack",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears],
+                    ["$can_capture_animals,$has_shears"],
                 "sections":[
                     {
                         "name": "Rope, Leather Wool",
@@ -881,7 +881,7 @@
             {
                 "name": "Leather Helmet",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears],
+                    ["$can_capture_animals,$has_shears"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
