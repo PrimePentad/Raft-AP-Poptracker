@@ -30,10 +30,10 @@
         "codes": "grass_plot"
     },
     {
-        "name": "Shear",
+        "name": "Shears",
         "type": "toggle",
-        "img": "images/items/shear.png",
-        "codes": "shear"
+        "img": "images/items/shears.png",
+        "codes": "shears"
     },
     {
         "name": "Metal Detector",
