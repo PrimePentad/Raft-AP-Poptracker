@@ -719,7 +719,7 @@
             {
                 "name": "Metal Arrow",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["$has_smelter,$has_feather"],
                 "sections":[
                     {
                         "name": "Plank, Metal Ingot, Feather",
