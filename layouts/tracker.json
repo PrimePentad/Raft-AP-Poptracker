@@ -153,7 +153,7 @@
                         {
                             "type": "group",
                             "header": "Other Progression Items",
-                            "dock": "middle",
+                            "dock": "right",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
@@ -165,7 +165,7 @@
                         {
                             "type": "group",
                             "header": "Frequencies",
-                            "dock": "right",
+                            "dock": "middle",
                             "margin": "0,0,3,0",
                             "content": {
                                 "type": "layout",
