@@ -4,5 +4,41 @@
         "type": "toggle",
         "img": "images/frequencies/vasagatan_frequency.png",
         "codes": "vasagatan_frequency"
-    }
+    },
+    {
+        "name": "Balboa Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/balboa_frequency.png",
+        "codes": "balboa_frequency"
+    },
+    {
+        "name": "Caravan Island Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/caravan_island_frequency.png",
+        "codes": "caravan_island_frequency"
+    },
+    {
+        "name": "Tangaroa Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/tangaroa_frequency.png",
+        "codes": "tangaroa_frequency"
+    },
+    {
+        "name": "Varuna Point Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/varuna_point_frequency.png",
+        "codes": "varuna_point_frequency_frequency"
+    },
+    {
+        "name": "Temperance Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/temperance_frequency.png",
+        "codes": "temperance_frequency"
+    },
+    {
+        "name": "Utopia Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/utopia_frequency.png",
+        "codes": "utopia_frequency"
+    },
 ]
