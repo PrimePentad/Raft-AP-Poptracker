@@ -24,6 +24,10 @@ function has_circuit_board()
     return has("circuit_board")
 end
 
+function has_empty_bottle()
+    return has("circuit_board")
+end
+
 function has_sweep_net()
     return has("sweep_net")
 end
