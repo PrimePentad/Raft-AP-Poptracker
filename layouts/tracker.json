@@ -133,6 +133,15 @@
                     "content": [
                         {
                             "type": "group",
+                            "header": "Navigation Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "navigation_items"
+                            }
+                        },
+                        {
+                            "type": "group",
                             "header": "Other Progression Items",
                             "dock": "left",
                             "margin": "0,0,3,0",
