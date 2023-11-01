@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Smelter",
+        "type": "toggle",
+        "img": "images/items/smelter.png",
+        "codes": "smelter"
+    }
+]
