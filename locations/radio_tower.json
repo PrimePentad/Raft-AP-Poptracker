@@ -6,6 +6,8 @@
         "children": [
             {
                 "name": "Radio Tower Level A (Underwater)",
+                "access_rules":
+                    ["$can_navigate"],
                 "sections":[
                     {
                         "name": "Radio Tower Briefcase",
@@ -22,6 +24,8 @@
             },
             {
                 "name": "Radio Tower Level B",
+                "access_rules":
+                    ["$can_navigate"],
                 "sections":[
                     {
                         "name": "Radio Tower Notepad 1",
@@ -38,6 +42,8 @@
             },
             {
                 "name": "Radio Tower Level C",
+                "access_rules":
+                    ["$can_navigate"],
                 "sections":[
                     {
                         "name": "Radio Tower Signalboard Trace",
@@ -58,6 +64,8 @@
             },
             {
                 "name": "Radio Tower Level D",
+                "access_rules":
+                    ["$can_navigate"],
                 "sections":[
                     {
                         "name": "Radio Tower Notepad 2",
@@ -74,6 +82,8 @@
             },
             {
                 "name": "Radio Tower Level E",
+                "access_rules":
+                    ["$can_navigate"],
                 "sections":[
                     {
                         "name": "Radio Tower Frequency to Vasagatan",
