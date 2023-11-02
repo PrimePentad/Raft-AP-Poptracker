@@ -8,8 +8,8 @@
     },
     {
         "name": "Radio Station",
-        "location_size": 8,
-        "location_border_thickness": 1,
+        "location_size": 40,
+        "location_border_thickness": 5,
         "img": "images/maps/radio_station.png"
     },
     {
