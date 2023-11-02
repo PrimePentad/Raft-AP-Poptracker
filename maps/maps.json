@@ -10,7 +10,7 @@
         "name": "Radio Station",
         "location_size": 8,
         "location_border_thickness": 1,
-        "img": "images/maps/RadioStation.png"
+        "img": "images/maps/radio_station.png"
     },
     {
         "name": "Vasagatan",
