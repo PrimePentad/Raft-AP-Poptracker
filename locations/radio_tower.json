@@ -1,0 +1,101 @@
+[
+    {
+        "name": "Radio Tower",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Radio Tower Level A (Underwater)",
+                "sections":[
+                    {
+                        "name": "Radio Tower Briefcase",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Radio Tower",
+                        "x": 487,
+                        "y": 585
+                    }
+                ]
+            },
+            {
+                "name": "Radio Tower Level B",
+                "sections":[
+                    {
+                        "name": "Radio Tower Notepad 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Radio Tower",
+                        "x": 407,
+                        "y": 823
+                    }
+                ]
+            },
+            {
+                "name": "Radio Tower Level C",
+                "sections":[
+                    {
+                        "name": "Radio Tower Signalboard Trace",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Headlight Blueprint",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Radio Tower",
+                        "x": 2080,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Radio Tower Level D",
+                "sections":[
+                    {
+                        "name": "Radio Tower Notepad 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Radio Tower",
+                        "x": 435,
+                        "y": 1200
+                    }
+                ]
+            },
+            {
+                "name": "Radio Tower Level E",
+                "sections":[
+                    {
+                        "name": "Radio Tower Frequency to Vasagatan",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Recycler Blueprint",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Tala (Radio Tower)",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Radio Tower",
+                        "x": 1521,
+                        "y": 1400
+                    }
+                ]
+            }
+        ]
+    }
+]
