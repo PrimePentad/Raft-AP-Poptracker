@@ -67,7 +67,7 @@
                 "map_locations":[
                     {
                         "map": "Radio Tower",
-                        "x": 435,
+                        "x": 443,
                         "y": 1200
                     }
                 ]
@@ -91,8 +91,8 @@
                 "map_locations":[
                     {
                         "map": "Radio Tower",
-                        "x": 1521,
-                        "y": 1400
+                        "x": 1540,
+                        "y": 1420
                     }
                 ]
             }
