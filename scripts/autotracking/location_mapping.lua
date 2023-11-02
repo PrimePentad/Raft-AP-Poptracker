@@ -3,7 +3,7 @@
 -- to reference an item use it's code
 -- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
 LOCATION_MAPPING = {
-     [48035] = {"@Research Table/Advanced Collection Net/Plank, Rope, Titanium Ingot"},
+    [48035] = {"@Research Table/Advanced Collection Net/Plank, Rope, Titanium Ingot"},
     [48021] = {"@Research Table/Advanced Grill/Plank, Metal Ingot, Rope, Nail"},
     [48039] = {"@Research Table/Advanced Purifier/Plank, Plastic, Glass"},
     [48047] = {"@Research Table/Backpack/Rope, Leather Wool"},
