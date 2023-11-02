@@ -56,4 +56,13 @@ LOCATION_MAPPING = {
     [48041] = {"@Research Table/Stone Arrow/Plank, Stone, Plastic"},
     [48023] = {"@Research Table/Storage/Plank, Scrap, Rope, Hinge"},
     [48030] = {"@Research Table/Sweep Net/Plank, Rope, Vine Goo, Bolt"},
+    [48057] = {"@Radio Tower/Radio Tower Level A (Underwater)/Radio Tower Briefcase"},
+    [48059] = {"@Radio Tower/Radio Tower Level B/Radio Tower Notepad 1"},
+    [48061] = {"@Radio Tower/Radio Tower Level C/Radio Tower Signalboard Trace"},
+    [48055] = {"@Radio Tower/Radio Tower Level C/Headlight Blueprint"},
+    [48060] = {"@Radio Tower/Radio Tower Level D/Radio Tower Notepad 2"},
+    [48058] = {"@Radio Tower/Radio Tower Level E/Radio Tower Frequency to Vasagatan"},
+    [48056] = {"@Radio Tower/Radio Tower Level E/Recycler Blueprint"},
+    [48054] = {"@Radio Tower/Radio Tower Level E/Tala (Radio Tower)"},
+
 }
