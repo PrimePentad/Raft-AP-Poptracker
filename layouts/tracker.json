@@ -53,11 +53,11 @@
                             }
                         },
                         {
-                            "title": "Radio Station",
+                            "title": "Radio Tower",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Radio Station"
+                                    "Radio Tower"
                                 ]
                             }
                         },
@@ -189,11 +189,11 @@
                             }
                         },
                         {
-                            "title": "Radio Station",
+                            "title": "Radio Tower",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Radio Station"
+                                    "Radio Tower"
                                 ]
                             }
                         },
