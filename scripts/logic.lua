@@ -78,3 +78,7 @@ function can_capture_animals()
     return (can_access_big_islands() and has("grass_plot") and 
         has("net_launcher") and has("net_canister") and has_smelter())
 end
+
+function has_vasagatan_frequency()
+    return has("vasagatan_frequency")
+end
