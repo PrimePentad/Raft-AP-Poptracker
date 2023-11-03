@@ -64,5 +64,18 @@ LOCATION_MAPPING = {
     [48058] = {"@Radio Tower/Radio Tower Level E/Radio Tower Frequency to Vasagatan"},
     [48056] = {"@Radio Tower/Radio Tower Level E/Recycler Blueprint"},
     [48054] = {"@Radio Tower/Radio Tower Level E/Tala (Radio Tower)"},
+    [48062] = {"@Vasagatan/Hold Engine Room/Hannes Letter 1"},
+    [48063] = {"@Vasagatan/Hold Kitchen/Hannes Letter 2"},
+    [48064] = {"@Vasagatan/Hold Workshop/Hannes Letter 3"},
+    [48065] = {"@Vasagatan/Hold Locker/Olof Log 1"},
+    [48066] = {"@Vasagatan/1st Level Bar/Olof Log 2"},
+    [48068] = {"@Vasagatan/1st LevelCabin 2/Vasagatan Recording 1"},
+    [48069] = {"@Vasagatan/1st Level Cabin 3 Safe/Vasagatan Recording 2"},
+    [48067] = {"@Vasagatan/2nd Level Table/Olof Log 3"},
+    [48071] = {"@Vasagatan/3rd Level Behind Barrier/Vasagatan Magazine Clipping"},
+    [48070] = {"@Vasagatan/4th Level Bed/Vasagatan Recording 3"},
+    [48072] = {"@Vasagatan/5th Level/Vasagatan Frequency to Balboa"},
+    [48074] = {"@Vasagatan/5th Level/Steering Wheel Blueprint"},
+    [48073] = {"@Vasagatan/5th Level/Engine Blueprint"},
 
 }
