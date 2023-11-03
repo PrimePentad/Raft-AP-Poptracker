@@ -14,7 +14,7 @@
     },
     {
         "name": "Vasagatan",
-        "location_size": 40,
+        "location_size": 30,
         "location_border_thickness": 1,
         "img": "images/maps/Vasagatan.png"
     },
