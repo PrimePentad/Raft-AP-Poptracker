@@ -20,9 +20,9 @@
     },
     {
         "name": "Balboa",
-        "location_size": 8,
+        "location_size": 50,
         "location_border_thickness": 1,
-        "img": "images/maps/Balboa.png"
+        "img": "images/maps/balboa.png"
     },
     {
         "name": "Caravan Town",
