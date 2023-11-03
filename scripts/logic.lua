@@ -69,16 +69,36 @@ end
 function can_treasure_hunt()
     return (can_shovel() and has("battery") and has("metal_detector"))
 end
-        
-function can_access_balboa()
-    return (can_drive() and has("balboa_frequency"))
-end
             
 function can_capture_animals()
     return (can_access_big_islands() and has("grass_plot") and 
         has("net_launcher") and has("net_canister") and has_smelter())
 end
 
-function has_vasagatan_frequency()
-    return has("vasagatan_frequency")
+function can_access_vasagatan()
+    return (can_navigate() and has("vasagatan_frequency"))
+end
+
+function can_access_balboa()
+    return (can_drive() and has("balboa_frequency"))
+end
+
+function can_access_caravan_town()
+    return (can_drive() and has("caravan_town_frequency"))
+end
+
+function can_access_tangaroa()
+    return (can_drive() and has("tangaroa_frequency"))
+end
+
+function can_access_varuna_point()
+    return (can_drive() and has("varuna_point_frequency"))
+end
+
+function can_access_temperance()
+    return (can_drive() and has("temperance_frequency"))
+end
+
+function can_access_utopia()
+    return (can_drive() and has("utopia_frequency"))
 end
