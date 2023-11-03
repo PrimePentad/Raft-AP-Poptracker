@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Vasagatan",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Hold Engine Room",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Hannes Letter 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 690,
+                        "y": 690
+                    }
+                ]
+            },
+            {
+                "name": "Hold Kitchen",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Hannes Letter 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 642,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "Hold Workshop",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Hannes Letter 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 720,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Hold Locker",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Olof Log 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 730,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "1st Bar",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Olof Log 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 1150,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "1st Cabin 2",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Vasagatan Recording 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 1090,
+                        "y": 170
+                    }
+                ]
+            },
+            {
+                "name": "1st Cabin 3 Safe",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Vasagatan Recording 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 1090,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "2nd Table",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Olof Log 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 1700,
+                        "y": 220
+                    }
+                ]
+            },
+            {
+                "name": "3rd Behind Barrier",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Vasagatan Magazine Clipping",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 300,
+                        "y": 1750
+                    }
+                ]
+            },
+            {
+                "name": "4th Level Bed",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Vasagatan Recording 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 690,
+                        "y": 1480
+                    }
+                ]
+            },
+            {
+                "name": "5th Level",
+                "access_rules":
+                    ["$can_access_vasagatan"],
+                "sections":[
+                    {
+                        "name": "Vasagatan Frequency to Balboa",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steering Wheel Blueprint",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Engine Blueprint",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Vasagatan",
+                        "x": 1170,
+                        "y": 1600
+                    }
+                ]
+            }
+        ]
+    }
+]
