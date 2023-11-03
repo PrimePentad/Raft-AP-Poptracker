@@ -17,8 +17,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 690,
-                        "y": 690
+                        "x": 710,
+                        "y": 710
                     }
                 ]
             },
@@ -35,7 +35,7 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 642,
+                        "x": 655,
                         "y": 220
                     }
                 ]
@@ -53,8 +53,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 720,
-                        "y": 60
+                        "x": 740,
+                        "y": 95
                     }
                 ]
             },
@@ -71,13 +71,13 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 730,
-                        "y": 580
+                        "x": 750,
+                        "y": 590
                     }
                 ]
             },
             {
-                "name": "1st Bar",
+                "name": "1st Level Bar",
                 "access_rules":
                     ["$can_access_vasagatan"],
                 "sections":[
@@ -90,12 +90,12 @@
                     {
                         "map": "Vasagatan",
                         "x": 1150,
-                        "y": 640
+                        "y": 650
                     }
                 ]
             },
             {
-                "name": "1st Cabin 2",
+                "name": "1st Level Cabin 2",
                 "access_rules":
                     ["$can_access_vasagatan"],
                 "sections":[
@@ -107,13 +107,13 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1090,
-                        "y": 170
+                        "x": 1100,
+                        "y": 180
                     }
                 ]
             },
             {
-                "name": "1st Cabin 3 Safe",
+                "name": "1st Level Cabin 3 Safe",
                 "access_rules":
                     ["$can_access_vasagatan"],
                 "sections":[
@@ -125,13 +125,13 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1090,
-                        "y": 75
+                        "x": 1100,
+                        "y": 90
                     }
                 ]
             },
             {
-                "name": "2nd Table",
+                "name": "2nd Level Table",
                 "access_rules":
                     ["$can_access_vasagatan"],
                 "sections":[
@@ -143,13 +143,13 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1700,
-                        "y": 220
+                        "x": 1705,
+                        "y": 222
                     }
                 ]
             },
             {
-                "name": "3rd Behind Barrier",
+                "name": "3rd Level Behind Barrier",
                 "access_rules":
                     ["$can_access_vasagatan"],
                 "sections":[
@@ -161,7 +161,7 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 300,
+                        "x": 320,
                         "y": 1750
                     }
                 ]
@@ -205,7 +205,7 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1170,
+                        "x": 1190,
                         "y": 1600
                     }
                 ]
