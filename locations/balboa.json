@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Balboa",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Hold Engine Room",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Hannes Letter 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 710,
+                        "y": 710
+                    }
+                ]
+            },
+          
+        ]
+    }
+]
