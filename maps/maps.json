@@ -15,13 +15,13 @@
     {
         "name": "Vasagatan",
         "location_size": 30,
-        "location_border_thickness": 1,
+        "location_border_thickness": 2,
         "img": "images/maps/Vasagatan.png"
     },
     {
         "name": "Balboa",
         "location_size": 50,
-        "location_border_thickness": 1,
+        "location_border_thickness": 5,
         "img": "images/maps/balboa.png"
     },
     {
