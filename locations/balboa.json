@@ -5,24 +5,187 @@
         "chest_opened_img": "images/research_researched.png",
         "children": [
             {
-                "name": "Hold Engine Room",
+                "name": "Bear Cave",
                 "access_rules":
                     ["$can_access_balboa"],
                 "sections":[
                     {
-                        "name": "Hannes Letter 1",
+                        "name": "Machete Blueprint",
                         "item_count": 1
                     }
                 ],
                 "map_locations":[
                     {
                         "map": "Balboa",
-                        "x": 710,
-                        "y": 710
+                        "x": 1050,
+                        "y": 1100
                     }
                 ]
             },
-          
+            {
+                "name": "Doll Murder Hill",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Doll Murder 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Doll Murder 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Doll Murder 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Doll Murder 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Doll Murder 5",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 1190,
+                        "y": 900
+                    }
+                ]
+            },
+            {
+                "name": "Relay Station 4",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Bear Map",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Bruno Diary 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fuel Pipe Blueprint",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Activate All Relay Stations",
+                        "access_rules":
+                            ["$has_machete"],
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 1730,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Relay Station 2",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Bruno Diary 1",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Activate All Relay Stations",
+                        "access_rules":
+                            ["$has_machete"],
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 1820,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Ranger's Station",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Correa Twins Picture",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Balboa Island Schedule of Engineers",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Biofuel Refiner Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 2020,
+                        "y": 1300
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel to Station 6",
+                "access_rules":
+                    ["$can_access_balboa,$has_machete"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Note from Henry",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 630,
+                        "y": 630
+                    }
+                ]
+            },
+            {
+                "name": "Relay Station 6",
+                "access_rules":
+                    ["$can_access_balboa,$has_machete"],
+                "sections":[
+                    {
+                        "name": "Balboa Island Bruno Diary 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fuel Tank Blueprint",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Johnny (Balboa Island)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Activate All Relay Stations",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Balboa",
+                        "x": 1050,
+                        "y": 1100
+                    }
+                ]
+            },
         ]
     }
 ]
