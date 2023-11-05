@@ -36,6 +36,10 @@ function has_shears()
     return has("shears")
 end
 
+function has_machete()
+    return has("machete")
+end
+
 function can_navigate()
     return (has("battery") and has("receiver") and has("antenna") and 
         has("smelter") and has("bolt") and has("hinge") and
