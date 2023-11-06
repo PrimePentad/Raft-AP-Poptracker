@@ -41,7 +41,7 @@ function has_machete()
 end
 
 function can_zipline()
-    return (has("zipline_tool") and has(smelter) and has(bolt) and has(hinge))
+    return (has("zipline_tool") and has_smelter() and has_bolt() and has_hinge())
 end
 
 function can_navigate()
