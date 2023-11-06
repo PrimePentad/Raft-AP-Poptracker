@@ -21,7 +21,8 @@
                                 "net_launcher",
                                 "grass_plot",
                                 "metal_detector",
-                                "machete"                                
+                                "machete",
+                                "zipline_tool"
                             ],
                             [
                                 "birds_nest",
