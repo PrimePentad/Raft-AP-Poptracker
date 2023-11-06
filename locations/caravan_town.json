@@ -1,0 +1,225 @@
+[
+    {
+        "name": "Caravan Town",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Trailer Halfway Up Water Puzzle",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Detto Journal 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 980,
+                        "y": 640
+                    }
+                ]
+            },
+          {
+                "name": "Water Pump And Nearby Trailer",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Detto Journal 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 1080,
+                        "y": 590
+                    }
+                ]
+            },
+          {
+                "name": "Tallest Stack Of Trailers",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Detto Journal 6",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 1250,
+                        "y": 400
+                    }
+                ]
+            },
+          {
+                "name": "Trailer With 'Canned Goods' Sign",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Raft Town Article",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 870,
+                        "y": 450
+                    }
+                ]
+            },
+          {
+                "name": "Down Ladder on Rocket Plateau",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Island Detto Journal 5",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 530,
+                        "y": 510
+                    }
+                ]
+            },
+          {
+                "name": "Detto's Rocket",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Island Detto Journal 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 180,
+                        "y": 510
+                    }
+                ]
+            },
+          {
+                "name": "Major Tom's Rocket Escape Island",
+                "access_rules":
+                    ["$can_access_caravan_town,$has_explosive_powder"],
+                "sections":[
+                    {
+                        "name": "Firework Blueprint",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 320,
+                        "y": 360
+                    }
+                ]
+            },
+          {
+                "name": "Bike Air Pump Dive",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Island Detto Journal 4",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Metal Detector Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 720,
+                        "y": 470
+                    }
+                ]
+            },
+          {
+                "name": "Central Tower",
+                "access_rules":
+                    ["$can_access_caravan_town"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Olaf Speech",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Zipline Quest (3 Zipline Parts)",
+                        "access_rules":
+                            ["$has_explosive_powder"],
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 730,
+                        "y": 340
+                    }
+                ]
+            },
+          {
+                "name": "Infirmary",
+                "access_rules":
+                    ["$can_access_caravan_town,$can_zipline"],
+                "sections":[
+                    {
+                        "name": "Caravan Town Doctor's Note",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 850,
+                        "y": 260
+                    }
+                ]
+            },
+          {
+                "name": "Mayor's House",
+                "access_rules":
+                    ["$can_access_caravan_town,$can_zipline"],
+                "sections":[
+                    {
+                        "name": "Battery Charger Quest (3 Battery Charger Parts)",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Caravan Town Frequency to Tangaroa",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Engine Controls Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Caravan Town",
+                        "x": 590,
+                        "y": 600
+                    }
+                ]
+            },
+        ]
+    }
+]
