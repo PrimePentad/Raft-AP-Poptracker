@@ -40,6 +40,10 @@ function has_machete()
     return has("machete")
 end
 
+function can_zipline()
+    return (has("zipline_tool") and has(smelter) and has(bolt) and has(hinge))
+end
+
 function can_navigate()
     return (has("battery") and has("receiver") and has("antenna") and 
         has("smelter") and has("bolt") and has("hinge") and
