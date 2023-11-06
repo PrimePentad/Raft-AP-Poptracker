@@ -12,6 +12,7 @@ ITEM_MAPPING = {
     [47076] = {"shovel", "toggle"},
     [47083] = {"machete", "toggle"},
     [47077] = {"sweep_net", "toggle"},
+    [47010] = {"zipline_tool", "toggle"},
     [47056] = {"smelter", "toggle"},
     [47037] = {"bolt", "toggle"},
     [47039] = {"hinge", "toggle"},
