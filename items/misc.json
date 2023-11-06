@@ -58,5 +58,11 @@
         "type": "toggle",
         "img": "images/items/sweep_net.png",
         "codes": "sweep_net"
-    }
+    },
+    {
+        "name": "Zipline Tool",
+        "type": "toggle",
+        "img": "images/items/zipline_tool.png",
+        "codes": "zipline_tool"
+    },
 ]
