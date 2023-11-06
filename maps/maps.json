@@ -26,8 +26,8 @@
     },
     {
         "name": "Caravan Town",
-        "location_size": 8,
-        "location_border_thickness": 1,
+        "location_size": 50,
+        "location_border_thickness": 4,
         "img": "images/maps/caravan_town.png"
     },
     {
