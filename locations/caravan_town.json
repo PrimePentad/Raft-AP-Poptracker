@@ -17,8 +17,8 @@
                 "map_locations":[
                     {
                         "map": "Caravan Town",
-                        "x": 981,
-                        "y": 639
+                        "x": 980,
+                        "y": 638
                     }
                 ]
             },
@@ -35,8 +35,8 @@
                 "map_locations":[
                     {
                         "map": "Caravan Town",
-                        "x": 1078,
-                        "y": 588
+                        "x": 1077,
+                        "y": 586
                     }
                 ]
             },
@@ -53,7 +53,7 @@
                 "map_locations":[
                     {
                         "map": "Caravan Town",
-                        "x": 1247,
+                        "x": 1246,
                         "y": 398
                     }
                 ]
@@ -72,7 +72,7 @@
                     {
                         "map": "Caravan Town",
                         "x": 868,
-                        "y": 446
+                        "y": 445
                     }
                 ]
             },
@@ -89,7 +89,7 @@
                 "map_locations":[
                     {
                         "map": "Caravan Town",
-                        "x": 533,
+                        "x": 535,
                         "y": 512
                     }
                 ]
@@ -216,7 +216,7 @@
                     {
                         "map": "Caravan Town",
                         "x": 593,
-                        "y": 603
+                        "y": 602
                     }
                 ]
             },
