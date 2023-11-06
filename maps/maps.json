@@ -28,7 +28,7 @@
         "name": "Caravan Town",
         "location_size": 8,
         "location_border_thickness": 1,
-        "img": "images/maps/CaravanTown.png"
+        "img": "images/maps/caravan_town.png"
     },
     {
         "name": "Tangaroa",
