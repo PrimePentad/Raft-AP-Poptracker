@@ -39,13 +39,13 @@
     {
         "name": "Varuna Point",
         "location_size": 60,
-        "location_border_thickness": 5,
+        "location_border_thickness": 4,
         "img": "images/maps/varuna_point.png"
     },
     {
         "name": "Temperance",
         "location_size": 60,
-        "location_border_thickness": 5,
+        "location_border_thickness": 4,
         "img": "images/maps/temperance.png"
     },
     {
