@@ -1,0 +1,218 @@
+[
+    {
+        "name": "Temperance",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Igloo Village Generator",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Bruno Diary 3",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 690,
+                        "y": 860
+                    }
+                ]
+            },
+            {
+                "name": "Igloo Village Medical Igloo",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Bruno Diary 4",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 910,
+                        "y": 160
+                    }
+                ]
+            },{
+                "name": "Igloo Village Central Igloo",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Advanced Biofuel Extractor Blueprint",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 890,
+                        "y": 300
+                    }
+                ]
+            },{
+                "name": "Observatory Fence",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Bruno Diary 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 480,
+                        "y": 1870
+                    }
+                ]
+            },{
+                "name": "Observatory 1st Level",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Bruno Diary 2",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Temperance Star Sign 1",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 450,
+                        "y": 1560
+                    }
+                ]
+            },{
+                "name": "Observatory 2nd Level",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Star Sign 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 450,
+                        "y": 1475
+                    }
+                ]
+            },{
+                "name": "Observatory 3rd Level (5964)",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Star Sign 3",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Advanced Stationary Anchor Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 450,
+                        "y": 1390
+                    }
+                ]
+            },{
+                "name": "Observatory Balcony",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Bruno Diary 5",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Temperance Star Sign 4",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 450,
+                        "y": 1240
+                    }
+                ]
+            },{
+                "name": "Reactor Control Room",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Sparrow Note 1",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 1100,
+                        "y": 1770
+                    }
+                ]
+            },{
+                "name": "Laboratory Puzzles (Rb-37 Cl-17, Pm-61)",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Sparrow Note 2",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 1290,
+                        "y": 1550
+                    }
+                ]
+            },{
+                "name": "Reactor Core",
+                "access_rules":
+                    ["$can_access_temperance"],
+                "sections":[
+                    {
+                        "name": "Temperance Frequency to Utopia",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Electric Smelter Blueprint",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Shogo (Temperance)",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Temperance",
+                        "x": 1730,
+                        "y": 1620
+                    }
+                ]
+            },
+        ]
+    }
+]
