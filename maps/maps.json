@@ -32,9 +32,9 @@
     },
     {
         "name": "Tangaroa",
-        "location_size": 8,
-        "location_border_thickness": 1,
-        "img": "images/maps/Tangaroa.png"
+        "location_size": 50,
+        "location_border_thickness": 5,
+        "img": "images/maps/tangaroa.png"
     },
     {
         "name": "Varuna Point",
