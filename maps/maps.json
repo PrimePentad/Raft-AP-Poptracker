@@ -44,9 +44,9 @@
     },
     {
         "name": "Temperance",
-        "location_size": 8,
-        "location_border_thickness": 1,
-        "img": "images/maps/Temperance.png"
+        "location_size": 60,
+        "location_border_thickness": 5,
+        "img": "images/maps/temperance.png"
     },
     {
         "name": "Utopia",
