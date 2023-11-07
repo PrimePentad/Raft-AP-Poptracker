@@ -38,8 +38,8 @@
     },
     {
         "name": "Varuna Point",
-        "location_size": 8,
-        "location_border_thickness": 1,
+        "location_size": 60,
+        "location_border_thickness": 5,
         "img": "images/maps/varuna_point.png"
     },
     {
