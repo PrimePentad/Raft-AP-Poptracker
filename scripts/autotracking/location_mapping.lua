@@ -128,5 +128,16 @@ LOCATION_MAPPING = {
     [48116] = {"@Tangaroa/Escape Pod/Tangaroa Frequency to Varuna Point"},
     [48119] = {"@Tangaroa/Escape Pod/Water Tank Blueprint"},
     [48121] = {"@Tangaroa/Escape Pod/Elaine (Tangaroa)"},
+    [48122] = {"@Varuna Point/Spotlight Part Hunt Entrance/Varuna Point Grabber Diary 1"},
+    [48123] = {"@Varuna Point/Spotlight Part Hunt Second Level/Varuna Point Grabber Diary 2"},
+    [48124] = {"@Varuna Point/Grabber Maze Entry/Varuna Point Grabber Diary 3"},
+    [48127] = {"@Varuna Point/Grabber Maze End/Varuna Point Grabber Diary 6"},
+    [48131] = {"@Varuna Point/Grabber Maze End/Advanced Headlight Blueprint"},
+    [48129] = {"@Varuna Point/Shark Fight Reward/Wind Turbine Blueprint"},
+    [48126] = {"@Varuna Point/Base of Backhoe/Varuna Point Grabber Diary 5"},
+    [48125] = {"@Varuna Point/Top of Crane/Varuna Point Grabber Diary 4"},
+    [48132] = {"@Varuna Point/Top of Crane/Electric Grill Blueprint"},
+    [48128] = {"@Varuna Point/Crane Drop Hole/Varuna Point Frequency to Temperance"},
+    [48130] = {"@Varuna Point/Crane Drop Hole/Advanced Battery Blueprint"},
 
 }
