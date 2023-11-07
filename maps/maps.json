@@ -44,7 +44,7 @@
     },
     {
         "name": "Temperance",
-        "location_size": 58,
+        "location_size": 56,
         "location_border_thickness": 4,
         "img": "images/maps/temperance.png"
     },
