@@ -32,8 +32,8 @@
     },
     {
         "name": "Tangaroa",
-        "location_size": 50,
-        "location_border_thickness": 5,
+        "location_size": 48,
+        "location_border_thickness": 4,
         "img": "images/maps/tangaroa.png"
     },
     {
