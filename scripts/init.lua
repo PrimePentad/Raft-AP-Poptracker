@@ -31,6 +31,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/caravan_town.json")
     Tracker:AddLocations("locations/tangaroa.json")
     Tracker:AddLocations("locations/varuna_point.json")
+    Tracker:AddLocations("locations/temperance.json")
 end
 
 -- Layout
