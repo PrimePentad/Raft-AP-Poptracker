@@ -17,8 +17,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 1700,
-                        "y": 1790
+                        "x": 1698,
+                        "y": 1794
                     }
                 ]
             },
@@ -39,8 +39,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 2010,
-                        "y": 2640
+                        "x": 2014,
+                        "y": 2648
                     }
                 ]
             },
@@ -57,8 +57,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 1100,
-                        "y": 2150
+                        "x": 1098,
+                        "y": 2154
                     }
                 ]
             },
@@ -75,8 +75,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 2030,
-                        "y": 160
+                        "x": 2034,
+                        "y": 162
                     }
                 ]
             },
@@ -93,8 +93,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 1670,
-                        "y": 250
+                        "x": 1672,
+                        "y": 252
                     }
                 ]
             },
@@ -111,7 +111,7 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 1740,
+                        "x": 740,
                         "y": 1270
                     }
                 ]
@@ -129,8 +129,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 1920,
-                        "y": 720
+                        "x": 1924,
+                        "y": 722
                     }
                 ]
             },
@@ -147,8 +147,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 600,
-                        "y": 1010
+                        "x": 604,
+                        "y": 1016
                     }
                 ]
             },
@@ -169,8 +169,8 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 650,
-                        "y": 350
+                        "x": 654,
+                        "y": 352
                     }
                 ]
             },
@@ -197,7 +197,7 @@
                 "map_locations":[
                     {
                         "map": "Tangaroa",
-                        "x": 650,
+                        "x": 652,
                         "y": 170
                     }
                 ]
