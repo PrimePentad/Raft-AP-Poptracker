@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Utopia",
+        "chest_unopened_img": "images/research_unresearched.png",
+        "chest_opened_img": "images/research_researched.png",
+        "children": [
+            {
+                "name": "Test Box",
+                "access_rules":
+                    ["$can_access_balboa"],
+                "sections":[
+                    {
+                        "name": "Am I Placed Correctly?",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations":[
+                    {
+                        "map": "Utopia",
+                        "x": 1054,
+                        "y": 1091
+                    }
+                ]
+            },
+        ]
+    }
+]
