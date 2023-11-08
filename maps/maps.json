@@ -51,7 +51,7 @@
     {
         "name": "Utopia",
         "location_size": 55,
-        "location_border_thickness": 8,
+        "location_border_thickness": 4,
         "img": "images/maps/utopia.png"
     }
 ]
