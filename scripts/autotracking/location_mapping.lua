@@ -160,6 +160,6 @@ LOCATION_MAPPING = {
     [48153] = {"@Utopia/Front of Detto's House/Utopia Detto Map"},
     [48150] = {"@Utopia/Inside Detto's House/Advanced Backpack Blueprint"},
     [48149] = {"@Utopia/Olof Fight 1 Reward (Weights 31321, 515412432)/Electric Zipline Blueprint"},
-    [48151] = {"@Utopia/Final Olof Reward/Titanium Tools Blueprint"},
+    [48151] = {"@Utopia/Final Olof Fight Reward/Titanium Tools Blueprint"},
 
 }
