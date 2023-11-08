@@ -17,8 +17,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 687,
-                        "y": 865
+                        "x": 580,
+                        "y": 693
                     }
                 ]
             },
@@ -35,8 +35,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 910,
-                        "y": 156
+                        "x": 831,
+                        "y": 139
                     }
                 ]
             },{
@@ -52,8 +52,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 888,
-                        "y": 310
+                        "x": 858,
+                        "y": 256
                     }
                 ]
             },{
@@ -69,8 +69,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 484,
-                        "y": 1865
+                        "x": 404,
+                        "y": 1784
                     }
                 ]
             },{
@@ -90,8 +90,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 448,
-                        "y": 1550
+                        "x": 163,
+                        "y": 1414
                     }
                 ]
             },{
@@ -107,8 +107,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 448,
-                        "y": 1471
+                        "x": 163,
+                        "y": 1356
                     }
                 ]
             },{
@@ -128,8 +128,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 448,
-                        "y": 1392
+                        "x": 163,
+                        "y": 1298
                     }
                 ]
             },{
@@ -149,8 +149,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 448,
-                        "y": 1236
+                        "x": 163,
+                        "y": 1240
                     }
                 ]
             },{
@@ -166,8 +166,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 1112,
-                        "y": 1670
+                        "x": 961,
+                        "y": 1587
                     }
                 ]
             },{
@@ -183,8 +183,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 1294,
-                        "y": 1547
+                        "x": 1184,
+                        "y": 1470
                     }
                 ]
             },{
@@ -208,8 +208,8 @@
                 "map_locations":[
                     {
                         "map": "Temperance",
-                        "x": 1733,
-                        "y": 1620
+                        "x": 1551,
+                        "y": 1557
                     }
                 ]
             },
