@@ -5,20 +5,98 @@
         "chest_opened_img": "images/research_researched.png",
         "children": [
             {
-                "name": "Test Box",
+                "name": "Final Door",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_utopia"],
                 "sections":[
                     {
-                        "name": "Am I Placed Correctly?",
+                        "name": "Utopia Captives Note",
                         "item_count": 1
-                    }
+                    },
+                    {
+                        "name": "Utopia Complete",
+                        "access_rules":
+                            ["$can_zipline,$can_shovel"],
+                        "item_count": 1
+                    },
                 ],
                 "map_locations":[
                     {
                         "map": "Utopia",
-                        "x": 187,
-                        "y": 154
+                        "x": 940,
+                        "y": 399
+                    }
+                ]
+            },
+            {
+                "name": "Front of Detto's House",
+                "access_rules":
+                    ["$can_access_utopia"],
+                "sections":[
+                    {
+                        "name": "Utopia Detto Map",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Utopia",
+                        "x": 899,
+                        "y": 807
+                    }
+                ]
+            },
+            {
+                "name": "Inside Detto's House",
+                "access_rules":
+                    ["$can_access_utopia,$can_shovel"],
+                "sections":[
+                    {
+                        "name": "Advanced Backpack Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Utopia",
+                        "x": 849,
+                        "y": 999
+                    }
+                ]
+            },
+            {
+                "name": "Olof Fight 1 Reward (Weights 31321, 515412432)",
+                "access_rules":
+                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                "sections":[
+                    {
+                        "name": "Electric Zipline Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Utopia",
+                        "x": 1013,
+                        "y": 218
+                    }
+                ]
+            },
+            {
+                "name": "Final Olof Fight Reward",
+                "access_rules":
+                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                "sections":[
+                    {
+                        "name": "Titanium Tools Blueprint",
+                        "item_count": 1
+                    },
+                ],
+                "map_locations":[
+                    {
+                        "map": "Utopia",
+                        "x": 998,
+                        "y": 46
                     }
                 ]
             },
