@@ -50,8 +50,8 @@
     },
     {
         "name": "Utopia",
-        "location_size": 55,
-        "location_border_thickness": 4,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/utopia.png"
     }
 ]
