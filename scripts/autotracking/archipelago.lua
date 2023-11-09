@@ -67,12 +67,12 @@ function onClear(slot_data)
     end
     
     if slot_data['big_island_early_crafting'] then
-        local obj = Tracker:FindObjectForCode("big_islands_mode")
+        local obj = Tracker:FindObjectForCode("big_islands_op")
         obj.Active = slot_data['big_island_early_crafting']
     end
 
     if slot_data['paddleboard_mode'] then
-        local obj1 = Tracker:FindObjectForCode("paddleboard_mode")
+        local obj1 = Tracker:FindObjectForCode("paddleboard_op")
         obj1.Active = slot_data['paddleboard_mode']
     end
 end
