@@ -15,8 +15,8 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "big_islands_mode",
-                                "paddleboard_mode",                               
+                                "big_islands_op",
+                                "paddleboard_op",                               
                             ],
                         ]
                     }
