@@ -1,1 +1,27 @@
-
+{
+    "settings": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "big_islands_mode",
+                                "paddleboard_mode",                               
+                            ],
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
