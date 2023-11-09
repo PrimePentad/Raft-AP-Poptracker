@@ -17,8 +17,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 710,
-                        "y": 710
+                        "x": 750,
+                        "y": 686
                     }
                 ]
             },
@@ -35,8 +35,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 655,
-                        "y": 220
+                        "x": 672,
+                        "y": 253
                     }
                 ]
             },
@@ -53,8 +53,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 740,
-                        "y": 70
+                        "x": 759,
+                        "y": 48
                     }
                 ]
             },
@@ -71,8 +71,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 750,
-                        "y": 590
+                        "x": 726,
+                        "y": 599
                     }
                 ]
             },
@@ -89,8 +89,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1150,
-                        "y": 650
+                        "x": 1223,
+                        "y": 649
                     }
                 ]
             },
@@ -107,8 +107,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1100,
-                        "y": 190
+                        "x": 1083,
+                        "y": 207
                     }
                 ]
             },
@@ -125,8 +125,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1100,
-                        "y": 90
+                        "x": 1085,
+                        "y": 118
                     }
                 ]
             },
@@ -143,8 +143,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1705,
-                        "y": 228
+                        "x": 1739,
+                        "y": 251
                     }
                 ]
             },
@@ -161,8 +161,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 316,
-                        "y": 1750
+                        "x": 556,
+                        "y": 1510
                     }
                 ]
             },
@@ -179,8 +179,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 690,
-                        "y": 1480
+                        "x": 975,
+                        "y": 1254
                     }
                 ]
             },
@@ -205,8 +205,8 @@
                 "map_locations":[
                     {
                         "map": "Vasagatan",
-                        "x": 1186,
-                        "y": 1600
+                        "x": 1413,
+                        "y": 1428
                     }
                 ]
             }
