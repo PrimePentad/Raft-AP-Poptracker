@@ -8,8 +8,8 @@
     },
     {
         "name": "Radio Tower",
-        "location_size": 40,
-        "location_border_thickness": 5,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/radio_tower.png"
     },
     {
