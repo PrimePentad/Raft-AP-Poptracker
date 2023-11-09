@@ -4,7 +4,7 @@
         "name": "Research Table",
         "location_size": 9,
         "location_border_thickness": 1,
-        "img": "images/maps/ResearchTable.png"
+        "img": "images/maps/research_table.png"
     },
     {
         "name": "Radio Tower",
