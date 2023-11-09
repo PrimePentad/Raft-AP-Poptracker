@@ -65,6 +65,8 @@ function onClear(slot_data)
     if SLOT_DATA == nil then
         return
     end
+
+    print(string.format("big island option:", slot_data['big_island_early_crafting']))
     
     if slot_data['big_island_early_crafting'] then
         local obj = Tracker:FindObjectForCode("big_islands_op")
