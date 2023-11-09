@@ -1,5 +1,3 @@
-// sets layouts for shadred items grids
-// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
 {
     "misc_items": {
         "type": "array",
@@ -17,19 +15,23 @@
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "empty_bottle",
-                                "net_launcher",
-                                "grass_plot",
-                                "metal_detector",
                                 "machete",
-                                "zipline_tool"
+                                "zipline_tool",
+                                "shovel",
                             ],
                             [
-                                "birds_nest",
+                                "net_launcher",
                                 "net_canister",                                
-                                "shears",                 
-                                "shovel",
-                                "sweep_net"
+                                "grass_plot",                                
+                            ],
+                            [
+                                "shears",                                
+                                "empty_bottle",
+                                "birds_nest",
+                            ],
+                            [
+                                "metal_detector",
+                                "sweep_net",
                             ]
                         ]
                     }
