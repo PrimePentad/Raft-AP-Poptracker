@@ -65,6 +65,17 @@ function onClear(slot_data)
     if SLOT_DATA == nil then
         return
     end
+    
+    if slot_data['big_island_early_crafting'] then
+        local big_islands = Tracker:FindObjectForCode("big_islands_mode")
+        big_islands.CurrentStage = slot_data['big_island_early_crafting']
+    end
+
+    if slot_data['paddleboard_mode'] then
+        local big_islands = Tracker:FindObjectForCode("paddleboard_mode")
+        paddleboard.CurrentStage = slot_data['paddleboard_mode']
+    end
+
 end
 
 -- called when an item gets collected
@@ -128,20 +139,7 @@ function onItem(index, item_id, item_name, player_number)
     end
     if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
         -- add snes interface functions here for local item tracking
-    end
-
-    
-    if slot_data['big_island_early_crafting'] then
-        local big_islands = Tracker:FindObjectForCode("big_islands_mode")
-        big_islands.CurrentStage = slot_data['big_island_early_crafting']
-    end
-
-    if slot_data['paddleboard_mode'] then
-        local big_islands = Tracker:FindObjectForCode("paddleboard_mode")
-        paddleboard.CurrentStage = slot_data['paddleboard_mode']
-    end
-
-    
+    end   
 end
 
 --called when a location gets cleared
