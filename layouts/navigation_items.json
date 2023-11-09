@@ -17,13 +17,15 @@
                             [
                                 "smelter",
                                 "bolt",
-                                "hinge",
+                                "hinge",                               
+                            ],
+                            [
                                 "battery",
-                                "circuit_board"                                
+                                "circuit_board"                                 
+                                "antenna",                                
                             ],
                             [
                                 "receiver",
-                                "antenna",                                
                                 "engine",                 
                                 "steering_wheel"
                             ]
