@@ -15,13 +15,16 @@
                         "h_alignment": "left",
                         "rows": [
                             [
+                                "radio_tower_frequency",
                                 "vasagatan_frequency",
                                 "balboa_frequency",
-                                "caravan_town_frequency",
-                                "tangaroa_frequency"
                             ],
                             [
+                                "caravan_town_frequency",
+                                "tangaroa_frequency",                                
                                 "varuna_point_frequency",
+                            ],
+                            [
                                 "temperance_frequency",
                                 "utopia_frequency"
                             ]
