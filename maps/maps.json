@@ -20,32 +20,32 @@
     },
     {
         "name": "Balboa",
-        "location_size": 45,
-        "location_border_thickness": 5,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/balboa.png"
     },
     {
         "name": "Caravan Town",
-        "location_size": 42,
-        "location_border_thickness": 5,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/caravan_town.png"
     },
     {
         "name": "Tangaroa",
-        "location_size": 45,
-        "location_border_thickness": 4,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/tangaroa.png"
     },
     {
         "name": "Varuna Point",
-        "location_size": 60,
-        "location_border_thickness": 4,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/varuna_point.png"
     },
     {
         "name": "Temperance",
-        "location_size": 56,
-        "location_border_thickness": 4,
+        "location_size": 51,
+        "location_border_thickness": 6,
         "img": "images/maps/temperance.png"
     },
     {
