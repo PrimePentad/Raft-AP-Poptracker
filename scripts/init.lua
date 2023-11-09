@@ -6,11 +6,14 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
-print("-- Example Tracker --")
+print("Raft Archipelago Tracker")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
 end
+
+-- Utility Script for helper functions etc.
+ScriptHost:LoadScript("scripts/utils.lua")
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic.lua")
