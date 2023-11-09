@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Early Recipes Behind Big Islands",
+        "type": "toggle",
+        "img": "images/settings/big_islands_mode.png",
+        "codes": "big_islands_mode"
+    },
+    {
+        "name": "Paddleboard Mode",
+        "type": "toggle",
+        "img": "images/settings/paddleboard_mode.png",
+        "codes": "paddleboard_mode"
+    },
+]
