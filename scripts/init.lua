@@ -19,6 +19,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 Tracker:AddItems("items/frequencies.json")
 Tracker:AddItems("items/misc.json")
 Tracker:AddItems("items/navigation.json")
+Tracker:AddItems("items/settings.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
