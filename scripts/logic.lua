@@ -51,11 +51,11 @@ function can_navigate()
 end
 
 function can_drive()
-    return (can_navigate() and has("engine") and has("steering_wheel"))
+    return (can_navigate() and ((has("engine") and has("steering_wheel")) or has("paddleboard_mode")))
 end
 
 function can_access_big_islands()
-    return can_navigate()
+    return (can_navigate() or has("big_islands_mode")
 end
     
 function has_feather()
