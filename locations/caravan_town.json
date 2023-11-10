@@ -77,7 +77,7 @@
                 ]
             },
           {
-                "name": "Down Ladder on Rocket Plateau",
+                "name": "Down Ladder On Rocket Plateau",
                 "access_rules":
                     ["$can_access_caravan_town"],
                 "sections":[
