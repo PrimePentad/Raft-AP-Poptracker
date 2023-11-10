@@ -23,4 +23,9 @@
         "type": "toggle",
         "codes": "non-progressive-smelter"
     },
+    {
+        "name": "Non Progressive Metal Detector",
+        "type": "toggle",
+        "codes": "non-progressive-metal-detector"
+    },
 ]
