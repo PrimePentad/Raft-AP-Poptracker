@@ -10,7 +10,7 @@
                     ["$can_access_tangaroa"],
                 "sections":[
                     {
-                        "name": "Tangaroa Reuben 1",
+                        "name": "Tangaroa Ruben 1",
                         "item_count": 1
                     }
                 ],
@@ -28,7 +28,7 @@
                     ["$can_access_tangaroa"],
                 "sections":[
                     {
-                        "name": "Tangaroa Reuben 2",
+                        "name": "Tangaroa Ruben 2",
                         "item_count": 1
                     },
                     {
@@ -50,7 +50,7 @@
                     ["$can_access_tangaroa"],
                 "sections":[
                     {
-                        "name": "Tangaroa Reuben 3",
+                        "name": "Tangaroa Ruben 3",
                         "item_count": 1
                     }
                 ],
@@ -86,7 +86,7 @@
                     ["$can_access_tangaroa"],
                 "sections":[
                     {
-                        "name": "Tangaroa Reuben 4",
+                        "name": "Tangaroa Ruben 4",
                         "item_count": 1
                     }
                 ],
@@ -104,7 +104,7 @@
                     ["$can_access_tangaroa"],
                 "sections":[
                     {
-                        "name": "Tangaroa Reuben 5",
+                        "name": "Tangaroa Ruben 5",
                         "item_count": 1
                     }
                 ],
