@@ -3,17 +3,18 @@
         "name": "Progressive Metals",
         "type": "progressive",
         "initial_stage_idx": 0,
+        "codes": "progressive-metals"
         "stages": [
             {
-                "codes": "progressive-metals,progressive-smelter",
+                "codes": "progressive-smelter",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive-metals,progressive-metal-detector",
+                "codes": "progressive-metal-detector",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive-metals,progressive-electric-smelter",
+                "codes": "progressive-electric-smelter",
                 "inherit_codes": false
             },
         ]
