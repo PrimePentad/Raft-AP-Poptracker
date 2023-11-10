@@ -139,7 +139,11 @@ function onItem(index, item_id, item_name, player_number)
 
     print(item_id)
     
---    if item_id = 47110 then
+    if item_id = 47028 then
+        print(string.format("Success! Grass Plot!"))
+    end
+
+    
 --        local progressive_smelter = Tracker:FindObjectForCode("progressive-smelter")
 --        local progressive_metal_detector = Tracker:FindObjectForCode("progressive-smelter")
 --        local progressive_metals = Tracker:FindObjectForCode("progressive-metals")
