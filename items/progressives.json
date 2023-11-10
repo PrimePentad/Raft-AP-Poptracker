@@ -243,14 +243,14 @@
         "codes": "non_progressive_vasagatan_frequency"
     },
     {
-        "name": "Progressive Balboa Island Frequency",
+        "name": "Progressive Balboa Frequency",
         "type": "toggle",
-        "codes": "progressive_balboa_island_frequency"
+        "codes": "progressive_balboa_frequency"
     },
     {
-        "name": "Non Progressive Balboa Island Frequency",
+        "name": "Non Progressive Balboa Frequency",
         "type": "toggle",
-        "codes": "non_progressive_balboa_island_frequency"
+        "codes": "non_progressive_balboa_frequency"
     },
     {
         "name": "Progressive Caravan Town Frequency",
