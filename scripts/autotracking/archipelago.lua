@@ -140,7 +140,7 @@ function onItem(index, item_id, item_name, player_number)
     
     if item_id == 47110 then   
         local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
-        local progressive_metal_detector = Tracker:FindObjectForCode("progressive_smelter")
+        local progressive_metal_detector = Tracker:FindObjectForCode("progressive_metal_detector")
         local progressive_metals = Tracker:FindObjectForCode("progressive_metals")
         if progressive_metals.CurrentStage >= 1 then
             progressive_smelter.Active = true
