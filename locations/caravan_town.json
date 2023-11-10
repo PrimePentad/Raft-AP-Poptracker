@@ -10,7 +10,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 1",
+                        "name": "Caravan Island Detto Journal 1",
                         "item_count": 1
                     }
                 ],
@@ -28,7 +28,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 2",
+                        "name": "Caravan Island Detto Journal 2",
                         "item_count": 1
                     }
                 ],
@@ -46,7 +46,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 6",
+                        "name": "Caravan Island Detto Journal 6",
                         "item_count": 1
                     }
                 ],
@@ -64,7 +64,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Raft Town Article",
+                        "name": "Caravan Island Raft Town Article",
                         "item_count": 1
                     }
                 ],
@@ -82,7 +82,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 5",
+                        "name": "Caravan Island Detto Journal 5",
                         "item_count": 1
                     }
                 ],
@@ -100,7 +100,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 3",
+                        "name": "Caravan Island Detto Journal 3",
                         "item_count": 1
                     }
                 ],
@@ -136,7 +136,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Detto Journal 4",
+                        "name": "Caravan Island Detto Journal 4",
                         "item_count": 1
                     },
                     {
@@ -158,11 +158,11 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Town Olaf Speech",
+                        "name": "Caravan Island Olaf Speech",
                         "item_count": 1
                     },
                     {
-                        "name": "Zipline Quest (3 Zipline Parts)",
+                        "name": "Zipline Quest",
                         "access_rules":
                             ["$has_explosive_powder"],
                         "item_count": 1
@@ -182,7 +182,7 @@
                     ["$can_access_caravan_town,$can_zipline"],
                 "sections":[
                     {
-                        "name": "Caravan Town Doctor's Note",
+                        "name": "Caravan Island Doctor's Note",
                         "item_count": 1
                     }
                 ],
@@ -200,7 +200,7 @@
                     ["$can_access_caravan_town,$can_zipline"],
                 "sections":[
                     {
-                        "name": "Battery Charger Quest (3 Battery Charger Parts)",
+                        "name": "Battery Charger Quest",
                         "item_count": 1
                     },
                     {
