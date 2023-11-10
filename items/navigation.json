@@ -50,19 +50,20 @@
     {
         "name": "Smelter",
         "type": "composite_toggle",
-        "img": "images/items/smelter.png",
         "codes": "smelter"
+        "item_left": "progressive-smelter"
+        "item_right": "non-progressive-smelter"
         "images": [
             {
-                "progressive-smelter": false, "non-progressive-smelter": true,
+                "left": false, "right": true,
                 "img": "images/items/smelter.png",
             },
             {
-                "progressive-smelter": true, "non-progressive-smelter": false,
+                "left": true, "right": false,
                 "img": "images/items/smelter.png",
             },
             {
-                "progressive-smelter": true, "non-progressive-smelter": true,
+                "left": true, "right": true,
                 "img": "images/items/smelter.png",
             },
         ]
