@@ -18,4 +18,9 @@
             },
         ]
     },
+    {
+        "name": "Non Progressive Smelter",
+        "type": "toggle",
+        "codes": "non-progressive-smelter"
+    },
 ]
