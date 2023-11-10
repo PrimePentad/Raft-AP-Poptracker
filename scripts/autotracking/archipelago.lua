@@ -65,8 +65,6 @@ function onClear(slot_data)
     if SLOT_DATA == nil then
         return
     end
-
-    print(slot_data['big_island_early_crafting'])
     
     if slot_data['big_island_early_crafting'] then
         local big_islands = Tracker:FindObjectForCode("big_islands_mode")
