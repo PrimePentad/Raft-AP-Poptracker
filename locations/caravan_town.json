@@ -82,7 +82,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Island Detto Journal 5",
+                        "name": "Caravan Town Detto Journal 5",
                         "item_count": 1
                     }
                 ],
@@ -100,7 +100,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Island Detto Journal 3",
+                        "name": "Caravan Town Detto Journal 3",
                         "item_count": 1
                     }
                 ],
@@ -136,7 +136,7 @@
                     ["$can_access_caravan_town"],
                 "sections":[
                     {
-                        "name": "Caravan Island Detto Journal 4",
+                        "name": "Caravan Town Detto Journal 4",
                         "item_count": 1
                     },
                     {
