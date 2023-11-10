@@ -118,7 +118,7 @@
                 "img": "images/items/machete.png",
             },
         ]
-    }
+    },
     {
         "name": "Sweep Net",
         "type": "toggle",
