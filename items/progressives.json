@@ -197,4 +197,109 @@
         "type": "toggle",
         "codes": "non-progressive-machete"
     },
+    {
+        "name": "Progressive Frequency",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-frequency",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Vasagatan Frequency",
+        "type": "toggle",
+        "codes": "progressive-vasagatan-frequency"
+    },
+    {
+        "name": "Non Progressive Vasagatan Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-vasagatan-frequency"
+    },
+    {
+        "name": "Progressive Balboa Island Frequency",
+        "type": "toggle",
+        "codes": "progressive-balboa-island-frequency"
+    },
+    {
+        "name": "Non Progressive Balboa Island Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-balboa-island-frequency"
+    },
+    {
+        "name": "Progressive Caravan Town Frequency",
+        "type": "toggle",
+        "codes": "progressive-caravan-town-frequency"
+    },
+    {
+        "name": "Non Progressive Caravan Town Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-caravan-town-frequency"
+    },
+    {
+        "name": "Progressive Tangaroa Frequency",
+        "type": "toggle",
+        "codes": "progressive-tangaroa-frequency"
+    },
+    {
+        "name": "Non Progressive Tangaroa Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-tangaroa-frequency"
+    },
+    {
+        "name": "Progressive Varuna Point Frequency",
+        "type": "toggle",
+        "codes": "progressive-varuna-point-frequency"
+    },
+    {
+        "name": "Non Progressive Varuna Point Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-varuna-point-frequency"
+    },
+    {
+        "name": "Progressive Temperance Frequency",
+        "type": "toggle",
+        "codes": "progressive-temperance-frequency"
+    },
+    {
+        "name": "Non Progressive Temperance Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-temperance-frequency"
+    },
+    {
+        "name": "Progressive Utopia Frequency",
+        "type": "toggle",
+        "codes": "progressive-utopia-frequency"
+    },
+    {
+        "name": "Non Progressive Utopia Frequency",
+        "type": "toggle",
+        "codes": "non-progressive-utopia-frequency"
+    },
 ]
