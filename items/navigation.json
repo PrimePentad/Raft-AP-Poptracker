@@ -49,8 +49,22 @@
     },
     {
         "name": "Smelter",
-        "type": "toggle",
+        "type": "composite_toggle",
         "img": "images/items/smelter.png",
         "codes": "smelter"
+        "images": [
+            {
+                "progressive-smelter": false, "non-progressive-smelter": true,
+                "images/items/smelter.png",
+            },
+            {
+                "progressive-smelter": true, "non-progressive-smelter": false,
+                "images/items/smelter.png",
+            },
+            {
+                "progressive-smelter": true, "non-progressive-smelter": true,
+                "images/items/smelter.png",
+            },
+        ]
     }
 ]
