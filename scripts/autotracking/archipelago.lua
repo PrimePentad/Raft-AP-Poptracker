@@ -136,9 +136,18 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("local items: %s", dump_table(LOCAL_ITEMS)))
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
-    if PopVersion < "0.20.1" or AutoTracker:GetConnectionState("SNES") == 3 then
-        -- add snes interface functions here for local item tracking
-    end   
+
+    if item_id = 47110 then
+        local progressive_smelter = Tracker:FindObjectForCode("progressive-smelter")
+        local progressive_metal_detector = Tracker:FindObjectForCode("progressive-smelter")
+        local progressive_metals = Tracker:FindObjectForCode("progressive-metals")
+        if progressive_metals >= 1 then
+            progressive_smelter.Active = true
+        end
+        if progressive metals >= 2 then
+            progressive_metal_detector.Active = true
+        end
+    
 end
 
 --called when a location gets cleared
