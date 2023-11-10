@@ -19,11 +19,12 @@ ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
+Tracker:AddItems("items/progressives.json")
 Tracker:AddItems("items/frequencies.json")
 Tracker:AddItems("items/other_progression.json")
 Tracker:AddItems("items/navigation.json")
 Tracker:AddItems("items/settings.json")
-Tracker:AddItems("items/progressives.json")
+
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
