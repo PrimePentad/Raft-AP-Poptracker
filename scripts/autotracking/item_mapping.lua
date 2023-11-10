@@ -29,4 +29,5 @@ ITEM_MAPPING = {
     [47091] = {"temperance_frequency", "toggle"},
     [47092] = {"utopia_frequency", "toggle"},
     [47093] = {"caravan_town_frequency", "toggle"},
+    [47110] = {"progressive-metals", "progressive"},
 }
