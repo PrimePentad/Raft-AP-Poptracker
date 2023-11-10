@@ -1,5 +1,135 @@
 [
     {
+        "name": "Progressive Bottle",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-bottle",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-bottle",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Empty Bottle",
+        "type": "toggle",
+        "codes": "progressive-empty-bottle"
+    },
+    {
+        "name": "Non Progressive Empty Bottle",
+        "type": "toggle",
+        "codes": "non-progressive-empty-bottle"
+    },
+    {
+        "name": "Progressive Batteries",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-batteries",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-batteries",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-batteries",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-batteries",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Battery",
+        "type": "toggle",
+        "codes": "progressive-battery"
+    },
+    {
+        "name": "Non Progressive Battery",
+        "type": "toggle",
+        "codes": "non-progressive-battery"
+    },
+    {
+        "name": "Progressive Engines",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-engines",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-engines",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-engines",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-engines",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Engine",
+        "type": "toggle",
+        "codes": "progressive-engine"
+    },
+    {
+        "name": "Non Progressive Engine",
+        "type": "toggle",
+        "codes": "non-progressive-Engine"
+    },
+    {
+        "name": "Progressive Steering Wheel",
+        "type": "toggle",
+        "codes": "progressive-steering_whel"
+    },
+    {
+        "name": "Non Progressive Steering Wheel",
+        "type": "toggle",
+        "codes": "non-progressive-steering_wheel"
+    },
+    {
+        "name": "Progressive Zipline Tools",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-zipline-tools",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-zipline-tools",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-zipline-tools",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Zipline Tool",
+        "type": "toggle",
+        "codes": "progressive-zipline_tool"
+    },
+    {
+        "name": "Non Progressive Zipline Tool",
+        "type": "toggle",
+        "codes": "non-progressive-zipline-tool"
+    },
+    {
         "name": "Progressive Metals",
         "type": "progressive",
         "initial_stage_idx": 0,
@@ -37,5 +167,34 @@
         "name": "Non Progressive Metal Detector",
         "type": "toggle",
         "codes": "non-progressive-metal-detector"
+    },
+    {
+        "name": "Progressive Spear",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive-spear",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-spear",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive-spear",
+                "inherit_codes": false
+            },
+        ]
+    },
+    {
+        "name": "Progressive Machete",
+        "type": "toggle",
+        "codes": "progressive-machete"
+    },
+    {
+        "name": "Non Progressive Machete",
+        "type": "toggle",
+        "codes": "non-progressive-machete"
     },
 ]
