@@ -3,37 +3,37 @@
         "name": "Empty Bottle",
         "type": "toggle",
         "img": "images/items/empty_bottle.png",
-        "codes": "empty_bottle"
+        "codes": "empty_bottle",
     },
     {
         "name": "Birds Nest",
         "type": "toggle",
         "img": "images/items/birds_nest.png",
-        "codes": "birds_nest"
+        "codes": "birds_nest",
     },
     {
         "name": "Net Launcher",
         "type": "toggle",
         "img": "images/items/net_launcher.png",
-        "codes": "net_launcher"
+        "codes": "net_launcher",
     },
     {
         "name": "Net Canister",
         "type": "toggle",
         "img": "images/items/net_canister.png",
-        "codes": "net_canister"
+        "codes": "net_canister",
     },
     {
         "name": "Grass Plot",
         "type": "toggle",
         "img": "images/items/grass_plot.png",
-        "codes": "grass_plot"
+        "codes": "grass_plot",
     },
     {
         "name": "Shears",
         "type": "toggle",
         "img": "images/items/shears.png",
-        "codes": "shears"
+        "codes": "shears",
     },
     {
         "name": "Metal Detector",
