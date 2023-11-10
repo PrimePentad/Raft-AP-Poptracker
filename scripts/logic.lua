@@ -9,7 +9,7 @@ function has(item, amount)
 end
 
 function has_smelter()
-    return has("smelter")
+    return (has("smelter") or has("progressive-smelter"))
 end
 
 function has_bolt()
