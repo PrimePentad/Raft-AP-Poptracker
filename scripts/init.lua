@@ -20,7 +20,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/frequencies.json")
-Tracker:AddItems("items/misc.json")
+Tracker:AddItems("items/other_progression.json")
 Tracker:AddItems("items/navigation.json")
 Tracker:AddItems("items/settings.json")
 
