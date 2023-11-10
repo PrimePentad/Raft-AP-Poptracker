@@ -1,9 +1,29 @@
 [
     {
         "name": "Empty Bottle",
-        "type": "toggle",
-        "img": "images/items/empty_bottle.png",
-        "codes": "empty_bottle",
+        "type": "composite_toggle",
+        "codes": "empty-bottle",
+        "item_left": "progressive-empty-bottle",
+        "item_right": "non-progressive-empty-bottle",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/empty-bottle.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/empty-bottle.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/empty-bottle.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/empty-bottle.png",
+            },
+        ]
     },
     {
         "name": "Birds Nest",
@@ -74,6 +94,32 @@
         "codes": "machete"
     },
     {
+        "name": "Machete",
+        "type": "composite_toggle",
+        "codes": "machete",
+        "item_left": "progressive-machete",
+        "item_right": "non-progressive-machete",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/machete.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/machete.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/machete.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/machete.png",
+            },
+        ]
+    }
+    {
         "name": "Sweep Net",
         "type": "toggle",
         "img": "images/items/sweep_net.png",
@@ -81,8 +127,28 @@
     },
     {
         "name": "Zipline Tool",
-        "type": "toggle",
-        "img": "images/items/zipline_tool.png",
-        "codes": "zipline_tool"
-    },
+        "type": "composite_toggle",
+        "codes": "zipline_tool",
+        "item_left": "progressive-zipline_tool",
+        "item_right": "non-progressive-zipline_tool",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/zipline_tool.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/zipline_tool.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/zipline_tool.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/zipline_tool.png",
+            },
+        ]
+    }
 ]
