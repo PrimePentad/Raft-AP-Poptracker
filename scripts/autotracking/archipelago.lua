@@ -149,6 +149,82 @@ function onItem(index, item_id, item_name, player_number)
             progressive_metal_detector.Active = true
         end
     end
+
+    if item_id == 47099 then   
+        local progressive_empty_bottle = Tracker:FindObjectForCode("progressive_empty_bottle")
+        local progressive_bottle = Tracker:FindObjectForCode("progressive_bottle")
+        if progressive_bottle.CurrentStage >= 1 then
+           progressive_empty_bottle.Active = true
+        end
+    end
+
+    if item_id == 47103 then   
+        local progressive_battery = Tracker:FindObjectForCode("progressive_battery")
+        local progressive_batteries = Tracker:FindObjectForCode("progressive_batteries")
+        if progressive_batteries.CurrentStage >= 1 then
+           progressive_battery.Active = true
+        end
+    end
+
+    if item_id == 47105 then   
+        local progressive_engine = Tracker:FindObjectForCode("progressive-engine")
+        local progressive_steering_wheel = Tracker:FindObjectForCode("progressive_steering_wheel")
+        local progressive_engines = Tracker:FindObjectForCode("progressive-engines")
+        if progressive_engines.CurrentStage >= 1 then
+            progressive_engine.Active = true
+        end
+        if progressive_engines.CurrentStage >= 2 then
+            progressive_steering_wheel.Active = true
+        end
+    end
+
+    if item_id == 47109 then   
+        local progressive_zipline_tool = Tracker:FindObjectForCode("progressive_zipline_tool")
+        local progressive_batteries = Tracker:FindObjectForCode("progressive_zipline_tools")
+        if progressive_zipline_tools.CurrentStage >= 1 then
+           progressive_zipline_tool.Active = true
+        end
+    end
+
+    if item_id == 47114 then   
+        local progressive_machete = Tracker:FindObjectForCode("progressive_machete")
+        local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
+        if progressive_spear.CurrentStage >= 2 then
+           progressive_machete.Active = true
+        end
+    end
+
+    if item_id == 47115 then   
+        local progressive_vasagatan_frequency = Tracker:FindObjectForCode("progressive_vasagatan_frequency")
+        local progressive_balboa_frequency = Tracker:FindObjectForCode("progressive_balboa_frequency")
+        local progressive_caravan_town_frequency = Tracker:FindObjectForCode("progressive_caravan_town_frequency")
+        local progressive_tangaroa_frequency = Tracker:FindObjectForCode("progressive_tangaroa_frequency")
+        local progressive_varuna_point_frequency = Tracker:FindObjectForCode("progressive_varuna_point_frequency")
+        local progressive_temperance_frequency = Tracker:FindObjectForCode("progressive_temperance_frequency")
+        local progressive_utopia_frequency = Tracker:FindObjectForCode("progressive_utopia_frequency")
+        local progressive_frequency = Tracker:FindObjectForCode("progressive_frequency")
+        if progressive_frequency.CurrentStage >= 1 then
+           progressive_vasagatan_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 2 then
+           progressive_balboa_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 3 then
+           progressive_caravan_town_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 4 then
+           progressive_tangaroa_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 5 then
+           progressive_varuna_point_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 6 then
+           progressive_temperance_frequency.Active = true
+        end
+        if progressive_frequency.CurrentStage >= 7 then
+           progressive_utopia_frequency.Active = true
+        end
+    end
     
 end
 
