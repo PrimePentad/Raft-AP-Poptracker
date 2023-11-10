@@ -28,23 +28,23 @@
                     ["$can_access_balboa"],
                 "sections":[
                     {
-                        "name": "Balboa Island Doll Murder 1",
+                        "name": "Balboa Island Doll Murderer 1",
                         "item_count": 1
                     },
                     {
-                        "name": "Balboa Island Doll Murder 2",
+                        "name": "Balboa Island Doll Murderer 2",
                         "item_count": 1
                     },
                     {
-                        "name": "Balboa Island Doll Murder 3",
+                        "name": "Balboa Island Doll Murderer 3",
                         "item_count": 1
                     },
                     {
-                        "name": "Balboa Island Doll Murder 4",
+                        "name": "Balboa Island Doll Murderer 4",
                         "item_count": 1
                     },
                     {
-                        "name": "Balboa Island Doll Murder 5",
+                        "name": "Balboa Island Doll Murderer 5",
                         "item_count": 1
                     },
                 ],
@@ -66,7 +66,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Balboa Island Bruno Diary 2",
+                        "name": "Balboa Island Correas Diary 2",
                         "item_count": 1
                     },
                     {
@@ -94,7 +94,7 @@
                     ["$can_access_balboa"],
                 "sections":[
                     {
-                        "name": "Balboa Island Bruno Diary 1",
+                        "name": "Balboa Island Correas Diary 1",
                         "item_count": 1
                     },
                     {
@@ -162,7 +162,7 @@
                     ["$can_access_balboa,$has_machete"],
                 "sections":[
                     {
-                        "name": "Balboa Island Bruno Diary 3",
+                        "name": "Balboa Island Correas Diary 3",
                         "item_count": 1
                     },
                     {
