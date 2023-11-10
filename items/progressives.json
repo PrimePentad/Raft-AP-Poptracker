@@ -101,20 +101,20 @@
         "codes": "non_progressive_steering_wheel"
     },
     {
-        "name": "Progressive Zipline Tools",
+        "name": "Progressive Ziplines",
         "type": "progressive",
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "progressive_zipline_tools",
+                "codes": "progressive_ziplines",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_zipline_tools",
+                "codes": "progressive_ziplines",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_zipline_tools",
+                "codes": "progressive_ziplines",
                 "inherit_codes": false
             },
         ]
