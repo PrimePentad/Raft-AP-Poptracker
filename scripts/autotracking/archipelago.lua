@@ -145,7 +145,7 @@ function onItem(index, item_id, item_name, player_number)
         if progressive_metals >= 1 then
             progressive_smelter.Active = true
         end
-        if progressive metals >= 2 then
+        if progressive_metals >= 2 then
             progressive_metal_detector.Active = true
         end
     end
