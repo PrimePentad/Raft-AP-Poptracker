@@ -1,53 +1,5 @@
 [
     {
-        "name": "Bolt",
-        "type": "toggle",
-        "img": "images/items/bolt.png",
-        "codes": "bolt"
-    },
-    {
-        "name": "Hinge",
-        "type": "toggle",
-        "img": "images/items/hinge.png",
-        "codes": "hinge"
-    },
-    {
-        "name": "Circuit Board",
-        "type": "toggle",
-        "img": "images/items/circuit_board.png",
-        "codes": "circuit_board"
-    },
-    {
-        "name": "Battery",
-        "type": "toggle",
-        "img": "images/items/battery.png",
-        "codes": "battery"
-    },
-    {
-        "name": "Receiver",
-        "type": "toggle",
-        "img": "images/items/receiver.png",
-        "codes": "receiver"
-    },
-    {
-        "name": "Antenna",
-        "type": "toggle",
-        "img": "images/items/antenna.png",
-        "codes": "antenna"
-    },
-    {
-        "name": "Engine",
-        "type": "toggle",
-        "img": "images/items/engine.png",
-        "codes": "engine"
-    },
-    {
-        "name": "Steering Wheel",
-        "type": "toggle",
-        "img": "images/items/steering_wheel.png",
-        "codes": "steering_wheel"
-    },
-    {
         "name": "Smelter",
         "type": "composite_toggle",
         "codes": "smelter",
@@ -72,5 +24,113 @@
                 "img": "images/items/smelter.png",
             },
         ]
-    }
+    },    
+    {
+        "name": "Bolt",
+        "type": "toggle",
+        "img": "images/items/bolt.png",
+        "codes": "bolt"
+    },
+    {
+        "name": "Hinge",
+        "type": "toggle",
+        "img": "images/items/hinge.png",
+        "codes": "hinge"
+    },
+    {
+        "name": "Circuit Board",
+        "type": "toggle",
+        "img": "images/items/circuit_board.png",
+        "codes": "circuit_board"
+    },
+    {
+        "name": "Battery",
+        "type": "composite_toggle",
+        "codes": "battery",
+        "item_left": "progressive-battery",
+        "item_right": "non-progressive-battery",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/battery.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/battery.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/battery.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/battery.png",
+            },
+        ]
+    },
+    {
+        "name": "Receiver",
+        "type": "toggle",
+        "img": "images/items/receiver.png",
+        "codes": "receiver"
+    },
+    {
+        "name": "Antenna",
+        "type": "toggle",
+        "img": "images/items/antenna.png",
+        "codes": "antenna"
+    },
+    {
+        "name": "Engine",
+        "type": "composite_toggle",
+        "codes": "engine",
+        "item_left": "progressive-engine",
+        "item_right": "non-progressive-engine",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/engine.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/engine.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/engine.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/engine.png",
+            },
+        ]
+    },
+    {
+        "name": "Steering Wheel",
+        "type": "composite_toggle",
+        "codes": "steering_wheel",
+        "item_left": "progressive-steering_wheel",
+        "item_right": "non-progressive-steering_wheel",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/steering_wheel.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/steering_wheel.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/steering_wheel.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/steering_wheel.png",
+            },
+        ]
+    },
 ]
