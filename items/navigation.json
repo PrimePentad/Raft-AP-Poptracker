@@ -50,13 +50,14 @@
     {
         "name": "Smelter",
         "type": "composite_toggle",
-        "codes": "smelter"
-        "item_left": "progressive-smelter"
-        "item_right": "non-progressive-smelter"
+        "codes": "smelter",
+        "item_left": "progressive-smelter",
+        "item_right": "non-progressive-smelter",
         "images": [
             {
                 "left": false, "right": false,
-                "img": "images/items/engine.png",
+                "img": "images/items/smelter.png",
+                "img_mods": "@disabled"
             },
             {
                 "left": false, "right": true,
