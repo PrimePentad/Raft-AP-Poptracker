@@ -2,26 +2,26 @@
     {
         "name": "Empty Bottle",
         "type": "composite_toggle",
-        "codes": "empty-bottle",
-        "item_left": "progressive-empty-bottle",
-        "item_right": "non-progressive-empty-bottle",
+        "codes": "empty_bottle",
+        "item_left": "progressive_empty_bottle",
+        "item_right": "non_progressive_empty_bottle",
         "images": [
             {
                 "left": false, "right": false,
-                "img": "images/items/empty-bottle.png",
+                "img": "images/items/empty_bottle.png",
                 "img_mods": "@disabled"
             },
             {
                 "left": false, "right": true,
-                "img": "images/items/empty-bottle.png",
+                "img": "images/items/empty_bottle.png",
             },
             {
                 "left": true, "right": false,
-                "img": "images/items/empty-bottle.png",
+                "img": "images/items/empty_bottle.png",
             },
             {
                 "left": true, "right": true,
-                "img": "images/items/empty-bottle.png",
+                "img": "images/items/empty_bottle.png",
             },
         ]
     },
@@ -59,8 +59,8 @@
         "name": "Metal Detector",
         "type": "composite_toggle",
         "codes": "metal_detector",
-        "item_left": "progressive-metal-detector",
-        "item_right": "non-progressive-metal-detector",
+        "item_left": "progressive_metal_detector",
+        "item_right": "non_progressive_metal_detector",
         "images": [
             {
                 "left": false, "right": false,
@@ -97,8 +97,8 @@
         "name": "Machete",
         "type": "composite_toggle",
         "codes": "machete",
-        "item_left": "progressive-machete",
-        "item_right": "non-progressive-machete",
+        "item_left": "progressive_machete",
+        "item_right": "non_progressive_machete",
         "images": [
             {
                 "left": false, "right": false,
@@ -129,8 +129,8 @@
         "name": "Zipline Tool",
         "type": "composite_toggle",
         "codes": "zipline_tool",
-        "item_left": "progressive-zipline_tool",
-        "item_right": "non-progressive-zipline_tool",
+        "item_left": "progressive_zipline_tool",
+        "item_right": "non_progressive_zipline_tool",
         "images": [
             {
                 "left": false, "right": false,
