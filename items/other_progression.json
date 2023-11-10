@@ -60,7 +60,7 @@
                 "img": "images/items/metal_detector.png",
             },
         ]
-    }
+    },
     {
         "name": "Shovel",
         "type": "toggle",
