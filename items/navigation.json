@@ -55,6 +55,10 @@
         "item_right": "non-progressive-smelter"
         "images": [
             {
+                "left": false, "right": false,
+                "img": "images/items/engine.png",
+            },
+            {
                 "left": false, "right": true,
                 "img": "images/items/smelter.png",
             },
