@@ -139,7 +139,7 @@ function onItem(index, item_id, item_name, player_number)
 
     print(item_id)
     
-    if item_id = 47028 then
+    if item_id == 47028 then
         print(string.format("Success! Grass Plot!"))
     end
 
