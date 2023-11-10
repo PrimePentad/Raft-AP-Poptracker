@@ -5,23 +5,33 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "progressive-smelter",
+                "codes": "progressive-metals",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive-metal-detector",
+                "codes": "progressive-metals",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive-electric-smelter",
+                "codes": "progressive-metals",
                 "inherit_codes": false
             },
         ]
     },
     {
+        "name": "Progressive Smelter",
+        "type": "toggle",
+        "codes": "progressive-smelter"
+    },
+    {
         "name": "Non Progressive Smelter",
         "type": "toggle",
         "codes": "non-progressive-smelter"
+    },
+    {
+        "name": "Progressive Metal Detector",
+        "type": "toggle",
+        "codes": "progressive-metal-detector"
     },
     {
         "name": "Non Progressive Metal Detector",
