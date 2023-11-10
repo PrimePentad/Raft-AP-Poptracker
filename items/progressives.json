@@ -93,7 +93,7 @@
     {
         "name": "Progressive Steering Wheel",
         "type": "toggle",
-        "codes": "progressive_steering_whel"
+        "codes": "progressive_steering_wheel"
     },
     {
         "name": "Non Progressive Steering Wheel",
