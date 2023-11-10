@@ -9,8 +9,8 @@
         "name": "Vasagatan Frequency",
         "type": "composite_toggle",
         "codes": "vasagatan_frequency",
-        "item_left": "progressive-vasagatan_frequency",
-        "item_right": "non-progressive-vasagatan_frequency",
+        "item_left": "progressive_vasagatan_frequency",
+        "item_right": "non_progressive_vasagatan_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -35,8 +35,8 @@
         "name": "Balboa Frequency",
         "type": "composite_toggle",
         "codes": "balboa_frequency",
-        "item_left": "progressive-balboa_frequency",
-        "item_right": "non-progressive-balboa_frequency",
+        "item_left": "progressive_balboa_frequency",
+        "item_right": "non_progressive_balboa_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -61,8 +61,8 @@
         "name": "Caravan Town Frequency",
         "type": "composite_toggle",
         "codes": "caravan_town_frequency",
-        "item_left": "progressive-caravan_town_frequency",
-        "item_right": "non-progressive-caravan_town_frequency",
+        "item_left": "progressive_caravan_town_frequency",
+        "item_right": "non_progressive_caravan_town_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -87,8 +87,8 @@
         "name": "Tangaroa Frequency",
         "type": "composite_toggle",
         "codes": "tangaroa_frequency",
-        "item_left": "progressive-tangaroa_frequency",
-        "item_right": "non-progressive-tangaroa_frequency",
+        "item_left": "progressive_tangaroa_frequency",
+        "item_right": "non_progressive_tangaroa_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -113,8 +113,8 @@
         "name": "Varuna Point Frequency",
         "type": "composite_toggle",
         "codes": "varuna_point_frequency",
-        "item_left": "progressive-varuna_point_frequency",
-        "item_right": "non-progressive-varuna_point_frequency",
+        "item_left": "progressive_varuna_point_frequency",
+        "item_right": "non_progressive_varuna_point_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -139,8 +139,8 @@
         "name": "Temperance Frequency",
         "type": "composite_toggle",
         "codes": "temperance_frequency",
-        "item_left": "progressive-temperance_frequency",
-        "item_right": "non-progressive-temperance_frequency",
+        "item_left": "progressive_temperance_frequency",
+        "item_right": "non_progressive_temperance_frequency",
         "images": [
             {
                 "left": false, "right": false,
@@ -165,8 +165,8 @@
         "name": "Utopia Frequency",
         "type": "composite_toggle",
         "codes": "utopia_frequency",
-        "item_left": "progressive-utopia_frequency",
-        "item_right": "non-progressive-utopia_frequency",
+        "item_left": "progressive_utopia_frequency",
+        "item_right": "non_progressive_utopia_frequency",
         "images": [
             {
                 "left": false, "right": false,
