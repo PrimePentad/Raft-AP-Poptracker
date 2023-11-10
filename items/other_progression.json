@@ -37,10 +37,30 @@
     },
     {
         "name": "Metal Detector",
-        "type": "toggle",
-        "img": "images/items/metal_detector.png",
-        "codes": "metal_detector"
-    },
+        "type": "composite_toggle",
+        "codes": "metal_detector",
+        "item_left": "progressive-metal-detector",
+        "item_right": "non-progressive-metal-detector",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/items/metal_detector.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/items/metal_detector.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/items/metal_detector.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/items/metal_detector.png",
+            },
+        ]
+    }
     {
         "name": "Shovel",
         "type": "toggle",
