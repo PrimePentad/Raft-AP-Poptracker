@@ -180,8 +180,8 @@ function onItem(index, item_id, item_name, player_number)
 
     if item_id == 47109 then   
         local progressive_zipline_tool = Tracker:FindObjectForCode("progressive_zipline_tool")
-        local progressive_batteries = Tracker:FindObjectForCode("progressive_zipline_tools")
-        if progressive_zipline_tools.CurrentStage >= 1 then
+        local progressive_ziplines = Tracker:FindObjectForCode("progressive_ziplines")
+        if progressive_ziplines.CurrentStage >= 1 then
            progressive_zipline_tool.Active = true
         end
     end
