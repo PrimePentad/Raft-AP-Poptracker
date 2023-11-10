@@ -55,15 +55,15 @@
         "images": [
             {
                 "progressive-smelter": false, "non-progressive-smelter": true,
-                "images/items/smelter.png",
+                "img": "images/items/smelter.png",
             },
             {
                 "progressive-smelter": true, "non-progressive-smelter": false,
-                "images/items/smelter.png",
+                "img": "images/items/smelter.png",
             },
             {
                 "progressive-smelter": true, "non-progressive-smelter": true,
-                "images/items/smelter.png",
+                "img": "images/items/smelter.png",
             },
         ]
     }
