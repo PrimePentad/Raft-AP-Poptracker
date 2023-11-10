@@ -89,12 +89,6 @@
     },
     {
         "name": "Machete",
-        "type": "toggle",
-        "img": "images/items/machete.png",
-        "codes": "machete"
-    },
-    {
-        "name": "Machete",
         "type": "composite_toggle",
         "codes": "machete",
         "item_left": "progressive_machete",
