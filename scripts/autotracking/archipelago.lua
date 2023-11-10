@@ -137,23 +137,18 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 
-    print(item_id)
     
-    if item_id == 47028 then
-        print(string.format("Success! Grass Plot!"))
+    if item_id == 47110 then   
+        local progressive_smelter = Tracker:FindObjectForCode("progressive-smelter")
+        local progressive_metal_detector = Tracker:FindObjectForCode("progressive-smelter")
+        local progressive_metals = Tracker:FindObjectForCode("progressive-metals")
+        if progressive_metals >= 1 then
+            progressive_smelter.Active = true
+        end
+        if progressive metals >= 2 then
+            progressive_metal_detector.Active = true
+        end
     end
-
-    
---        local progressive_smelter = Tracker:FindObjectForCode("progressive-smelter")
---        local progressive_metal_detector = Tracker:FindObjectForCode("progressive-smelter")
---        local progressive_metals = Tracker:FindObjectForCode("progressive-metals")
---        if progressive_metals >= 1 then
---            progressive_smelter.Active = true
---        end
---        if progressive metals >= 2 then
---            progressive_metal_detector.Active = true
---        end
---    end
     
 end
 
