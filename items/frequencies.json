@@ -7,44 +7,184 @@
     },
     {
         "name": "Vasagatan Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/vasagatan_frequency.png",
-        "codes": "vasagatan_frequency"
+        "type": "composite_toggle",
+        "codes": "vasagatan_frequency",
+        "item_left": "progressive-vasagatan_frequency",
+        "item_right": "non-progressive-vasagatan_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/vasagatan_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/vasagatan_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/vasagatan_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/vasagatan_frequency.png",
+            },
+        ]
     },
     {
         "name": "Balboa Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/balboa_frequency.png",
-        "codes": "balboa_frequency"
+        "type": "composite_toggle",
+        "codes": "balboa_frequency",
+        "item_left": "progressive-balboa_frequency",
+        "item_right": "non-progressive-balboa_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/balboa_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/balboa_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/balboa_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/balboa_frequency.png",
+            },
+        ]
     },
     {
         "name": "Caravan Town Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/caravan_town_frequency.png",
-        "codes": "caravan_town_frequency"
+        "type": "composite_toggle",
+        "codes": "caravan_town_frequency",
+        "item_left": "progressive-caravan_town_frequency",
+        "item_right": "non-progressive-caravan_town_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/caravan_town_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/caravan_town_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/caravan_town_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/caravan_town_frequency.png",
+            },
+        ]
     },
     {
         "name": "Tangaroa Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/tangaroa_frequency.png",
-        "codes": "tangaroa_frequency"
+        "type": "composite_toggle",
+        "codes": "tangaroa_frequency",
+        "item_left": "progressive-tangaroa_frequency",
+        "item_right": "non-progressive-tangaroa_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/tangaroa_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/tangaroa_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/tangaroa_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/tangaroa_frequency.png",
+            },
+        ]
     },
     {
         "name": "Varuna Point Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/varuna_point_frequency.png",
-        "codes": "varuna_point_frequency"
+        "type": "composite_toggle",
+        "codes": "varuna_point_frequency",
+        "item_left": "progressive-varuna_point_frequency",
+        "item_right": "non-progressive-varuna_point_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/varuna_point_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/varuna_point_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/varuna_point_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/varuna_point_frequency.png",
+            },
+        ]
     },
     {
         "name": "Temperance Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/temperance_frequency.png",
-        "codes": "temperance_frequency"
+        "type": "composite_toggle",
+        "codes": "temperance_frequency",
+        "item_left": "progressive-temperance_frequency",
+        "item_right": "non-progressive-temperance_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/temperance_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/temperance_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/temperance_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/temperance_frequency.png",
+            },
+        ]
     },
     {
         "name": "Utopia Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/utopia_frequency.png",
-        "codes": "utopia_frequency"
+        "type": "composite_toggle",
+        "codes": "utopia_frequency",
+        "item_left": "progressive-utopia_frequency",
+        "item_right": "non-progressive-utopia_frequency",
+        "images": [
+            {
+                "left": false, "right": false,
+                "img": "images/frequencies/utopia_frequency.png",
+                "img_mods": "@disabled"
+            },
+            {
+                "left": false, "right": true,
+                "img": "images/frequencies/utopia_frequency.png",
+            },
+            {
+                "left": true, "right": false,
+                "img": "images/frequencies/utopia_frequency.png",
+            },
+            {
+                "left": true, "right": true,
+                "img": "images/frequencies/utopia_frequency.png",
+            },
+        ]
     },
 ]
