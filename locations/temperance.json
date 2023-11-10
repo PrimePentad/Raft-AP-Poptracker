@@ -171,7 +171,7 @@
                     }
                 ]
             },{
-                "name": "Laboratory Puzzles (Rb-37 Cl-17, Pm-61)",
+                "name": "Laboratory Puzzles (Rb-37, Cl-17, Pm-61)",
                 "access_rules":
                     ["$can_access_temperance"],
                 "sections":[
