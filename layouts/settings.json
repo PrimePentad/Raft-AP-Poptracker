@@ -18,19 +18,6 @@
                                 "big_islands_mode",
                                 "paddleboard_mode",                               
                             ],
-                            [
-                                "progressive_bottle",
-                                "progressive_batteries",
-                                "progressive_engines"
-                            ],
-                            [
-                                "progressive_ziplines",
-                                "progressive_metals",
-                                "progressive-spear"
-                            ],
-                            [
-                                "progressive-frequency"
-                            ]
                     }
                 ]
             }
