@@ -55,7 +55,7 @@ function can_drive()
 end
 
 function can_access_big_islands()
-    return (can_navigate() or has("big_islands_mode")
+    return (can_navigate() or has("big_islands_mode"))
 end
     
 function has_feather()
