@@ -3,8 +3,8 @@
         "name": "Smelter",
         "type": "composite_toggle",
         "codes": "smelter",
-        "item_left": "progressive-smelter",
-        "item_right": "non-progressive-smelter",
+        "item_left": "progressive_smelter",
+        "item_right": "non_progressive_smelter",
         "images": [
             {
                 "left": false, "right": false,
@@ -47,8 +47,8 @@
         "name": "Battery",
         "type": "composite_toggle",
         "codes": "battery",
-        "item_left": "progressive-battery",
-        "item_right": "non-progressive-battery",
+        "item_left": "progressive_battery",
+        "item_right": "non_progressive_battery",
         "images": [
             {
                 "left": false, "right": false,
@@ -85,8 +85,8 @@
         "name": "Engine",
         "type": "composite_toggle",
         "codes": "engine",
-        "item_left": "progressive-engine",
-        "item_right": "non-progressive-engine",
+        "item_left": "progressive_engine",
+        "item_right": "non_progressive_engine",
         "images": [
             {
                 "left": false, "right": false,
@@ -111,8 +111,8 @@
         "name": "Steering Wheel",
         "type": "composite_toggle",
         "codes": "steering_wheel",
-        "item_left": "progressive-steering_wheel",
-        "item_right": "non-progressive-steering_wheel",
+        "item_left": "progressive_steering_wheel",
+        "item_right": "non_progressive_steering_wheel",
         "images": [
             {
                 "left": false, "right": false,
