@@ -2,6 +2,7 @@
     {
         "name": "Progressive Bottle",
         "type": "progressive",
+        "allow_disabled": true,
         "initial_stage_idx": 0,
         "stages": [
             {
