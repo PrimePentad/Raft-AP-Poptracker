@@ -76,12 +76,6 @@ function onClear(slot_data)
         paddleboard.Active = slot_data['paddleboard_mode']
     end
 
-    local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
-    local non_progressive_smelter = Tracker:FindObjectForCode("non_progressive_smelter")
-    non_progressive_smelter.Active = true
-    print(progressive_smelter.CurrentStage)
-    print(non_progressive_smelter.CurrentStage)
-    
 end
 
 -- called when an item gets collected
