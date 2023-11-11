@@ -9,19 +9,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/empty_bottle.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "empty_bottle",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/empty_bottle.png",
+                "codes": "non_progressive_empty_bottle",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/empty_bottle.png",
+                "codes": "progressive_empty_bottle",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/empty_bottle.png",
+                "codes": "empty_bottle_both",
             },
         ]
     },
@@ -65,19 +69,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/metal_detector.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "metal_detector",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/metal_detector.png",
+                "codes": "non_progressive_metal_detector",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/metal_detector.png",
+                "codes": "progressive_metal_detector",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/metal_detector.png",
+                "codes": "metal_detector_both",
             },
         ]
     },
@@ -97,19 +105,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/machete.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "machete",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/machete.png",
+                "codes": "non_progressive_machete",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/machete.png",
+                "codes": "progressive_machete",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/machete.png",
+                "codes": "machete_both",
             },
         ]
     },
@@ -129,19 +141,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/zipline_tool.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "zipline_tool",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/zipline_tool.png",
+                "codes": "non_progressive_zipline_tool",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/zipline_tool.png",
+                "codes": "progressive_zipline_tool",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/zipline_tool.png",
+                "codes": "zipline_tool_both",
             },
         ]
     }
