@@ -57,19 +57,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/battery.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "battery",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/battery.png",
+                "codes": "non_progressive_battery",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/battery.png",
+                "codes": "progressive_battery",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/battery.png",
+                "codes": "battery_both",
             },
         ]
     },
@@ -95,19 +99,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/engine.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "engine",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/engine.png",
+                "codes": "non_progressive_engine",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/engine.png",
+                "codes": "progressive_engine",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/engine.png",
+                "codes": "engine_both",
             },
         ]
     },
@@ -121,19 +129,23 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/steering_wheel.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
+                "codes": "steering_wheel",
             },
             {
                 "left": false, "right": true,
                 "img": "images/items/steering_wheel.png",
+                "codes": "non_progressive_steering_wheel",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/steering_wheel.png",
+                "codes": "progressive_steering_wheel",
             },
             {
                 "left": true, "right": true,
                 "img": "images/items/steering_wheel.png",
+                "codes": "steering_wheel_both",
             },
         ]
     },
