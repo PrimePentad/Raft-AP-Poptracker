@@ -2,6 +2,7 @@
     {
         "name": "Smelter",
         "type": "composite_toggle",
+        "codes": "smelter",
         "item_left": "progressive_smelter",
         "item_right": "non_progressive_smelter",
         "images": [
