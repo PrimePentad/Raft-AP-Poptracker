@@ -8,7 +8,7 @@
             {
                 "left": false, "right": false,
                 "img": "images/items/smelter.png",
-                "img_mods": "@disabled"
+                "img_mods": "@disabled",
                 "codes": "smelter"
             },
             {
