@@ -78,8 +78,8 @@ function onClear(slot_data)
 
     local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
     local non_progressive_smelter = Tracker:FindObjectForCode("non_progressive_smelter")
-    print(string.format("prog smelter = ", progressive_smelter.Active)
-    print(string.format("non prog smelter = ", non_progressive_smelter.Active)
+    print(string.format("prog smelter = ", progressive_smelter.Active))
+    print(string.format("non prog smelter = ", non_progressive_smelter.Active))
     
 end
 
