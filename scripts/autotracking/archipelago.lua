@@ -80,6 +80,12 @@ function onClear(slot_data)
         local paddleboard = Tracker:FindObjectForCode("paddleboard_mode")
         paddleboard.Active = slot_data['PaddleboardMode']
     end
+    
+    if slot_data['ProgressiveItems'] then
+        local progressive_items = Tracker:FindObjectForCode("progressive_items_mode")
+        progressive_items.Active = slot_data['ProgressiveItems']
+    end
+    
 
 end
 
