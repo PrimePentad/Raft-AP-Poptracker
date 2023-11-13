@@ -11,4 +11,10 @@
         "img": "images/settings/paddleboard_mode.png",
         "codes": "paddleboard_mode"
     },
+    {
+        "name": "Progressive Items",
+        "type": "toggle",
+        "img": "images/settings/progressive_items_mode.png",
+        "codes": "progressive_items_mode"
+    },
 ]
