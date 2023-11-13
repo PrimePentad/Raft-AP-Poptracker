@@ -85,6 +85,7 @@ function onClear(slot_data)
         local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
         if smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true then
             radio_tower_frequency.Active = true
+        end
     end
     
     if SLOT_DATA == nil then
