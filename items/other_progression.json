@@ -103,19 +103,13 @@
         "codes": "progressive_spear",
         "stages": [
             {
-                "codes": "progressive_spear",
                 "img": "images/items/metal_spear.png",
-                "inherit_codes": false
             },
             {
-                "codes": "progressive_spear",
                 "img": "images/items/machete.png",
-                "inherit_codes": false
             },
             {
-                "codes": "progressive_spear",
                 "img": "images/items/titanium_sword.png",
-                "inherit_codes": false
             },
         ]
     },
