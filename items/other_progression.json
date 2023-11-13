@@ -107,17 +107,35 @@
             },
             {
                 "img": "images/items/metal_spear.png",
-                "codes": "progressive_spear,metal_spear",
+                "codes": "progressive_spear",
             },
             {
                 "img": "images/items/machete.png",
-                "codes": "progressive_spear,machete",
+                "codes": "progressive_spear",
             },
             {
                 "img": "images/items/titanium_sword.png",
-                "codes": "progressive_spear,titanium_sword",
+                "codes": "progressive_spear",
             },
         ]
+    },
+    {
+        "name": "Metal Spear",
+        "type": "toggle",
+        "img": "images/items/metal_spear.png",
+        "codes": "metal_spear"
+    },
+    {
+        "name": "Machete",
+        "type": "toggle",
+        "img": "images/items/machete.png",
+        "codes": "machete"
+    },
+    {
+        "name": "Titanium Sword",
+        "type": "toggle",
+        "img": "images/items/titanium_sword.png",
+        "codes": "titanium_sword"
     },
     {
         "name": "Sweep Net",
