@@ -68,7 +68,7 @@ function onClear(slot_data)
         return
     end
 
-    print(string.format("slot data big islands = ",slot_data'big_island_early_crafting']))
+    print(string.format("slot data big islands = ",slot_data['big_island_early_crafting']))
     
     if slot_data['big_island_early_crafting'] then
         local big_islands = Tracker:FindObjectForCode("big_islands_mode")
