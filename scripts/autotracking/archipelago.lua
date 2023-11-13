@@ -75,6 +75,7 @@ function onClear(slot_data)
     end
 
     local receiver = Tracker:FindObjectForCode("receiver")
+    print (string.format("receiver = ", receiver.Active))
     if receiver.Active == true then
         local smelter = Tracker:FindObjectForCode("smelter")
         local bolt = Tracker:FindObjectForCode("bolt")
