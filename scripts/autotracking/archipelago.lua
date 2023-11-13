@@ -75,18 +75,15 @@ function onClear(slot_data)
     end
 
     local receiver = Tracker:FindObjectForCode("receiver")
-    print (string.format("receiver = ", receiver.Active))
-    print (string.format("tit sword = ", titanium_sword.Active))
-    if receiver.Active == true then
+    if titanium_sword.Active == true then
+        print(string.format("testing"))
         local smelter = Tracker:FindObjectForCode("smelter")
         local bolt = Tracker:FindObjectForCode("bolt")
         local hinge = Tracker:FindObjectForCode("hinge")
         local battery = Tracker:FindObjectForCode("battery")
         local circuit board = Tracker:FindObjectForCode("circuit board")
         local antenna = Tracker:FindObjectForCode("antenna")
-        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
-        print(string.format("smelter stage = ", smelter.CurrentStage))
-        print(string.format("battery stage = ", battery.CurrentStage))
+        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency"
         if smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true then
             radio_tower_frequency.Active = true
         end
