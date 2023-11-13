@@ -1,11 +1,5 @@
 [
     {
-        "name": "Radio Tower Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/radio_tower_frequency.png",
-        "codes": "radio_tower_frequency"
-    },
-    {
         "name": "Vasagatan Frequency",
         "type": "composite_toggle",
         "codes": "vasagatan_frequency",
@@ -214,5 +208,11 @@
                 "codes": "utopia_frequency_both",
             },
         ]
+    },
+    {
+        "name": "Radio Tower Frequency",
+        "type": "toggle",
+        "img": "images/frequencies/radio_tower_frequency.png",
+        "codes": "radio_tower_frequency"
     },
 ]

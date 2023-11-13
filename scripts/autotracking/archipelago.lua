@@ -62,19 +62,30 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     -- manually run snes interface functions after onClear in case we are already ingame
 
+    
+    
     if SLOT_DATA == nil then
         return
     end
+
+    print(string.format("test before"))
     
-    if slot_data['big_island_early_crafting'] then
+    if slot_data['BigIslandEarlyCrafting'] then
+        print(string.format("test after"))
         local big_islands = Tracker:FindObjectForCode("big_islands_mode")
-        big_islands.Active = slot_data['big_island_early_crafting']
+        big_islands.Active = slot_data['BigIslandEarlyCrafting']
     end
 
-    if slot_data['paddleboard_mode'] then
+    if slot_data['PaddleboardMode'] then
         local paddleboard = Tracker:FindObjectForCode("paddleboard_mode")
-        paddleboard.Active = slot_data['paddleboard_mode']
+        paddleboard.Active = slot_data['PaddleboardMode']
     end
+    
+    if slot_data['ProgressiveItems'] then
+        local progressive_items = Tracker:FindObjectForCode("progressive_items_mode")
+        progressive_items.Active = slot_data['ProgressiveItems']
+    end
+    
 
 end
 
@@ -138,6 +149,17 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 
+    local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
+    local metal_spear = Tracker:FindObjectForCode("metal_spear")
+    local machete = Tracker:FindObjectForCode("machete")
+    local titanium_sword = Tracker:FindObjectForCode("titanium_sword")
+    if titanium_sword.Active == true then
+        progressive_spear.CurrentStage = 3
+    elseif machete.Active == true then
+        progressive_spear.CurrentStage = 2
+    elseif metal_spear.Active == true then
+        progressive_spear.CurrentStage = 1
+    end
     
     if item_id == 47110 then   
         local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
@@ -187,11 +209,14 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
 
-    if item_id == 47114 then   
-        local progressive_machete = Tracker:FindObjectForCode("progressive_machete")
+    if item_id == 47082 or item_id == 47083 or item_id == 47084 then
         local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
-        if progressive_spear.CurrentStage >= 2 then
-           progressive_machete.Active = true
+        if progressive_spear.CurrentStage < 3 and item_id == 47084 then
+            progressive_spear.CurrentStage = 3
+        elseif progressive_spear.CurrentStage < 2 and item_id == 47083 then
+            progressive_spear.CurrentStage = 2
+        elseif progressive_spear.CurrentStage < 1 and item_id == 47082 then
+            progressive_spear.CurrentStage = 1
         end
     end
 

@@ -15,6 +15,7 @@
                         "h_alignment": "left",
                         "rows": [
                             [
+                                "progressive_items_mode",
                                 "big_islands_mode",
                                 "paddleboard_mode",                               
                             ],

@@ -96,34 +96,46 @@
         "codes": "shovel"
     },
     {
-        "name": "Machete",
-        "type": "composite_toggle",
-        "codes": "machete",
-        "item_left": "progressive_machete",
-        "item_right": "non_progressive_machete",
-        "images": [
+        "name": "Progressive Spear",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "stages": [
             {
-                "left": false, "right": false,
-                "img": "images/items/machete.png",
-                "img_mods": "@disabled",
-                "codes": "machete",
+                "img": "images/items/wooden_spear.png",
+                "codes": "progressive_spear",
             },
             {
-                "left": false, "right": true,
-                "img": "images/items/machete.png",
-                "codes": "non_progressive_machete",
+                "img": "images/items/metal_spear.png",
+                "codes": "progressive_spear",
             },
             {
-                "left": true, "right": false,
                 "img": "images/items/machete.png",
-                "codes": "progressive_machete",
+                "codes": "progressive_spear",
             },
             {
-                "left": true, "right": true,
-                "img": "images/items/machete.png",
-                "codes": "machete_both",
+                "img": "images/items/titanium_sword.png",
+                "codes": "progressive_spear",
             },
         ]
+    },
+    {
+        "name": "Metal Spear",
+        "type": "toggle",
+        "img": "images/items/metal_spear.png",
+        "codes": "metal_spear"
+    },
+    {
+        "name": "Machete",
+        "type": "toggle",
+        "img": "images/items/machete.png",
+        "codes": "machete"
+    },
+    {
+        "name": "Titanium Sword",
+        "type": "toggle",
+        "img": "images/items/titanium_sword.png",
+        "codes": "titanium_sword"
     },
     {
         "name": "Sweep Net",
