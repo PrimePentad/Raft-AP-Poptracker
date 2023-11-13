@@ -107,15 +107,15 @@
             },
             {
                 "img": "images/items/metal_spear.png",
-                "codes": "progressive_spear",
+                "codes": "progressive_spear,metal_spear",
             },
             {
                 "img": "images/items/machete.png",
-                "codes": "progressive_spear",
+                "codes": "progressive_spear,machete",
             },
             {
                 "img": "images/items/titanium_sword.png",
-                "codes": "progressive_spear",
+                "codes": "progressive_spear,titanium_sword",
             },
         ]
     },
