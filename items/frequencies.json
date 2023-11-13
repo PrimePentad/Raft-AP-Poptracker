@@ -215,34 +215,4 @@
         "img": "images/frequencies/radio_tower_frequency.png",
         "codes": "radio_tower_frequency"
     },
-    {
-        "name": "Bolt and Hinge",
-        "type": "composite_toggle",
-        "codes": "bolt_and_hinge",
-        "item_left": "bolt",
-        "item_right": "hinge",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/bolt.png",
-                "img_mods": "@disabled",
-                "codes": "bolt_and_hinge",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/hinge.png",
-                "codes": "hinge",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/bolt.png",
-                "codes": "bolt",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/bolt.png",
-                "codes": "bolt_and_hinge",
-            },
-        ]
-    },
 ]
