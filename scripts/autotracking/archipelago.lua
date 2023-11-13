@@ -74,6 +74,8 @@ function onClear(slot_data)
         progressive_spear.CurrentStage = 1
     end
 
+    print(string.format("testing can_navigate = ", can_navigate()))
+    
     if can_navigate() then
         local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
         radio_tower_frequency.Active = true
