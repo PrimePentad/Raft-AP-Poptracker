@@ -62,34 +62,7 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     -- manually run snes interface functions after onClear in case we are already ingame
 
-    local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
-    local metal_spear = Tracker:FindObjectForCode("metal_spear")
-    local machete = Tracker:FindObjectForCode("machete")
-    local titanium_sword = Tracker:FindObjectForCode("titanium_sword")
-    if titanium_sword.Active == true then
-        progressive_spear.CurrentStage = 3
-    elseif machete.Active == true then
-        progressive_spear.CurrentStage = 2
-    elseif metal_spear.Active == true then
-        progressive_spear.CurrentStage = 1
-    end
-
-    local receiver = Tracker:FindObjectForCode("receiver")
-    if receiver.Active == true then
-        print(string.format("testing"))
-        local smelter = Tracker:FindObjectForCode("smelter")
-        local bolt = Tracker:FindObjectForCode("bolt")
-        local hinge = Tracker:FindObjectForCode("hinge")
-        local battery = Tracker:FindObjectForCode("battery")
-        local circuit board = Tracker:FindObjectForCode("circuit board")
-        local antenna = Tracker:FindObjectForCode("antenna")
-        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
-        if (smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true) then
-            radio_tower_frequency.Active = true
-        end
-    end
-
-
+    
     
     if SLOT_DATA == nil then
         return
@@ -167,6 +140,32 @@ function onItem(index, item_id, item_name, player_number)
         print(string.format("global items: %s", dump_table(GLOBAL_ITEMS)))
     end
 
+    local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
+    local metal_spear = Tracker:FindObjectForCode("metal_spear")
+    local machete = Tracker:FindObjectForCode("machete")
+    local titanium_sword = Tracker:FindObjectForCode("titanium_sword")
+    if titanium_sword.Active == true then
+        progressive_spear.CurrentStage = 3
+    elseif machete.Active == true then
+        progressive_spear.CurrentStage = 2
+    elseif metal_spear.Active == true then
+        progressive_spear.CurrentStage = 1
+    end
+
+    local receiver = Tracker:FindObjectForCode("receiver")
+    if receiver.Active == true then
+        print(string.format("testing"))
+        local smelter = Tracker:FindObjectForCode("smelter")
+        local bolt = Tracker:FindObjectForCode("bolt")
+        local hinge = Tracker:FindObjectForCode("hinge")
+        local battery = Tracker:FindObjectForCode("battery")
+        local circuit board = Tracker:FindObjectForCode("circuit board")
+        local antenna = Tracker:FindObjectForCode("antenna")
+        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
+        if (smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true) then
+            radio_tower_frequency.Active = true
+        end
+    end
     
     if item_id == 47110 then   
         local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
