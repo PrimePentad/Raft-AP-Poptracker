@@ -159,7 +159,7 @@ function onItem(index, item_id, item_name, player_number)
         local bolt = Tracker:FindObjectForCode("bolt")
         local hinge = Tracker:FindObjectForCode("hinge")
         local battery = Tracker:FindObjectForCode("battery")
-        local circuit board = Tracker:FindObjectForCode("circuit board")
+        local circuit_board = Tracker:FindObjectForCode("circuit_board")
         local antenna = Tracker:FindObjectForCode("antenna")
         local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
         if (smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true) then
