@@ -68,10 +68,10 @@ function onClear(slot_data)
         return
     end
 
-    print(string.format("test before")
+    print(string.format("test before"))
     
     if slot_data['big_island_early_crafting'] then
-        print(string.format("test after")
+        print(string.format("test after"))
         local big_islands = Tracker:FindObjectForCode("big_islands_mode")
         big_islands.Active = slot_data['big_island_early_crafting']
     end
