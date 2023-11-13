@@ -87,6 +87,9 @@ function onClear(slot_data)
             radio_tower_frequency.Active = true
         end
     end
+
+    print(string.format("smelter stage = ", smelter.CurrentStage)
+    print(string.format("battery stage = ", battery.CurrentStage)
     
     if SLOT_DATA == nil then
         return
