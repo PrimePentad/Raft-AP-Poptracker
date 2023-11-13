@@ -196,6 +196,7 @@ function onItem(index, item_id, item_name, player_number)
         elseif progressive_spear.CurrentStage < 1 and item_id == 47082 then
             progressive_spear.CurrentStage = 1
         end
+    end
 
     if item_id == 47115 then   
         local progressive_vasagatan_frequency = Tracker:FindObjectForCode("progressive_vasagatan_frequency")
