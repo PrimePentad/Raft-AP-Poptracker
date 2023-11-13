@@ -231,13 +231,11 @@
             {
                 "left": false, "right": true,
                 "img": "images/items/hinge.png",
-                "img_mods": "@disabled",
                 "codes": "hinge",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/bolt.png",
-                "img_mods": "@disabled",
                 "codes": "bolt",
             },
             {
