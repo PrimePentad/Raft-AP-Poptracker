@@ -230,15 +230,15 @@
             },
             {
                 "left": false, "right": true,
-                "img": "images/items/bolt.png",
+                "img": "images/items/hinge.png",
                 "img_mods": "@disabled",
-                "codes": "bolt_and_hinge",
+                "codes": "hinge",
             },
             {
                 "left": true, "right": false,
                 "img": "images/items/bolt.png",
                 "img_mods": "@disabled",
-                "codes": "bolt_and_hinge",
+                "codes": "bolt",
             },
             {
                 "left": true, "right": true,
