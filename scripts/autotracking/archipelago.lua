@@ -62,10 +62,22 @@ function onClear(slot_data)
     GLOBAL_ITEMS = {}
     -- manually run snes interface functions after onClear in case we are already ingame
 
+    local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
+    local metal_spear = Tracker:FindObjectForCode("metal_spear")
+    local machete = Tracker:FindObjectForCode("machete")
+    local titanium_sword = Tracker:FindObjectForCode("titanium_sword")
+    if titanium_sword.Active == true then
+        progressive_spear.CurrentStage = 3
+    elseif machete.Active == true then
+        progressive_spear.CurrentStage = 2
+    elseif metal_spear.Active == true then
+        progressive_spear.CurrentStage = 1
+    end
+
     if SLOT_DATA == nil then
         return
     end
-    
+
     if slot_data['big_island_early_crafting'] then
         local big_islands = Tracker:FindObjectForCode("big_islands_mode")
         big_islands.Active = slot_data['big_island_early_crafting']
