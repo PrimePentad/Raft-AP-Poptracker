@@ -151,21 +151,6 @@ function onItem(index, item_id, item_name, player_number)
     elseif metal_spear.Active == true then
         progressive_spear.CurrentStage = 1
     end
-
-    local receiver = Tracker:FindObjectForCode("receiver")
-    if receiver.Active == true then
-        print(string.format("testing"))
-        local smelter = Tracker:FindObjectForCode("smelter")
-        local bolt = Tracker:FindObjectForCode("bolt")
-        local hinge = Tracker:FindObjectForCode("hinge")
-        local battery = Tracker:FindObjectForCode("battery")
-        local circuit_board = Tracker:FindObjectForCode("circuit_board")
-        local antenna = Tracker:FindObjectForCode("antenna")
-        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
-        if (smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true) then
-            radio_tower_frequency.Active = true
-        end
-    end
     
     if item_id == 47110 then   
         local progressive_smelter = Tracker:FindObjectForCode("progressive_smelter")
