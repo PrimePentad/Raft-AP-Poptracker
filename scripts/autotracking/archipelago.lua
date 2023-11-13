@@ -88,8 +88,8 @@ function onClear(slot_data)
         end
     end
 
-    print(string.format("smelter stage = ", smelter.CurrentStage)
-    print(string.format("battery stage = ", battery.CurrentStage)
+    print(string.format("smelter stage = ", smelter.CurrentStage))
+    print(string.format("battery stage = ", battery.CurrentStage))
     
     if SLOT_DATA == nil then
         return
