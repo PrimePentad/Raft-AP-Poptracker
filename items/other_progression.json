@@ -98,13 +98,12 @@
     {
         "name": "Progressive Spear",
         "type": "progressive",
-        "disabled_img": "images/items/wooden_spear.png",
         "initial_stage_idx": 0,
-        "codes": "progressive_spear",
         "stages": [
             {
                 "img": "images/items/metal_spear.png",
                 "codes": "progressive_spear",
+                "disabled_img": "images/items/wooden_spear.png",
             },
             {
                 "img": "images/items/machete.png",
