@@ -187,13 +187,15 @@ function onItem(index, item_id, item_name, player_number)
         end
     end
 
-    if item_id == 47114 then   
-        local progressive_machete = Tracker:FindObjectForCode("progressive_machete")
+    if item_id == 47082 or item_id == 47083 or item_id == 47084 then
         local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
-        if progressive_spear.CurrentStage >= 2 then
-           progressive_machete.Active = true
+        if progressive_spear.CurrentStage < 3 and item_id == 47084 then
+            progressive_spear.CurrentStage = 3
+        elseif progressive_spear.CurrentStage < 2 and item_id == 47083 then
+            progressive_spear.CurrentStage = 2
+        elseif progressive_spear.CurrentStage < 1 and item_id == 47082 then
+            progressive_spear.CurrentStage = 1
         end
-    end
 
     if item_id == 47115 then   
         local progressive_vasagatan_frequency = Tracker:FindObjectForCode("progressive_vasagatan_frequency")
