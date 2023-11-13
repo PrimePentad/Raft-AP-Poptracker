@@ -224,25 +224,25 @@
         "images": [
             {
                 "left": false, "right": false,
-                "img": "images/frequencies/bolt.png",
+                "img": "images/items/bolt.png",
                 "img_mods": "@disabled",
                 "codes": "bolt_and_hinge",
             },
             {
                 "left": false, "right": true,
-                "img": "images/frequencies/bolt.png",
+                "img": "images/items/bolt.png",
                 "img_mods": "@disabled",
                 "codes": "bolt_and_hinge",
             },
             {
                 "left": true, "right": false,
-                "img": "images/frequencies/bolt.png",
+                "img": "images/items/bolt.png",
                 "img_mods": "@disabled",
                 "codes": "bolt_and_hinge",
             },
             {
                 "left": true, "right": true,
-                "img": "images/frequencies/bolt.png",
+                "img": "images/items/bolt.png",
                 "codes": "bolt_and_hinge",
             },
         ]
