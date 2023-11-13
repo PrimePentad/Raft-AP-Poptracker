@@ -170,35 +170,6 @@
         "codes": "non_progressive_metal_detector"
     },
     {
-        "name": "Progressive Spear",
-        "type": "progressive",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "codes": "progressive_spear",
-                "inherit_codes": false
-            },
-            {
-                "codes": "progressive_spear",
-                "inherit_codes": false
-            },
-            {
-                "codes": "progressive_spear",
-                "inherit_codes": false
-            },
-        ]
-    },
-    {
-        "name": "Progressive Machete",
-        "type": "toggle",
-        "codes": "progressive_machete"
-    },
-    {
-        "name": "Non Progressive Machete",
-        "type": "toggle",
-        "codes": "non_progressive_machete"
-    },
-    {
         "name": "Progressive Frequency",
         "type": "progressive",
         "initial_stage_idx": 0,
