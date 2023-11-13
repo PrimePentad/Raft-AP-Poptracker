@@ -74,11 +74,17 @@ function onClear(slot_data)
         progressive_spear.CurrentStage = 1
     end
 
-    print(string.format("testing can_navigate = ", can_navigate()))
-    
-    if can_navigate() then
+    local receiver = Tracker:FindObjectForCode("receiver")
+    if receiver.Active == true then
+        local smelter = Tracker:FindObjectForCode("smelter")
+        local bolt = Tracker:FindObjectForCode("bolt")
+        local hinge = Tracker:FindObjectForCode("hinge")
+        local battery = Tracker:FindObjectForCode("battery")
+        local circuit board = Tracker:FindObjectForCode("circuit board")
+        local antenna = Tracker:FindObjectForCode("antenna")
         local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
-        radio_tower_frequency.Active = true
+        if smelter.Active == true and bolt.Active == true and hinge.Active == true and battery.Active == true and circuit_board.Active == true and antenna.Active == true then
+            radio_tower_frequency.Active = true
     end
     
     if SLOT_DATA == nil then
