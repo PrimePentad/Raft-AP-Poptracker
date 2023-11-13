@@ -189,12 +189,12 @@ function onItem(index, item_id, item_name, player_number)
 
     if item_id == 47082 or item_id == 47083 or item_id == 47084 then
         local progressive_spear = Tracker:FindObjectForCode("progressive_spear")
-        if progressive_spear.CurrentStage < 4 and item_id == 47084 then
-            progressive_spear.CurrentStage = 4
-        elseif progressive_spear.CurrentStage < 3 and item_id == 47083 then
+        if progressive_spear.CurrentStage < 3 and item_id == 47084 then
             progressive_spear.CurrentStage = 3
-        elseif progressive_spear.CurrentStage < 2 and item_id == 47082 then
+        elseif progressive_spear.CurrentStage < 2 and item_id == 47083 then
             progressive_spear.CurrentStage = 2
+        elseif progressive_spear.CurrentStage < 1 and item_id == 47082 then
+            progressive_spear.CurrentStage = 1
         end
     end
 
