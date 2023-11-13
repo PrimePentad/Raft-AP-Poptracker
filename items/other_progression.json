@@ -96,32 +96,26 @@
         "codes": "shovel"
     },
     {
-        "name": "Machete",
-        "type": "composite_toggle",
-        "codes": "machete",
-        "item_left": "progressive_machete",
-        "item_right": "non_progressive_machete",
-        "images": [
+        "name": "Progressive Spear",
+        "type": "progressive",
+        "disabled_img": "images/items/wooden_spear.png",
+        "initial_stage_idx": 0,
+        "codes": "progressive_spear",
+        "stages": [
             {
-                "left": false, "right": false,
-                "img": "images/items/machete.png",
-                "img_mods": "@disabled",
-                "codes": "machete",
+                "codes": "progressive_spear",
+                "img": "images/items/metal_spear.png",
+                "inherit_codes": false
             },
             {
-                "left": false, "right": true,
+                "codes": "progressive_spear",
                 "img": "images/items/machete.png",
-                "codes": "non_progressive_machete",
+                "inherit_codes": false
             },
             {
-                "left": true, "right": false,
-                "img": "images/items/machete.png",
-                "codes": "progressive_machete",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/machete.png",
-                "codes": "machete_both",
+                "codes": "progressive_spear",
+                "img": "images/items/titanium_sword.png",
+                "inherit_codes": false
             },
         ]
     },
