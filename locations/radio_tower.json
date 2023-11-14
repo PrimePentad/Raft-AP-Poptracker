@@ -106,24 +106,6 @@
                     }
                 ]
             },
-            {
-                "name": "Radio Tower Frequency Location",
-                "visibility_rules":
-                    ["$can_navigate"],
-                "sections":[
-                    {
-                        "name": "Radio Tower Frequency",
-                        "hosted_item": "radio_tower_frequency"
-                    },
-                ],
-                "map_locations":[
-                    {
-                        "map": "Radio Tower",
-                        "x": 10,
-                        "y": 10
-                    }
-                ]
-            }
         ]
     }
 ]
