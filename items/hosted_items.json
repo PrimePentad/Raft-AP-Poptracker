@@ -1,0 +1,7 @@
+[   
+    {
+        "name": "Relay Station Quest Item",
+        "type": "toggle",
+        "codes": "relay_station_quest_item"
+    },
+]
