@@ -183,8 +183,8 @@ function onItem(index, item_id, item_name, player_number)
 
     if item_id == 47103 then   
         local battery = Tracker:FindObjectForCode("battery")
-        local progressive_batteries = Tracker:FindObjectForCode("progressive_batteries")
-        if progressive_batteries.CurrentStage >= 1 then
+        local progressive_battery = Tracker:FindObjectForCode("progressive_battery")
+        if progressive_battery.CurrentStage >= 1 then
            battery.Active = true
         end
     end
