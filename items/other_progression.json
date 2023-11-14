@@ -61,7 +61,7 @@
     },
     {
         "name": "Metal Detector",
-        "type": "composite_toggle",
+        "type": "toggle",
         "img": "images/items/metal_detector.png",
         "codes": "metal_detector",
     },
