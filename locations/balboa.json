@@ -77,7 +77,6 @@
                         "name": "Activate All Relay Stations",
                         "access_rules":
                             ["$can_cut"],
-                        "item_count": 1,
                         "hosted_item": "relay_station_quest_item"
                     },
                 ],
@@ -102,7 +101,6 @@
                         "name": "Activate All Relay Stations",
                         "access_rules":
                             ["$can_cut"],
-                        "item_count": 1,
                         "hosted_item": "relay_station_quest_item"
                     },
                 ],
@@ -177,7 +175,6 @@
                     },
                     {
                         "name": "Activate All Relay Stations",
-                        "item_count": 1,
                         "hosted_item": "relay_station_quest_item"
                     },
                 ],
