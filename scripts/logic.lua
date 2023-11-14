@@ -37,7 +37,7 @@ function has_shears()
 end
 
 function can_cut()
-    return (has("progressive_spear",2))
+    return (has("machete_progressive"))
 end
 
 function can_zipline()
