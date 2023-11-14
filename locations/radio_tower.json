@@ -1,8 +1,8 @@
 [
     {
         "name": "Radio Tower",
-        "chest_unopened_img": "images/research_unresearched.png",
-        "chest_opened_img": "images/research_researched.png",
+        "chest_unopened_img": "images/chest_closed.png",
+        "chest_opened_img": "images/chest_open.png",
         "children": [
             {
                 "name": "Radio Tower Level A (Underwater)",
@@ -105,7 +105,7 @@
                         "y": 1420
                     }
                 ]
-            }
+            },
         ]
     }
 ]
