@@ -1,33 +1,9 @@
 [
     {
         "name": "Smelter",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/smelter.png",
         "codes": "smelter",
-        "item_left": "progressive_smelter",
-        "item_right": "non_progressive_smelter",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/smelter.png",
-                "img_mods": "@disabled",
-                "codes": "smelter"
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/smelter.png",
-                "codes": "non_progressive_smelter"
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/smelter.png",
-                "codes": "progressive_smelter"
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/smelter.png",
-                "codes": "smelterboth"
-            },
-        ]
     },    
     {
         "name": "Bolt",
