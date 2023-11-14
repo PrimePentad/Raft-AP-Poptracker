@@ -5,5 +5,6 @@
         "codes": "relay_station_quest_item",
         "img": "images/chest_open.png",
         "disabled_img": "images/chest_closed.png",
+        "disabled_img_mods": "none"
     },
 ]
