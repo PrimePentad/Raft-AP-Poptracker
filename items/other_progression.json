@@ -103,19 +103,19 @@
         "stages": [
             {
                 "img": "images/items/wooden_spear.png",
-                "codes": "progressive_spear,wooden_spear",
+                "codes": "progressive_spear,wooden_spear_progressive",
             },
             {
                 "img": "images/items/metal_spear.png",
-                "codes": "progressive_spear,metal_spear",
+                "codes": "progressive_spear,metal_spear_progressive",
             },
             {
                 "img": "images/items/machete.png",
-                "codes": "progressive_spear,machete",
+                "codes": "progressive_spear,machete_progressive",
             },
             {
                 "img": "images/items/titanium_sword.png",
-                "codes": "progressive_spear,titanium_sword",
+                "codes": "progressive_spear,titanium_sword_progressive",
             },
         ]
     },
