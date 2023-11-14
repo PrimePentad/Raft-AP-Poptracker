@@ -1,33 +1,9 @@
 [
     {
         "name": "Empty Bottle",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/empty_bottle.png",
         "codes": "empty_bottle",
-        "item_left": "progressive_empty_bottle",
-        "item_right": "non_progressive_empty_bottle",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/empty_bottle.png",
-                "img_mods": "@disabled",
-                "codes": "empty_bottle",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/empty_bottle.png",
-                "codes": "non_progressive_empty_bottle",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/empty_bottle.png",
-                "codes": "progressive_empty_bottle",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/empty_bottle.png",
-                "codes": "empty_bottle_both",
-            },
-        ]
     },
     {
         "name": "Birds Nest",
@@ -61,33 +37,9 @@
     },
     {
         "name": "Metal Detector",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/metal_detector.png",
         "codes": "metal_detector",
-        "item_left": "progressive_metal_detector",
-        "item_right": "non_progressive_metal_detector",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/metal_detector.png",
-                "img_mods": "@disabled",
-                "codes": "metal_detector",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/metal_detector.png",
-                "codes": "non_progressive_metal_detector",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/metal_detector.png",
-                "codes": "progressive_metal_detector",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/metal_detector.png",
-                "codes": "metal_detector_both",
-            },
-        ]
     },
     {
         "name": "Shovel",
@@ -145,32 +97,8 @@
     },
     {
         "name": "Zipline Tool",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/zipline_tool.png",
         "codes": "zipline_tool",
-        "item_left": "progressive_zipline_tool",
-        "item_right": "non_progressive_zipline_tool",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/zipline_tool.png",
-                "img_mods": "@disabled",
-                "codes": "zipline_tool",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/zipline_tool.png",
-                "codes": "non_progressive_zipline_tool",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/zipline_tool.png",
-                "codes": "progressive_zipline_tool",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/zipline_tool.png",
-                "codes": "zipline_tool_both",
-            },
-        ]
     }
 ]
