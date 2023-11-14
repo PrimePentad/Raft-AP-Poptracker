@@ -150,26 +150,6 @@
         ]
     },
     {
-        "name": "Progressive Smelter",
-        "type": "toggle",
-        "codes": "progressive_smelter"
-    },
-    {
-        "name": "Non Progressive Smelter",
-        "type": "toggle",
-        "codes": "non_progressive_smelter"
-    },
-    {
-        "name": "Progressive Metal Detector",
-        "type": "toggle",
-        "codes": "progressive_metal_detector"
-    },
-    {
-        "name": "Non Progressive Metal Detector",
-        "type": "toggle",
-        "codes": "non_progressive_metal_detector"
-    },
-    {
         "name": "Progressive Frequency",
         "type": "progressive",
         "initial_stage_idx": 0,
