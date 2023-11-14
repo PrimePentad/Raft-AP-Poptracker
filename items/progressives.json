@@ -16,119 +16,69 @@
         ]
     },
     {
-        "name": "Progressive Empty Bottle",
-        "type": "toggle",
-        "codes": "progressive_empty_bottle"
-    },
-    {
-        "name": "Non Progressive Empty Bottle",
-        "type": "toggle",
-        "codes": "non_progressive_empty_bottle"
-    },
-    {
-        "name": "Progressive Batteries",
-        "type": "progressive",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "codes": "progressive_batteries",
-                "inherit_codes": false
-            },
-            {
-                "codes": "progressive_batteries",
-                "inherit_codes": false
-            },
-            {
-                "codes": "progressive_batteries",
-                "inherit_codes": false
-            },
-            {
-                "codes": "progressive_batteries",
-                "inherit_codes": false
-            },
-        ]
-    },
-    {
         "name": "Progressive Battery",
-        "type": "toggle",
-        "codes": "progressive_battery"
-    },
-    {
-        "name": "Non Progressive Battery",
-        "type": "toggle",
-        "codes": "non_progressive_battery"
-    },
-    {
-        "name": "Progressive Engines",
         "type": "progressive",
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "progressive_engines",
+                "codes": "progressive_battery",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_engines",
+                "codes": "progressive_battery",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_engines",
+                "codes": "progressive_battery",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_engines",
+                "codes": "progressive_battery",
                 "inherit_codes": false
             },
         ]
     },
     {
         "name": "Progressive Engine",
-        "type": "toggle",
-        "codes": "progressive_engine"
-    },
-    {
-        "name": "Non Progressive Engine",
-        "type": "toggle",
-        "codes": "non_progressive_Engine"
-    },
-    {
-        "name": "Progressive Steering Wheel",
-        "type": "toggle",
-        "codes": "progressive_steering_wheel"
-    },
-    {
-        "name": "Non Progressive Steering Wheel",
-        "type": "toggle",
-        "codes": "non_progressive_steering_wheel"
-    },
-    {
-        "name": "Progressive Ziplines",
         "type": "progressive",
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "progressive_ziplines",
+                "codes": "progressive_engine",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_ziplines",
+                "codes": "progressive_engine",
                 "inherit_codes": false
             },
             {
-                "codes": "progressive_ziplines",
+                "codes": "progressive_engine",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive_engine",
                 "inherit_codes": false
             },
         ]
     },
     {
-        "name": "Progressive Zipline Tool",
-        "type": "toggle",
-        "codes": "progressive_zipline_tool"
-    },
-    {
-        "name": "Non Progressive Zipline Tool",
-        "type": "toggle",
-        "codes": "non_progressive_zipline_tool"
+        "name": "Progressive Zipline",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "progressive_zipline",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive_zipline",
+                "inherit_codes": false
+            },
+            {
+                "codes": "progressive_zipline",
+                "inherit_codes": false
+            },
+        ]
     },
     {
         "name": "Progressive Metals",
@@ -148,26 +98,6 @@
                 "inherit_codes": false
             },
         ]
-    },
-    {
-        "name": "Progressive Smelter",
-        "type": "toggle",
-        "codes": "progressive_smelter"
-    },
-    {
-        "name": "Non Progressive Smelter",
-        "type": "toggle",
-        "codes": "non_progressive_smelter"
-    },
-    {
-        "name": "Progressive Metal Detector",
-        "type": "toggle",
-        "codes": "progressive_metal_detector"
-    },
-    {
-        "name": "Non Progressive Metal Detector",
-        "type": "toggle",
-        "codes": "non_progressive_metal_detector"
     },
     {
         "name": "Progressive Frequency",
@@ -203,75 +133,5 @@
                 "inherit_codes": false
             },
         ]
-    },
-    {
-        "name": "Progressive Vasagatan Frequency",
-        "type": "toggle",
-        "codes": "progressive_vasagatan_frequency"
-    },
-    {
-        "name": "Non Progressive Vasagatan Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_vasagatan_frequency"
-    },
-    {
-        "name": "Progressive Balboa Frequency",
-        "type": "toggle",
-        "codes": "progressive_balboa_frequency"
-    },
-    {
-        "name": "Non Progressive Balboa Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_balboa_frequency"
-    },
-    {
-        "name": "Progressive Caravan Town Frequency",
-        "type": "toggle",
-        "codes": "progressive_caravan_town_frequency"
-    },
-    {
-        "name": "Non Progressive Caravan Town Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_caravan_town_frequency"
-    },
-    {
-        "name": "Progressive Tangaroa Frequency",
-        "type": "toggle",
-        "codes": "progressive_tangaroa_frequency"
-    },
-    {
-        "name": "Non Progressive Tangaroa Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_tangaroa_frequency"
-    },
-    {
-        "name": "Progressive Varuna Point Frequency",
-        "type": "toggle",
-        "codes": "progressive_varuna_point_frequency"
-    },
-    {
-        "name": "Non Progressive Varuna Point Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_varuna_point_frequency"
-    },
-    {
-        "name": "Progressive Temperance Frequency",
-        "type": "toggle",
-        "codes": "progressive_temperance_frequency"
-    },
-    {
-        "name": "Non Progressive Temperance Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_temperance_frequency"
-    },
-    {
-        "name": "Progressive Utopia Frequency",
-        "type": "toggle",
-        "codes": "progressive_utopia_frequency"
-    },
-    {
-        "name": "Non Progressive Utopia Frequency",
-        "type": "toggle",
-        "codes": "non_progressive_utopia_frequency"
     },
 ]
