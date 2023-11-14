@@ -209,10 +209,4 @@
             },
         ]
     },
-    {
-        "name": "Radio Tower Frequency",
-        "type": "toggle",
-        "img": "images/frequencies/radio_tower_frequency.png",
-        "codes": "radio_tower_frequency"
-    },
 ]
