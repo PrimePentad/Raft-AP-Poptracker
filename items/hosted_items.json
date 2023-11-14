@@ -3,7 +3,6 @@
         "name": "Relay Station Quest Item",
         "type": "toggle",
         "codes": "relay_station_quest_item",
-        "chest_unopened_img": "images/research_unresearched.png",
-        "chest_opened_img": "images/research_researched.png",
+        "img": "images/research_unresearched.png",
     },
 ]
