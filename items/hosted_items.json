@@ -13,4 +13,11 @@
         "img": "images/frequencies/radio_tower_frequency.png",
         "codes": "radio_tower_frequency"
     },
+    {
+        "name": "Radio Tower Frequency Collected",
+        "type": "toggle_badged",
+        "base_item": "radio_tower_frequency",
+        "img": "images/chest_closed.png",
+        "codes": "radio_tower_frequency_collected"
+    }
 ]
