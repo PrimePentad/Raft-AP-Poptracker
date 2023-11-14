@@ -25,33 +25,9 @@
     },
     {
         "name": "Battery",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/battery.png",
         "codes": "battery",
-        "item_left": "progressive_battery",
-        "item_right": "non_progressive_battery",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/battery.png",
-                "img_mods": "@disabled",
-                "codes": "battery",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/battery.png",
-                "codes": "non_progressive_battery",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/battery.png",
-                "codes": "progressive_battery",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/battery.png",
-                "codes": "battery_both",
-            },
-        ]
     },
     {
         "name": "Receiver",
@@ -67,62 +43,14 @@
     },
     {
         "name": "Engine",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/engine.png",
         "codes": "engine",
-        "item_left": "progressive_engine",
-        "item_right": "non_progressive_engine",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/engine.png",
-                "img_mods": "@disabled",
-                "codes": "engine",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/engine.png",
-                "codes": "non_progressive_engine",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/engine.png",
-                "codes": "progressive_engine",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/engine.png",
-                "codes": "engine_both",
-            },
-        ]
     },
     {
         "name": "Steering Wheel",
-        "type": "composite_toggle",
+        "type": "toggle",
+        "img": "images/items/steering_wheel.png",
         "codes": "steering_wheel",
-        "item_left": "progressive_steering_wheel",
-        "item_right": "non_progressive_steering_wheel",
-        "images": [
-            {
-                "left": false, "right": false,
-                "img": "images/items/steering_wheel.png",
-                "img_mods": "@disabled",
-                "codes": "steering_wheel",
-            },
-            {
-                "left": false, "right": true,
-                "img": "images/items/steering_wheel.png",
-                "codes": "non_progressive_steering_wheel",
-            },
-            {
-                "left": true, "right": false,
-                "img": "images/items/steering_wheel.png",
-                "codes": "progressive_steering_wheel",
-            },
-            {
-                "left": true, "right": true,
-                "img": "images/items/steering_wheel.png",
-                "codes": "steering_wheel_both",
-            },
-        ]
     },
 ]
