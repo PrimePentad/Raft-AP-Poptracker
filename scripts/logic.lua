@@ -168,7 +168,11 @@ end
 function has_grass_plot()
     return has("grass_plot")
 end
-    
+
+function can_capture_animals_early()
+    return (can_access_big_islands_early() and has("net_launcher") and has("net_canister") and has_smelter())
+end
+
 function can_capture_animals()
     return (can_access_big_islands() and has("net_launcher") and has("net_canister") and has_smelter())
 end
