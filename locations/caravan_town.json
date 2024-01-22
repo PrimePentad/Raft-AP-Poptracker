@@ -7,7 +7,7 @@
             {
                 "name": "Trailer Halfway Up Water Puzzle",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 1",
@@ -25,7 +25,7 @@
           {
                 "name": "Water Pump And Nearby Trailer",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 2",
@@ -43,7 +43,7 @@
           {
                 "name": "Tallest Stack Of Trailers",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 6",
@@ -61,7 +61,7 @@
           {
                 "name": "Trailer With 'Canned Goods' Sign",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Raft Town Article",
@@ -79,7 +79,7 @@
           {
                 "name": "Down Ladder On Rocket Plateau",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 5",
@@ -97,7 +97,7 @@
           {
                 "name": "Detto's Rocket",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 3",
@@ -115,7 +115,7 @@
           {
                 "name": "Major Tom's Rocket Escape Island",
                 "access_rules":
-                    ["$can_access_caravan_town,$has_explosive_powder"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town],$has_explosive_powder"],
                 "sections":[
                     {
                         "name": "Firework Blueprint",
@@ -133,7 +133,7 @@
           {
                 "name": "Bike Air Pump Dive",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Detto Journal 4",
@@ -155,7 +155,7 @@
           {
                 "name": "Central Tower",
                 "access_rules":
-                    ["$can_access_caravan_town"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town]"],
                 "sections":[
                     {
                         "name": "Caravan Island Olaf Speech",
@@ -179,7 +179,7 @@
           {
                 "name": "Infirmary",
                 "access_rules":
-                    ["$can_access_caravan_town,$has_zipline,[$can_zipline]"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Caravan Island Doctor's Note",
@@ -197,7 +197,7 @@
           {
                 "name": "Mayor's House",
                 "access_rules":
-                    ["$can_access_caravan_town,$has_zipline,[$can_zipline]"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Battery Charger Quest",
