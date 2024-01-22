@@ -377,7 +377,7 @@
             {
                 "name": "Shear",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["$has_smelter,$has_hinge"],
                 "sections":[
                     {
                         "name": "Metal Ingot, Hinge, Scrap",
@@ -395,10 +395,10 @@
             {
                 "name": "Net Launcher",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["$has_smelter,$has_bolt"],
                 "sections":[
                     {
-                        "name": "Scrap, Plastic, Metal Ingot",
+                        "name": "Scrap, Plastic, Metal Ingot, Bolt",
                         "item_count": 1
                     }
                 ],
