@@ -51,6 +51,7 @@ end
 function can_early_navigate()
     return (has("battery") and has("receiver") and has("antenna") and 
         has("smelter") and has("circuit_board"))
+end
 
 function can_navigate()
     return (has("battery") and has("receiver") and has("antenna") and 
