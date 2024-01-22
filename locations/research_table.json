@@ -755,7 +755,7 @@
             {
                 "name": "Honey",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Honeycomb, Glass",
@@ -773,7 +773,7 @@
             {
                 "name": "Beehive",
                 "access_rules":
-                    ["$can_access_balboa,[$has_smelter],[$has_hinge],$has_sweep_net"],
+                    ["$can_access_balboa_early,[$can_access_balboa],[$has_smelter],[$has_hinge],$has_sweep_net"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Clay, Hinge, Bee Jar",
@@ -845,7 +845,7 @@
             {
                 "name": "Good Healing Salve",
                 "access_rules":
-                    ["$can_capture_animals,$can_access_balboa,[$has_grass_plot]"],
+                    ["$can_capture_animals,$can_access_balboa_early,[$can_access_balboa],[$has_grass_plot]"],
                 "sections":[
                     {
                         "name": "Egg, Clay, Honeycomb",
