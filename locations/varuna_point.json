@@ -141,7 +141,7 @@
             {
                 "name": "Crane Drop Hole",
                 "access_rules":
-                ["$can_access_varuna_point,$can_zipline"],
+                ["$can_access_varuna_point,$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Varuna Point Frequency to Temperance",
