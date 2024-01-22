@@ -177,7 +177,7 @@
             {
                 "name": "Escape Pod",
                 "access_rules":
-                    ["$can_access_tangaroa_early,[$can_access_tangaroa],$has_zipline",[$can_zipline]],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Tulley Note",
