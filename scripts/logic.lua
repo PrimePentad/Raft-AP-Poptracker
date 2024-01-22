@@ -79,6 +79,10 @@ function has_feather()
     return (can_access_big_islands() or has("birds_nest"))
 end
 
+function has_early_explosive_powder()
+    return (can_access_big_islands_early() and has_smelter())
+end
+
 function has_explosive_powder()
     return (can_access_big_islands() and has_smelter())
 end
