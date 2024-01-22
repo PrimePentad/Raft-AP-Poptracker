@@ -2,49 +2,49 @@
     {
         "name": "Vasagatan Frequency",
         "type": "toggle",
-        "img": "images/frequencies/vasagatan_frequency.png",
+        "img": "images/frequencies/vasagatan_frequency.jpg",
         "codes": "vasagatan_frequency",
     },
     {
         "name": "Balboa Frequency",
         "type": "toggle",
-        "img": "images/frequencies/balboa_frequency.png",
+        "img": "images/frequencies/balboa_frequency.jpg",
         "codes": "balboa_frequency",
     },
     {
         "name": "Caravan Town Frequency",
         "type": "toggle",
-        "img": "images/frequencies/caravan_town_frequency.png",
+        "img": "images/frequencies/caravan_town_frequency.jpg",
         "codes": "caravan_town_frequency",
     },
     {
         "name": "Tangaroa Frequency",
         "type": "toggle",
-        "img": "images/frequencies/tangaroa_frequency.png",
+        "img": "images/frequencies/tangaroa_frequency.jpg",
         "codes": "tangaroa_frequency",
     },
     {
         "name": "Varuna Point Frequency",
         "type": "toggle",
-        "img": "images/frequencies/varuna_point_frequency.png",
+        "img": "images/frequencies/varuna_point_frequency.jpg",
         "codes": "varuna_point_frequency",
     },
     {
         "name": "Temperance Frequency",
         "type": "toggle",
-        "img": "images/frequencies/temperance_frequency.png",
+        "img": "images/frequencies/temperance_frequency.jpg",
         "codes": "temperance_frequency",
     },
     {
         "name": "Utopia Frequency",
         "type": "toggle",
-        "img": "images/frequencies/utopia_frequency.png",
+        "img": "images/frequencies/utopia_frequency.jpg",
         "codes": "utopia_frequency",
     },
     {
         "name": "Radio Tower Frequency",
         "type": "toggle",
-        "img": "images/frequencies/radio_tower_frequency.png",
+        "img": "images/frequencies/radio_tower_frequency.jpg",
         "codes": "radio_tower_frequency"
     },
 ]
