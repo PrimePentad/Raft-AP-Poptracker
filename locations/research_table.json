@@ -593,7 +593,7 @@
             {
                 "name": "Storage",
                 "access_rules":
-                    ["$has_smelter,$has_hinge"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Plank, Scrap, Rope, Hinge",
