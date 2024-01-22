@@ -737,7 +737,7 @@
             {
                 "name": "Net Canister",
                 "access_rules":
-                    ["$has_explosive_powder"],
+                    ["$has_early_explosive_powder,[$has_explosive_powder"],
                 "sections":[
                     {
                         "name": "Explosive Powder, Stone, Rope",
