@@ -7,7 +7,7 @@
             {
                 "name": "Igloo Village Generator",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Bruno Diary 3",
@@ -25,7 +25,7 @@
             {
                 "name": "Igloo Village Medical Igloo",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Bruno Diary 4",
@@ -42,7 +42,7 @@
             },{
                 "name": "Igloo Village Central Igloo",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Advanced Biofuel Extractor Blueprint",
@@ -59,7 +59,7 @@
             },{
                 "name": "Observatory Fence",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Bruno Diary 1",
@@ -76,7 +76,7 @@
             },{
                 "name": "Observatory 1st Level",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Bruno Diary 2",
@@ -97,7 +97,7 @@
             },{
                 "name": "Observatory 2nd Level",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Star Sign 2",
@@ -114,7 +114,7 @@
             },{
                 "name": "Observatory 3rd Level (5964)",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Star Sign 3",
@@ -135,7 +135,7 @@
             },{
                 "name": "Observatory Balcony",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Bruno Diary 5",
@@ -156,7 +156,7 @@
             },{
                 "name": "Reactor Control Room",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Sparrow Note 1",
@@ -173,7 +173,7 @@
             },{
                 "name": "Laboratory Puzzles (Rb-37, Cl-17, Pm-61)",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Sparrow Note 2",
@@ -190,7 +190,7 @@
             },{
                 "name": "Reactor Core",
                 "access_rules":
-                    ["$can_access_temperance"],
+                    ["$can_access_temperance_early,[$can_access_temperance]"],
                 "sections":[
                     {
                         "name": "Temperance Frequency to Utopia",
