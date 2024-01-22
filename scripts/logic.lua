@@ -68,7 +68,7 @@ function can_drive()
 end
 
 function can_access_big_islands_early()
-    return(can_navigate_early() or has("big_islands_mode"))
+    return(can_early_navigate() or has("big_islands_mode"))
 end
 
 function can_access_big_islands()
