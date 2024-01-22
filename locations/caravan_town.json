@@ -179,7 +179,7 @@
           {
                 "name": "Infirmary",
                 "access_rules":
-                    ["$can_access_caravan_town,$can_zipline"],
+                    ["$can_access_caravan_town,$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Caravan Island Doctor's Note",
@@ -197,7 +197,7 @@
           {
                 "name": "Mayor's House",
                 "access_rules":
-                    ["$can_access_caravan_town,$can_zipline"],
+                    ["$can_access_caravan_town,$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Battery Charger Quest",
