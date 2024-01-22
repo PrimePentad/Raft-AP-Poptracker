@@ -251,6 +251,25 @@ function onItem(index, item_id, item_name, player_number)
            utopia_frequency.Active = true
         end
     end
+
+    if item_id == 47035 or item_id == 47037 or item_id == 47038 or item_id == 47039 or item_id == 47044 or
+        item_id == 47045 or item_id == 47056 then
+        local battery = Tracker:FindObjectForCode("battery")
+        local bolt = Tracker:FindObjectForCode("bolt")
+        local circuit_board = Tracker:FindObjectForCode("circuit_board")
+        local hinge = Tracker:FindObjectForCode("hinge")
+        local receiver = Tracker:FindObjectForCode("receiver")
+        local antenna = Tracker:FindObjectForCode("antenna")
+        local smelter = Tracker:FindObjectForCode("smelter")
+        local radio_tower_frequency = Tracker:FindObjectForCode("radio_tower_frequency")
+        if battery.CurrentStage and bolt.CurrentStage and circuit_board.CurrentStage and hinge.CurrentStage and
+            receiver.CurrentStage and antenna.CurrentStage and smelter.CurrentStage then
+            radio_tower_frequency.Active = true
+        else
+            radio_tower_frequency.Active = false
+        end
+    end
+            
     
 end
 
