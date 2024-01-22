@@ -137,7 +137,7 @@
             {
                 "name": "Tower Elevator Floor Zero",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa,$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Riot Log",
@@ -155,7 +155,7 @@
             {
                 "name": "Tower Keypad Room (4813)",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa,$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Cipher",
@@ -177,7 +177,7 @@
             {
                 "name": "Escape Pod",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa,$has_zipline",[$can_zipline]],
                 "sections":[
                     {
                         "name": "Tangaroa Tulley Note",
