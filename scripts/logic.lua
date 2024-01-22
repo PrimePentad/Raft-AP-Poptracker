@@ -159,7 +159,11 @@ end
 function can_treasure_hunt()
     return (can_shovel() and has("battery") and has("metal_detector"))
 end
-            
+
+function has_grass_plot()
+    return has("grass_plot")
+end
+    
 function can_capture_animals()
     return (can_access_big_islands() and has("net_launcher") and has("net_canister") and has_smelter())
 end
