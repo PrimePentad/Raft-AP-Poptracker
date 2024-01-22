@@ -16,7 +16,7 @@
                     {
                         "name": "Utopia Complete",
                         "access_rules":
-                            ["$can_zipline,$can_shovel"],
+                            ["$has_zipline,$can_shovel,[$can_zipline]"],
                         "item_count": 1
                     },
                 ],
@@ -67,7 +67,7 @@
             {
                 "name": "Olof Fight 1 Reward (Weights 31321, 515412432)",
                 "access_rules":
-                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                    ["$can_access_utopia,$has_zipline,$can_shovel,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Electric Zipline Blueprint",
@@ -85,7 +85,7 @@
             {
                 "name": "Final Olof Fight Reward",
                 "access_rules":
-                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                    ["$can_access_utopia,$has_zipline,$can_shovel,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Titanium Tools Blueprint",
