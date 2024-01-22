@@ -115,7 +115,7 @@
           {
                 "name": "Major Tom's Rocket Escape Island",
                 "access_rules":
-                    ["$can_access_caravan_town_early,[$can_access_caravan_town],$has_explosive_powder"],
+                    ["$can_access_caravan_town_early,[$can_access_caravan_town],$has_early_explosive_powder,[$has_explosive_powder"],
                 "sections":[
                     {
                         "name": "Firework Blueprint",
@@ -164,7 +164,7 @@
                     {
                         "name": "Zipline Quest",
                         "access_rules":
-                            ["$has_explosive_powder"],
+                            ["$has_early_explosive_powder,[$has_explosive_powder"],
                         "item_count": 1
                     },
                 ],
