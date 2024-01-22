@@ -2,49 +2,49 @@
     {
         "name": "Empty Bottle",
         "type": "toggle",
-        "img": "images/items/empty_bottle.png",
+        "img": "images/items/empty_bottle.jpg",
         "codes": "empty_bottle",
     },
     {
         "name": "Birds Nest",
         "type": "toggle",
-        "img": "images/items/birds_nest.png",
+        "img": "images/items/birds_nest.jpg",
         "codes": "birds_nest",
     },
     {
         "name": "Net Launcher",
         "type": "toggle",
-        "img": "images/items/net_launcher.png",
+        "img": "images/items/net_launcher.jpg",
         "codes": "net_launcher",
     },
     {
         "name": "Net Canister",
         "type": "toggle",
-        "img": "images/items/net_canister.png",
+        "img": "images/items/net_canister.jpg",
         "codes": "net_canister",
     },
     {
         "name": "Grass Plot",
         "type": "toggle",
-        "img": "images/items/grass_plot.png",
+        "img": "images/items/grass_plot.jpg",
         "codes": "grass_plot",
     },
     {
         "name": "Shears",
         "type": "toggle",
-        "img": "images/items/shears.png",
+        "img": "images/items/shears.jpg",
         "codes": "shears",
     },
     {
         "name": "Metal Detector",
         "type": "toggle",
-        "img": "images/items/metal_detector.png",
+        "img": "images/items/metal_detector.jpg",
         "codes": "metal_detector",
     },
     {
         "name": "Shovel",
         "type": "toggle",
-        "img": "images/items/shovel.png",
+        "img": "images/items/shovel.jpg",
         "codes": "shovel"
     },
     {
@@ -54,19 +54,19 @@
         "allow_disabled": false,
         "stages": [
             {
-                "img": "images/items/wooden_spear.png",
+                "img": "images/items/wooden_spear.jpg",
                 "codes": "progressive_spear,wooden_spear_progressive",
             },
             {
-                "img": "images/items/metal_spear.png",
+                "img": "images/items/metal_spear.jpg",
                 "codes": "progressive_spear,metal_spear_progressive",
             },
             {
-                "img": "images/items/machete.png",
+                "img": "images/items/machete.jpg",
                 "codes": "progressive_spear,machete_progressive",
             },
             {
-                "img": "images/items/titanium_sword.png",
+                "img": "images/items/titanium_sword.jpg",
                 "codes": "progressive_spear,titanium_sword_progressive",
             },
         ]
@@ -74,31 +74,31 @@
     {
         "name": "Metal Spear",
         "type": "toggle",
-        "img": "images/items/metal_spear.png",
+        "img": "images/items/metal_spear.jpg",
         "codes": "metal_spear"
     },
     {
         "name": "Machete",
         "type": "toggle",
-        "img": "images/items/machete.png",
+        "img": "images/items/machete.jpg",
         "codes": "machete"
     },
     {
         "name": "Titanium Sword",
         "type": "toggle",
-        "img": "images/items/titanium_sword.png",
+        "img": "images/items/titanium_sword.jpg",
         "codes": "titanium_sword"
     },
     {
         "name": "Sweep Net",
         "type": "toggle",
-        "img": "images/items/sweep_net.png",
+        "img": "images/items/sweep_net.jpg",
         "codes": "sweep_net"
     },
     {
         "name": "Zipline Tool",
         "type": "toggle",
-        "img": "images/items/zipline_tool.png",
+        "img": "images/items/zipline_tool.jpg",
         "codes": "zipline_tool",
     }
 ]
