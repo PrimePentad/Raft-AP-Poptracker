@@ -827,7 +827,7 @@
             {
                 "name": "Healing Salve",
                 "access_rules":
-                    ["$can_capture_animals"],
+                    ["$can_capture_animals,[$has_grass_plot]"],
                 "sections":[
                     {
                         "name": "Egg, Clay",
@@ -845,7 +845,7 @@
             {
                 "name": "Good Healing Salve",
                 "access_rules":
-                    ["$can_capture_animals,$can_access_balboa"],
+                    ["$can_capture_animals,$can_access_balboa,[$has_grass_plot]"],
                 "sections":[
                     {
                         "name": "Egg, Clay, Honeycomb",
@@ -863,7 +863,7 @@
             {
                 "name": "Backpack",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
                 "sections":[
                     {
                         "name": "Rope, Leather Wool",
@@ -881,7 +881,7 @@
             {
                 "name": "Leather Helmet",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -899,7 +899,7 @@
             {
                 "name": "Leather Body Armor",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -917,7 +917,7 @@
             {
                 "name": "Leather Greaves",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
