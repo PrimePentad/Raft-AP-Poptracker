@@ -377,7 +377,7 @@
             {
                 "name": "Shear",
                 "access_rules":
-                    ["$has_smelter,$has_hinge"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Metal Ingot, Hinge, Scrap",
@@ -395,7 +395,7 @@
             {
                 "name": "Net Launcher",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Scrap, Plastic, Metal Ingot, Bolt",
@@ -413,7 +413,7 @@
             {
                 "name": "Metal Fishing Rod",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter,$has_bolt]"],
                 "sections":[
                     {
                         "name": "Scrap, Bolt, Rope",
@@ -431,7 +431,7 @@
             {
                 "name": "Cooking Pot",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Metal Ingot, Bolt, Vine Goo",
@@ -449,7 +449,7 @@
             {
                 "name": "Large Crop Plot",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter,$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Nail, Bolt",
@@ -467,7 +467,7 @@
             {
                 "name": "Metal Axe",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter,$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -485,7 +485,7 @@
             {
                 "name": "Scrap Hook",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter,$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -503,7 +503,7 @@
             {
                 "name": "Shovel",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Bolt, Metal Ingot",
@@ -521,7 +521,7 @@
             {
                 "name": "Sweep Net",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Vine Goo, Bolt",
@@ -539,7 +539,7 @@
             {
                 "name": "Basic Bow",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Vine Goo, Bolt",
@@ -575,7 +575,7 @@
             {
                 "name": "Stationary Anchor",
                 "access_rules":
-                    ["$has_smelter,$has_hinge"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Metal Ingot, Hinge",
@@ -629,7 +629,7 @@
             {
                 "name": "Binoculars",
                 "access_rules":
-                    ["$has_smelter,$has_empty_bottle,$has_bolt"],
+                    ["$has_smelter,$has_empty_bottle,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Empty Bottle, Bolt, Glass, Rope",
@@ -647,7 +647,7 @@
             {
                 "name": "Juicer",
                 "access_rules":
-                    ["$has_smelter,$has_bolt,$has_circuit_board"],
+                    ["$has_smelter,[$has_bolt],$has_circuit_board"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Bolt, Vine Goo, Circuit Board",
@@ -773,7 +773,7 @@
             {
                 "name": "Beehive",
                 "access_rules":
-                    ["$can_access_balboa,$has_smelter,$has_hinge,$has_sweep_net"],
+                    ["$can_access_balboa,[$has_smelter],[$has_hinge],$has_sweep_net"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Clay, Hinge, Bee Jar",
