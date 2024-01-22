@@ -791,7 +791,7 @@
             {
                 "name": "Advanced Collection Net",
                 "access_rules":
-                    ["$can_treasure_hunt"],
+                    ["$can_early_treasure_hunt,[$can_treasure_hunt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Titanium Ingot",
