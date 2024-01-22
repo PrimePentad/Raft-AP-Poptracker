@@ -413,7 +413,7 @@
             {
                 "name": "Metal Fishing Rod",
                 "access_rules":
-                    ["$[$has_smelter],[$has_bolt]"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Scrap, Bolt, Rope",
@@ -449,7 +449,7 @@
             {
                 "name": "Large Crop Plot",
                 "access_rules":
-                    ["$[$has_smelter],[$has_bolt]"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Nail, Bolt",
@@ -467,7 +467,7 @@
             {
                 "name": "Metal Axe",
                 "access_rules":
-                    ["$[$has_smelter],[$has_bolt]"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -485,7 +485,7 @@
             {
                 "name": "Scrap Hook",
                 "access_rules":
-                    ["$[$has_smelter],[$has_bolt]"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
