@@ -40,8 +40,12 @@ function can_cut()
     return (has("machete_progressive"))
 end
 
+function has_zipline()
+    return (has("zipline_tool))
+end
+
 function can_zipline()
-    return (has("zipline_tool") and has_smelter() and has_bolt() and has_hinge())
+    return (has_zipline() and has_smelter() and has_bolt() and has_hinge())
 end
 
 function can_navigate()
