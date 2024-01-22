@@ -809,7 +809,7 @@
             {
                 "name": "Grass Plot",
                 "access_rules":
-                    ["$has_dirt"],
+                    ["$has_early_dirt,[$has_dirt]"],
                 "sections":[
                     {
                         "name": "Dirt, Plank, Plastic",
