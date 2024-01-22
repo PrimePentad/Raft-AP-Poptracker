@@ -145,7 +145,7 @@ function can_shovel()
     return (has("shovel") and has_smelter() and has_bolt())
 end
 
-function has__early_dirt()
+function has_early_dirt()
     return (can_access_big_islands() and can_early_shovel())
 end
 
