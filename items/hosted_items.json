@@ -2,8 +2,8 @@
     {
         "name": "Relay Station Quest Item",
         "type": "toggle",
-        "img": "images/chest_open.png",
-        "disabled_img": "images/chest_closed.png",
+        "img": "images/chest_open.jpg",
+        "disabled_img": "images/chest_closed.jpg",
         "disabled_img_mods": "none",
         "codes": "relay_station_quest_item",
     },
