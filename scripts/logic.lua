@@ -67,6 +67,10 @@ function can_drive()
     return (can_navigate() and ((has("engine") and has("steering_wheel")) or has("paddleboard_mode")))
 end
 
+function can_access_big_islands_early()
+    return(can_navigate_early() or has("big_islands_mode"))
+end
+
 function can_access_big_islands()
     return (can_navigate() or has("big_islands_mode"))
 end
@@ -146,7 +150,7 @@ function can_shovel()
 end
 
 function has_early_dirt()
-    return (can_access_big_islands() and can_early_shovel())
+    return (can_access_big_islands_early() and can_early_shovel())
 end
 
 function has_dirt()
