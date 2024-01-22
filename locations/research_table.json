@@ -557,7 +557,7 @@
             {
                 "name": "Metal Spear",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Metal, Bolt",
