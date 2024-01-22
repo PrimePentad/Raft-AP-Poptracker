@@ -413,7 +413,7 @@
             {
                 "name": "Metal Fishing Rod",
                 "access_rules":
-                    ["[$has_smelter,$has_bolt]"],
+                    ["$[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Scrap, Bolt, Rope",
@@ -449,7 +449,7 @@
             {
                 "name": "Large Crop Plot",
                 "access_rules":
-                    ["[$has_smelter,$has_bolt]"],
+                    ["$[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Nail, Bolt",
@@ -467,7 +467,7 @@
             {
                 "name": "Metal Axe",
                 "access_rules":
-                    ["[$has_smelter,$has_bolt]"],
+                    ["$[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -485,7 +485,7 @@
             {
                 "name": "Scrap Hook",
                 "access_rules":
-                    ["[$has_smelter,$has_bolt]"],
+                    ["$[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -863,7 +863,7 @@
             {
                 "name": "Backpack",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Rope, Leather Wool",
@@ -881,7 +881,7 @@
             {
                 "name": "Leather Helmet",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -899,7 +899,7 @@
             {
                 "name": "Leather Body Armor",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -917,7 +917,7 @@
             {
                 "name": "Leather Greaves",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears,[$has_grass_plot,$has_hinge]"],
+                    ["$can_capture_animals,$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
