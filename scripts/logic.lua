@@ -60,7 +60,7 @@ function can_navigate()
 end
 
 function can_early_drive()
-    return (can_early_navigate() and ((has("engine") and has("steering_wheel")) or has("paddleboard_mode")))
+    return (can_early_navigate() and ((has("engine")) or has("paddleboard_mode")))
 end
 
 function can_drive()
