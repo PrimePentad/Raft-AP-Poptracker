@@ -233,7 +233,7 @@
             {
                 "name": "Drinking Glass",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["[$has_smelter]"],
                 "sections":[
                     {
                         "name": "Glass",
@@ -269,7 +269,7 @@
             {
                 "name": "Advanced Purifier",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["[$has_smelter]"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Glass",
