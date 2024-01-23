@@ -1,13 +1,13 @@
 [
     {
         "name": "Tangaroa",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Cafeteria",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Ruben 1",
@@ -25,7 +25,7 @@
             {
                 "name": "Room After Crate Maze",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Ruben 2",
@@ -47,7 +47,7 @@
             {
                 "name": "Flood Escape",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Ruben 3",
@@ -65,7 +65,7 @@
             {
                 "name": "Plantation: First Locked Door",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Gardener Diary",
@@ -83,7 +83,7 @@
             {
                 "name": "Plantation: After First Locked Door",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Ruben 4",
@@ -101,7 +101,7 @@
             {
                 "name": "Surface Statue",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Tangaroa Ruben 5",
@@ -119,7 +119,7 @@
             {
                 "name": "Plantation: Fix All Broken Wires",
                 "access_rules":
-                    ["$can_access_tangaroa"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa]"],
                 "sections":[
                     {
                         "name": "Electric Purifier Blueprint",
@@ -137,7 +137,7 @@
             {
                 "name": "Tower Elevator Floor Zero",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Riot Log",
@@ -155,7 +155,7 @@
             {
                 "name": "Tower Keypad Room (4813)",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Cipher",
@@ -177,7 +177,7 @@
             {
                 "name": "Escape Pod",
                 "access_rules":
-                    ["$can_access_tangaroa,$can_zipline"],
+                    ["$can_access_tangaroa_early,[$can_access_tangaroa],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Tangaroa Tulley Note",

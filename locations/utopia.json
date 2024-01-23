@@ -1,13 +1,13 @@
 [
     {
         "name": "Utopia",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Final Door",
                 "access_rules":
-                    ["$can_access_utopia"],
+                    ["$can_access_utopia_early,[$can_access_utopia]"],
                 "sections":[
                     {
                         "name": "Utopia Captives Note",
@@ -16,7 +16,7 @@
                     {
                         "name": "Utopia Complete",
                         "access_rules":
-                            ["$can_zipline,$can_shovel"],
+                            ["$has_zipline,[$can_shovel],[$can_zipline]"],
                         "item_count": 1
                     },
                 ],
@@ -31,7 +31,7 @@
             {
                 "name": "Front of Detto's House",
                 "access_rules":
-                    ["$can_access_utopia"],
+                    ["$can_access_utopia_early,[$can_access_utopia]"],
                 "sections":[
                     {
                         "name": "Utopia Detto Map",
@@ -49,7 +49,7 @@
             {
                 "name": "Inside Detto's House",
                 "access_rules":
-                    ["$can_access_utopia,$can_shovel"],
+                    ["$can_access_utopia_early,[$can_access_utopia],[$can_shovel]"],
                 "sections":[
                     {
                         "name": "Advanced Backpack Blueprint",
@@ -67,7 +67,7 @@
             {
                 "name": "Olof Fight 1 Reward (Weights 31321, 515412432)",
                 "access_rules":
-                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                    ["$can_access_utopia_early,[$can_access_utopia],$has_zipline,[$can_shovel],[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Electric Zipline Blueprint",
@@ -85,7 +85,7 @@
             {
                 "name": "Final Olof Fight Reward",
                 "access_rules":
-                    ["$can_access_utopia,$can_zipline,$can_shovel"],
+                    ["$can_access_utopia_early,[$can_access_utopia],$has_zipline,[$can_shovel],[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Titanium Tools Blueprint",

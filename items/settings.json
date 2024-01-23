@@ -2,19 +2,19 @@
     {
         "name": "Early Recipes Behind Big Islands",
         "type": "toggle",
-        "img": "images/settings/big_islands_mode.png",
+        "img": "images/settings/big_islands_mode.jpg",
         "codes": "big_islands_mode"
     },
     {
         "name": "Paddleboard Mode",
         "type": "toggle",
-        "img": "images/settings/paddleboard_mode.png",
+        "img": "images/settings/paddleboard_mode.jpg",
         "codes": "paddleboard_mode"
     },
     {
         "name": "Progressive Items",
         "type": "toggle",
-        "img": "images/settings/progressive_items_mode.png",
+        "img": "images/settings/progressive_items_mode.jpg",
         "codes": "progressive_items_mode"
     },
 ]

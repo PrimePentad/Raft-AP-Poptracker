@@ -2,55 +2,55 @@
     {
         "name": "Smelter",
         "type": "toggle",
-        "img": "images/items/smelter.png",
+        "img": "images/items/smelter.jpg",
         "codes": "smelter",
     },    
     {
         "name": "Bolt",
         "type": "toggle",
-        "img": "images/items/bolt.png",
+        "img": "images/items/bolt.jpg",
         "codes": "bolt"
     },
     {
         "name": "Hinge",
         "type": "toggle",
-        "img": "images/items/hinge.png",
+        "img": "images/items/hinge.jpg",
         "codes": "hinge"
     },
     {
         "name": "Circuit Board",
         "type": "toggle",
-        "img": "images/items/circuit_board.png",
+        "img": "images/items/circuit_board.jpg",
         "codes": "circuit_board"
     },
     {
         "name": "Battery",
         "type": "toggle",
-        "img": "images/items/battery.png",
+        "img": "images/items/battery.jpg",
         "codes": "battery",
     },
     {
         "name": "Receiver",
         "type": "toggle",
-        "img": "images/items/receiver.png",
+        "img": "images/items/receiver.jpg",
         "codes": "receiver"
     },
     {
         "name": "Antenna",
         "type": "toggle",
-        "img": "images/items/antenna.png",
+        "img": "images/items/antenna.jpg",
         "codes": "antenna"
     },
     {
         "name": "Engine",
         "type": "toggle",
-        "img": "images/items/engine.png",
+        "img": "images/items/engine.jpg",
         "codes": "engine",
     },
     {
         "name": "Steering Wheel",
         "type": "toggle",
-        "img": "images/items/steering_wheel.png",
+        "img": "images/items/steering_wheel.jpg",
         "codes": "steering_wheel",
     },
 ]

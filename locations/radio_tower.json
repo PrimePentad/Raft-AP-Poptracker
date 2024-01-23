@@ -1,13 +1,13 @@
 [
     {
         "name": "Radio Tower",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Radio Tower Level A (Underwater)",
                 "access_rules":
-                    ["$can_navigate"],
+                    ["$can_early_navigate,[$can_navigate]"],
                 "sections":[
                     {
                         "name": "Radio Tower Briefcase",
@@ -25,7 +25,7 @@
             {
                 "name": "Radio Tower Level B",
                 "access_rules":
-                    ["$can_navigate"],
+                    ["$can_early_navigate,[$can_navigate]"],
                 "sections":[
                     {
                         "name": "Radio Tower Notepad 1",
@@ -43,7 +43,7 @@
             {
                 "name": "Radio Tower Level C",
                 "access_rules":
-                    ["$can_navigate"],
+                    ["$can_early_navigate,[$can_navigate]"],
                 "sections":[
                     {
                         "name": "Radio Tower Signalboard Trace",
@@ -65,7 +65,7 @@
             {
                 "name": "Radio Tower Level D",
                 "access_rules":
-                    ["$can_navigate"],
+                    ["$can_early_navigate,[$can_navigate]"],
                 "sections":[
                     {
                         "name": "Radio Tower Notepad 2",
@@ -83,7 +83,7 @@
             {
                 "name": "Radio Tower Level E",
                 "access_rules":
-                    ["$can_navigate"],
+                    ["$can_early_navigate,[$can_navigate]"],
                 "sections":[
                     {
                         "name": "Radio Tower Frequency to Vasagatan",

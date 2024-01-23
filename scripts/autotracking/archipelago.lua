@@ -250,7 +250,7 @@ function onItem(index, item_id, item_name, player_number)
         if progressive_frequency.CurrentStage >= 7 then
            utopia_frequency.Active = true
         end
-    end
+    end            
     
 end
 

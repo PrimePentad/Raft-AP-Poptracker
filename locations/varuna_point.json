@@ -1,13 +1,13 @@
 [
     {
         "name": "Varuna Point",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Spotlight Part Hunt Entrance",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 1",
@@ -25,7 +25,7 @@
             {
                 "name": "Spotlight Part Hunt Second Level",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 2",
@@ -43,7 +43,7 @@
             {
                 "name": "Grabber Maze Entry",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 3",
@@ -61,7 +61,7 @@
             {
                 "name": "Grabber Maze End",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 6",
@@ -83,7 +83,7 @@
             {
                 "name": "Shark Fight Reward",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Wind Turbine Blueprint",
@@ -101,7 +101,7 @@
             {
                 "name": "Base of Backhoe",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 5",
@@ -119,7 +119,7 @@
             {
                 "name": "Top of Crane",
                 "access_rules":
-                    ["$can_access_varuna_point"],
+                    ["$can_access_varuna_point_early,[$can_access_varuna_point]"],
                 "sections":[
                     {
                         "name": "Varuna Point Grabber Diary 4",
@@ -141,7 +141,7 @@
             {
                 "name": "Crane Drop Hole",
                 "access_rules":
-                ["$can_access_varuna_point,$can_zipline"],
+                ["$can_access_varuna_point_early,[$can_access_varuna_point],$has_zipline,[$can_zipline]"],
                 "sections":[
                     {
                         "name": "Varuna Point Frequency to Temperance",

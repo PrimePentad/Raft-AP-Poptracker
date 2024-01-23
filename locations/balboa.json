@@ -1,13 +1,13 @@
 [
     {
         "name": "Balboa",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Bear Cave",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Machete Blueprint",
@@ -25,7 +25,7 @@
             {
                 "name": "Doll Murder Hill",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Balboa Island Doll Murderer 1",
@@ -59,7 +59,7 @@
             {
                 "name": "Relay Station 4",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Balboa Island Bear Map",
@@ -76,7 +76,7 @@
                     {
                         "name": "Activate All Relay Stations",
                         "access_rules":
-                            ["$can_cut"],
+                            ["[$can_cut]"],
                         "hosted_item": "relay_station_quest_item"
                     },
                 ],
@@ -91,7 +91,7 @@
             {
                 "name": "Relay Station 2",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Balboa Island Correas Diary 1",
@@ -100,7 +100,7 @@
                     {
                         "name": "Activate All Relay Stations",
                         "access_rules":
-                            ["$can_cut"],
+                            ["[$can_cut]"],
                         "hosted_item": "relay_station_quest_item"
                     },
                 ],
@@ -115,7 +115,7 @@
             {
                 "name": "Ranger's Station",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Balboa Island Correa Twins Picture",
@@ -141,7 +141,7 @@
             {
                 "name": "Tunnel to Station 6",
                 "access_rules":
-                    ["$can_access_balboa,$can_cut"],
+                    ["$can_access_balboa_early,[$can_access_balboa],[$can_cut]"],
                 "sections":[
                     {
                         "name": "Balboa Island Note from Henry",
@@ -159,7 +159,7 @@
             {
                 "name": "Relay Station 6",
                 "access_rules":
-                    ["$can_access_balboa,$can_cut"],
+                    ["$can_access_balboa_early,[$can_access_balboa],[$can_cut]"],
                 "sections":[
                     {
                         "name": "Balboa Island Correas Diary 3",

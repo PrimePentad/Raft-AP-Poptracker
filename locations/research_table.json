@@ -1,8 +1,8 @@
 [
     {
         "name": "Research Table",
-        "chest_unopened_img": "images/chest_closed.png",
-        "chest_opened_img": "images/chest_open.png",
+        "chest_unopened_img": "images/chest_closed.jpg",
+        "chest_opened_img": "images/chest_open.jpg",
         "children": [
             {
                 "name": "Bucket",
@@ -233,7 +233,7 @@
             {
                 "name": "Drinking Glass",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["[$has_smelter]"],
                 "sections":[
                     {
                         "name": "Glass",
@@ -269,7 +269,7 @@
             {
                 "name": "Advanced Purifier",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["[$has_smelter]"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Glass",
@@ -377,7 +377,7 @@
             {
                 "name": "Shear",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Metal Ingot, Hinge, Scrap",
@@ -395,10 +395,10 @@
             {
                 "name": "Net Launcher",
                 "access_rules":
-                    ["$has_smelter"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
-                        "name": "Scrap, Plastic, Metal Ingot",
+                        "name": "Scrap, Plastic, Metal Ingot, Bolt",
                         "item_count": 1
                     }
                 ],
@@ -413,7 +413,7 @@
             {
                 "name": "Metal Fishing Rod",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Scrap, Bolt, Rope",
@@ -431,7 +431,7 @@
             {
                 "name": "Cooking Pot",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Metal Ingot, Bolt, Vine Goo",
@@ -449,7 +449,7 @@
             {
                 "name": "Large Crop Plot",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Nail, Bolt",
@@ -467,7 +467,7 @@
             {
                 "name": "Metal Axe",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -485,7 +485,7 @@
             {
                 "name": "Scrap Hook",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["[$has_smelter],[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Scrap, Bolt",
@@ -503,7 +503,7 @@
             {
                 "name": "Shovel",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Bolt, Metal Ingot",
@@ -521,7 +521,7 @@
             {
                 "name": "Sweep Net",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Vine Goo, Bolt",
@@ -539,7 +539,7 @@
             {
                 "name": "Basic Bow",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Vine Goo, Bolt",
@@ -557,7 +557,7 @@
             {
                 "name": "Metal Spear",
                 "access_rules":
-                    ["$has_smelter,$has_bolt"],
+                    ["$has_smelter,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Metal, Bolt",
@@ -575,7 +575,7 @@
             {
                 "name": "Stationary Anchor",
                 "access_rules":
-                    ["$has_smelter,$has_hinge"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Metal Ingot, Hinge",
@@ -593,7 +593,7 @@
             {
                 "name": "Storage",
                 "access_rules":
-                    ["$has_smelter,$has_hinge"],
+                    ["$has_smelter,[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Plank, Scrap, Rope, Hinge",
@@ -629,7 +629,7 @@
             {
                 "name": "Binoculars",
                 "access_rules":
-                    ["$has_smelter,$has_empty_bottle,$has_bolt"],
+                    ["$has_smelter,$has_empty_bottle,[$has_bolt]"],
                 "sections":[
                     {
                         "name": "Empty Bottle, Bolt, Glass, Rope",
@@ -647,7 +647,7 @@
             {
                 "name": "Juicer",
                 "access_rules":
-                    ["$has_smelter,$has_bolt,$has_circuit_board"],
+                    ["$has_smelter,[$has_bolt],$has_circuit_board"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Bolt, Vine Goo, Circuit Board",
@@ -683,7 +683,7 @@
             {
                 "name": "Paint Brush",
                 "access_rules":
-                    ["$has_feather"],
+                    ["[$has_feather]"],
                 "sections":[
                     {
                         "name": "Feather, Plank, Rope",
@@ -701,7 +701,7 @@
             {
                 "name": "Hammock",
                 "access_rules":
-                    ["$has_feather"],
+                    ["[$has_feather]"],
                 "sections":[
                     {
                         "name": "Plank, Palm Leaf, Feather, Nail",
@@ -719,7 +719,7 @@
             {
                 "name": "Metal Arrow",
                 "access_rules":
-                    ["$has_smelter,$has_feather"],
+                    ["$has_smelter,[$has_feather]"],
                 "sections":[
                     {
                         "name": "Plank, Metal Ingot, Feather",
@@ -737,7 +737,7 @@
             {
                 "name": "Net Canister",
                 "access_rules":
-                    ["$has_explosive_powder"],
+                    ["$has_early_explosive_powder,[$has_explosive_powder]"],
                 "sections":[
                     {
                         "name": "Explosive Powder, Stone, Rope",
@@ -755,7 +755,7 @@
             {
                 "name": "Honey",
                 "access_rules":
-                    ["$can_access_balboa"],
+                    ["$can_access_balboa_early,[$can_access_balboa]"],
                 "sections":[
                     {
                         "name": "Honeycomb, Glass",
@@ -773,7 +773,7 @@
             {
                 "name": "Beehive",
                 "access_rules":
-                    ["$can_access_balboa,$has_smelter,$has_hinge,$has_sweep_net"],
+                    ["$can_access_balboa_early,[$can_access_balboa],[$has_smelter],[$has_hinge],$has_sweep_net"],
                 "sections":[
                     {
                         "name": "Plank, Plastic, Clay, Hinge, Bee Jar",
@@ -791,7 +791,7 @@
             {
                 "name": "Advanced Collection Net",
                 "access_rules":
-                    ["$can_treasure_hunt"],
+                    ["$can_early_treasure_hunt,[$can_treasure_hunt]"],
                 "sections":[
                     {
                         "name": "Plank, Rope, Titanium Ingot",
@@ -809,7 +809,7 @@
             {
                 "name": "Grass Plot",
                 "access_rules":
-                    ["$has_dirt"],
+                    ["$has_early_dirt,[$has_dirt]"],
                 "sections":[
                     {
                         "name": "Dirt, Plank, Plastic",
@@ -827,7 +827,7 @@
             {
                 "name": "Healing Salve",
                 "access_rules":
-                    ["$can_capture_animals"],
+                    ["$can_capture_animals_early,[$can_capture_animals],[$has_grass_plot]"],
                 "sections":[
                     {
                         "name": "Egg, Clay",
@@ -845,7 +845,7 @@
             {
                 "name": "Good Healing Salve",
                 "access_rules":
-                    ["$can_capture_animals,$can_access_balboa"],
+                    ["$can_capture_animals_early,[$can_capture_animals],$can_access_balboa_early,[$can_access_balboa],[$has_grass_plot]"],
                 "sections":[
                     {
                         "name": "Egg, Clay, Honeycomb",
@@ -863,7 +863,7 @@
             {
                 "name": "Backpack",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals_early,[$can_capture_animals],$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Rope, Leather Wool",
@@ -881,7 +881,7 @@
             {
                 "name": "Leather Helmet",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals_early,[$can_capture_animals],$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -899,7 +899,7 @@
             {
                 "name": "Leather Body Armor",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals_early,[$can_capture_animals],$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
@@ -917,7 +917,7 @@
             {
                 "name": "Leather Greaves",
                 "access_rules":
-                    ["$can_capture_animals,$has_shears"],
+                    ["$can_capture_animals_early,[$can_capture_animals],$has_shears,[$has_grass_plot],[$has_hinge]"],
                 "sections":[
                     {
                         "name": "Leather, Wool",
