@@ -276,6 +276,13 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+
+        if item_id == 48155 then   
+        local relay_quest = Tracker:FindObjectForCode("relay_station_quest_item")
+        relay_quest.Active = true
+        end
+    end
+    
 end
 
 
