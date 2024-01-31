@@ -67,8 +67,6 @@ function onClear(slot_data)
     if SLOT_DATA == nil then
         return
     end
-
-    print(string.format("test before"))
     
     if slot_data['BigIslandEarlyCrafting'] then
         print(string.format("test after"))
