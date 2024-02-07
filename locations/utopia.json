@@ -13,12 +13,6 @@
                         "name": "Utopia Captives Note",
                         "item_count": 1
                     },
-                    {
-                        "name": "Utopia Complete",
-                        "access_rules":
-                            ["$has_zipline,[$can_shovel],[$can_zipline]"],
-                        "item_count": 1
-                    },
                 ],
                 "map_locations":[
                     {
