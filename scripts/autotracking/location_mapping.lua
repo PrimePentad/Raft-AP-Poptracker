@@ -155,7 +155,6 @@ LOCATION_MAPPING = {
     [48145] = {"@Temperance/Reactor Core/Electric Smelter Blueprint"},
     [48148] = {"@Temperance/Reactor Core/Shogo (Temperance)"},
     [48152] = {"@Utopia/Final Door/Utopia Captives Note"},
-    [48154] = {"@Utopia/Final Door/Utopia Complete"},
     [48153] = {"@Utopia/Front of Detto's House/Utopia Detto Map"},
     [48150] = {"@Utopia/Inside Detto's House/Advanced Backpack Blueprint"},
     [48149] = {"@Utopia/Olof Fight 1 Reward (Weights 31321, 515412432)/Electric Zipline Blueprint"},
